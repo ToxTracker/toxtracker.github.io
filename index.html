@@ -1,8 +1,145 @@
 <!DOCTYPE html>
-<html lang="fr">
 <head>
-    <meta charset="UTF-8"/>
+  <meta charset="utf-8">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <style>
+    body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; }
+    .province {
+        fill: #000;
+        stroke: #fff;
+        stroke-width: 1px;
+    }
+    .province:hover {
+        fill: #666;
+    }
+    .hidden {
+        display: none;
+    }
+    div.tooltip {
+        color: #222;
+        background-color: #fff;
+        padding: .5em;
+        text-shadow: #f5f5f5 0 1px 0;
+        border-radius: 2px;
+        opacity: 0.9;
+        position: absolute;
+    }
+  </style>
 </head>
+
 <body>
-  <p>Hello World !</p>
+  <script>
+		var width = 1000,
+  		  height = 1000;
+
+		var svg = d3.select( "body" )
+  		.append( "svg" )
+		  .attr( "width", width )
+		  .attr( "height", height );
+
+		// On rajoute un groupe englobant toute la visualisation pour plus tard
+		var g = svg.append( "g" ); 
+		
+		var tooltip = d3.select('body').append('div')
+				.attr('class', 'hidden tooltip');
+		var projection = d3.geoConicConformal().center([4.513686752, 46.279229]).scale(10000);
+		
+			// On definie une echelle de couleur
+			var color = d3.scaleQuantize()  
+					.range(["rgb(237,248,233)",
+							"rgb(186,228,179)",
+							"rgb(116,196,118)",
+							"rgb(49 ,163,84 )",
+							"rgb(0  ,109,44 )"]);
+		
+		var path = d3.geoPath()
+					 .projection(projection);    
+		
+		// Chargement des donnees
+	// 		d3.csv("us-ag-productivity-2004.csv", function(data) {
+			d3.csv("./data/2012.csv", function(data) {
+					//Set input domain for color scale
+					color.domain([
+						d3.min(data, function(d) { return d.value; }), 
+						d3.max(data, function(d) { return d.value; })
+					]);
+	//      		d3.json("us-states.json", function(json) {
+				d3.json("./carte/lyon.geojson", function(json) {
+			  //On fusionne les donnees avec le GeoJSON
+				for (var i = 0; i < data.length; i++) {
+				//Nom de l'etat
+				var dataState = data[i].state;
+				
+				//Valeur associee a l'etat
+				var dataValue = parseFloat(data[i].value);
+
+				//Recherche de l'etat dans le GeoJSON
+				for (var j = 0; j < json.features.length; j++) {
+					var jsonState = json.features[j].properties.name;
+					if (dataState == jsonState) {
+						//On injecte la valeur de l'Etat dans le json
+						json.features[j].properties.value = dataValue;
+						//Pas besoin de chercher plus loin
+						break;
+					}
+				}		
+			}
+			g.selectAll("circle")
+				.data(data)
+			  .enter()
+			  .append("circle")
+			  .attr("r", 4)
+			  .attr("cx", function(d) { return d.X; })
+			  .attr("cy", function(d) { return d.Y; })
+			g.selectAll("path")
+				.data(json.features)
+				.enter()
+				.append("path")
+				.attr("d", path)
+						.attr("class", "zone")
+				.style("fill", function(d) {
+					//on prend la valeur recupere plus haut
+					var value = d.properties.value;
+
+
+					if (value) {
+						return color(value);
+					} else { 
+						// si pas de valeur alors en gris
+						return "#ccc";
+					}
+				})
+				.on('mousemove', function(d) {    
+				  d3.selectAll(".zone").filter(function(e) {
+					return e === d;
+				  }).style("fill", "blue");
+				  var mouse = d3.mouse(svg.node()).map(function(d) {
+					return parseInt(d);
+				  });
+				  tooltip.classed('hidden', false)
+					.attr('style', 'left:' + (mouse[0] + 15) +
+						  'px; top:' + (mouse[1] - 35) + 'px')
+					.html(d.properties.nom);
+				 })
+				.on('mouseout', function(d) {
+				  d3.selectAll(".zone").filter(function(e) {
+					return e === d;
+				  }).style("fill", function(d) {
+					//on prend la valeur recupere plus haut
+					var value = d.properties.value;
+
+
+					if (value) {
+						return color(value);
+					} else { 
+						// si pas de valeur alors en gris
+						return "#ccc";
+					}
+				})
+				 })
+			 ;
+			});
+		});
+    
+  </script>
 </body>
