@@ -29,11 +29,11 @@
 
 <body> 
   <script>
-		var width = 500,
-  		  height = 650,
-        scale = 90000,
-        X = 5.09,
-        Y = 45.785;
+		var width = 600,
+  		  height = 1000,
+        scale = 100000,
+        X = 5.0,
+        Y = 45.8;
 		var link_json = "lyon.geojson",
         link_data = "2012.csv";
     
@@ -91,8 +91,7 @@
                         "Charly", "Chassieu", "Collonges-au-Mont-d'Or",
                         "Corbas", "Couzon-au-Mont-d'Or", "Craponne", 
                         "Curis-au-Mont-d'Or", "Dardilly", 
-                        "Décines-Charpieu", "Écully", "Neyron",
-                        "Fleurieu-sur-Saône", "Fontaines-Saint-Martin", 
+                        "Décines-Charpieu", "Écully", "Neyron",                       							"Fleurieu-sur-Saône", "Fontaines-Saint-Martin", 
                         "Fontaines-sur-Saône", "Francheville", "Genay",
                         "Givors","Grigny", "Irigny", "Jonage", 
                         "La Mulatière", "La Tour de Salvagny", "Limonest",
@@ -113,6 +112,8 @@
     var path = d3.geoPath()
                  .projection(projection);    
     
+    // Chargement des donnees
+// 		d3.csv("us-ag-productivity-2004.csv", function(data) {
     function map(X,Y, scale){
       d3.csv(link_data, function(data) {
           //Set input domain for color scale
@@ -120,6 +121,7 @@
             d3.min(data, function(d) { return d.value; }), 
             d3.max(data, function(d) { return d.value; })
           ]);
+  //      		d3.json("us-states.json", function(json) {
           d3.json(link_json, function(json) {
 
             //On fusionne les donnees avec le GeoJSON
@@ -151,7 +153,7 @@
               .attr("d", path)
               .attr("class", "zone")
           		.style("stroke", "#050505")
-          		.style("stroke-width", "0.2")
+          		.style("stroke-width", "0.5")
               .style("fill", "#ccc")
               .on('mousemove', function(d) {    
                 d3.selectAll(".zone")
