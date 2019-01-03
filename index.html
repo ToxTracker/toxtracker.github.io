@@ -39,8 +39,8 @@
     
     var div = d3.select("body")
       .append("div")
-    	.attr("x", 10)
-    	.attr("y", 10)
+    	.attr("top", 10)
+    	.attr("left", 10)
 		  .attr( "width", width*2 )
 		  .attr( "height", height ); 
             
@@ -52,16 +52,15 @@
 		  .attr( "class", "svg_something")
 		  .attr( "width", width)
 		  .attr( "height", height );
-        
-    svg2.append("rect")
-      .attr("x", 0)
-      .attr("y", 0)
-      .attr("width", 100)
-      .attr("height", 100);
+    
     // On rajoute un groupe englobant toute la visualisation pour plus tard
     var g = svg.append( "g" )
 		  .attr( "width", width )
 		  .attr( "height", height ); 
+    
+    var g2 = svg2.append( "g" )
+		  .attr( "width", width )
+		  .attr( "height", height/2 ); 
     
     var tooltip = d3.select('body').append('div')
             .attr('class', 'hidden tooltip');
@@ -110,14 +109,19 @@
                        ];
     var path = d3.geoPath()
                  .projection(projection);    
-    
+    function chart(data){
+      console.log(data.nom_site);
+      g2.selectAll("text").text(data.nom_site)
+        .attr('x', 0)
+        .attr('y', 0);
+    };
     function map(X,Y, scale){
       d3.csv(link_data, function(data) {
           //Set input domain for color scale
-          color.domain([
-            d3.min(data, function(d) { return d.value; }), 
-            d3.max(data, function(d) { return d.value; })
-          ]);
+//           color.domain([
+//             d3.min(data, function(d) { return d.value; }), 
+//             d3.max(data, function(d) { return d.value; })
+//           ]);
           d3.json(link_json, function(json) {
 
             //On fusionne les donnees avec le GeoJSON
@@ -192,13 +196,32 @@
             .style("stroke", "#ff0000")
             .style("stroke-width", "1");
 
+            
           g.selectAll("circle")
             .data(data)
             .enter()
             .append("circle")
             .attr("r", 5)
+            .attr("class", "dot")
             .attr("cx", function(d) { return projection([d.X, d.Y])[0]; })
-            .attr("cy", function(d) { return projection([d.X, d.Y])[1]; });
+            .attr("cy", function(d) { return projection([d.X, d.Y])[1]; })
+          	.style("fill", "blue")
+            .style("stroke", "#000")
+            .style("stroke-width", "5")
+          	.on('mouseover', function(d) {
+            	d3.selectAll(".dot").filter(function(e) {
+                return e === d;
+              }).attr("r", 10)
+                .style("stroke-width", "10");
+            	chart(d);
+          	})
+            .on('mouseout', function(d) {
+            	d3.selectAll(".dot").filter(function(e) {
+                  return e === d;
+                }).attr("r", 5)
+            			.style("stroke-width", "5")
+          	})
+          ;
           });
       });
     }
