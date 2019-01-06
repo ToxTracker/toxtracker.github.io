@@ -111,7 +111,8 @@
                  .projection(projection);    
     function chart(data){
       console.log(data.nom_site);
-      g2.selectAll("text").text(data.nom_site)
+      g2.append("text")
+        .text(data.nom_site)
         .attr('x', 0)
         .attr('y', 0);
     };
@@ -213,7 +214,10 @@
                 return e === d;
               }).attr("r", 10)
                 .style("stroke-width", "10");
-            	chart(d);
+            	g2.append("text")
+                .attr('x', 100)
+                .attr('y', 100)
+                .text("hello");
           	})
             .on('mouseout', function(d) {
             	d3.selectAll(".dot").filter(function(e) {
