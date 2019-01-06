@@ -214,10 +214,13 @@
                 return e === d;
               }).attr("r", 10)
                 .style("stroke-width", "10");
-            	g2.append("text")
-                .attr('x', 100)
-                .attr('y', 100)
-                .text("hello");
+            	g2.selectAll("text")
+              	.data(d)
+                .enter()
+              	.append("text")
+                .attr('x', 10)
+                .attr('y', 10)
+                .text(d.nom_site);
           	})
             .on('mouseout', function(d) {
             	d3.selectAll(".dot").filter(function(e) {
