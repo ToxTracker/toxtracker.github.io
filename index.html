@@ -69,7 +69,8 @@
     
     var g2 = svg2.append( "g" )
 		  .attr( "width", width )
-		  .attr( "height", height/2 ); 
+		  .attr( "height", height/2 )
+    	.attr("transform", "translate(30 ,30)"); 
     
     var tooltip = d3.select('body').append('div')
             .attr('class', 'hidden tooltip');
@@ -121,17 +122,30 @@
                  .projection(projection); 
     // chart
     function chart(data, tox){
-      var toxValue = {};
-      for (i = 0; i < tox.length; i++) { 
-        var toxine = tox[i].toxine
-        toxValue[toxine] = data[toxine];        
-      };
-      g2.append("text")
-        .attr('x', 10)
-        .attr('y', 10)
-        .text(data.nom_site);
+      var toxValue = [];      
       var x = d3.scaleLinear().range([0, width]).domain([0, tox.length]);
-      var y = d3.scaleLinear().range([0, height/2]).domain([0, d3.max(toxValue)]);
+      var y = d3.scaleLinear().range([0, height/2]).domain([0, 10000]);
+      for (i = 0; i < tox.length; i++) { 
+        var toxine = tox[i].toxine;
+        toxValue.push(data[toxine]);
+        g2.append("rect")
+          .attr("x", x(i))
+          .attr("y", height/2 - y(data[toxine]))
+          .attr("height", y(data[toxine]))
+          .attr("width", 10 );        
+      };
+      var x = d3.scaleLinear().range([0, width]).domain([0, tox.length]);
+      var y = d3.scaleLinear().range([0, height/2]).domain([0, 84]);
+      g2.append("text")
+        .text(d3.max(toxValue));
+      
+      for (i = 0; i < tox.length; i++) { 
+        g2.append("rect")
+          .attr("x", x(i))
+          .attr("y", height/2 - y(data[toxine]))
+          .attr("height", y(data[toxine]))
+          .attr("width", 10 );
+      };
     };
     
     // carte
@@ -211,7 +225,8 @@
           return e === d;
         }).attr("r", 5)
           .style("stroke-width", "5")
-        g2.selectAll("text").remove();
+        g2.selectAll("text").remove();        
+        g2.selectAll("rect").remove();
       })
       ;
     }
