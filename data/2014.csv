@@ -1,90 +1,90 @@
-,id_bdqa,nom_site,typologie,influence,adresse,so2_nb_d_3,so2_nb_j_s,no2_nb_h_s,no2_moy_an,nox_moy_an,pm10_moy_a,pm10_nb_j_,pm2_5_moy_,o3_nb_j_ma,o3_aot40,co_nb_moy_,c6h6_moy_a,pb_moy_an,as_moy_an,cd_moy_an,ni_moy_an,bap_moy_an,X,Y
-0,7001,Royat,périurbaine,fond,"8 Avenue Louis Pasteur, 63130 ROYAT",,,0,13,17,,,,5,13383,,,,,,,,3.047192684,45.76466592
-1,7004,Montferrand,urbaine,fond,"Rue Gustave Courbet, 63000 CLERMONT-FERRAND",,,0,22,38,17,7,10,4,13413,,,,,,,,3.113828851,45.79727916
-2,7009,Clermont - Jardin Lecoq,urbaine,fond,"Jardin Lecoq, 63000 CLERMONT-FERRAND",,,0,23,39,16,5,,3,11709,,,,,,,,3.087501058,45.77216995
-3,7010,Montluçon - Centre,proximité trafic,trafic,"Place Louis Bavay, 03100 MONTLUCON",,,0,24,51,16,2,,,,,,,,,,,2.598136589,46.34371922
-4,7011,Aurillac - Centre,proximité trafic,trafic,"95 Avenue de la République, 15000 AURILLAC",,,0,32,,14,0,,,,,,,,,,,2.436638464,44.92322084
-5,7012,Le Puy en velais - Centre,urbaine,fond,"Ecole Jules Ferry, 43000 LE PUY EN VELAY",,,0,18,,,,,2,12212,,,,,,,,3.882671542,45.04471809
-6,7013,Montlucon Château,urbaine,fond,"Esplanade du château, 03100 MONTLUCON",,,0,12,17,,,,4,10728,,,,,,,,2.604586073,46.34008581
-7,7014,Aurillac - Aérodrome,périurbaine,fond,"Aérodrome, 15000 AURILLAC",,,,,,,,,3,13051,,,,,,,,2.420192153,44.89833092
-8,7015,Sommet du Puy de Dôme,rurale régionale,fond,"Sommet Puy de Dôme, 63870 ORCINES",,,,,,,,,22,19189,,,,,,,,2.964587812,45.77217131
-9,7016,Montlucon - Hippodrome,urbaine,fond,"Hippodrome, 03100 MONTLUCON",,,,,,,,,5,11779,,,,,,,,2.601308937,46.32413584
-10,7017,Aurillac - Mairie,urbaine,fond,"Mairie 14 rue de la Coste, 15000 AURILLAC",,,0,9,,,,,2,13230,,,,,,,,2.445163491,44.93133111
-11,7018,Vals-près-le-Puy,périurbaine,fond,"Mairie, 43750 VALS PRES LE PUY",,,,,,,,,9,14859,,,,,,,,3.876079536,45.03011099
-12,7020,Busset,rurale régionale,fond,"Ecole, 03270 BUSSET",,,,,,,,,3,10591,,,,,,,,3.515136781,46.06028108
-13,7022,Paray-le-Fresil,rurale régionale,fond,"Stade, 03230 PARAY LE FRESIL",,,0,3,4,12,1,,2,9082,,,,,,,,3.600672372,46.65266263
-14,7028,Les Ancizes,proximité industrielle,industrielle,"Allée du collège, 63770 LES ANCIZES",,,,,,11,3,,,,,,,,,,,2.829801258,45.92969792
-15,7029,Sembadel,rurale régionale,fond,"Mairie, 43160 SEMBADEL",,,,,,,,,2,11608,,,,,,,,3.68791781,45.27472323
-16,7031,Rageade,rurale régionale,fond,"Mairie, 15500 RAGEADE",,,,,,10,1,,12,16629,,,,,,,,3.277361319,45.10472135
-17,7032,Riom,urbaine,fond,"Rue de l'intendance d'Auvergne, 63200 RIOM",,,0,17,25,,,,3,13205,,,,,,,,3.115060644,45.89419792
-18,7034,Clermont - Esplanade de la gare,proximité trafic,trafic,"Esplanade de la gare, 63000 CLERMONT-FERRAND",,,2,42,94,18,8,12,,,,,,,,,,3.096244436,45.77569276
-19,7039,Chamalières,proximité trafic,trafic,"Avenue de Fontmaure,63400 CHAMALIERES",,,0,33,76,19,4,,,,,,,,,,,3.062977994,45.77477972
-20,7043,Le Puy - Coiffier,urbaine,fond,"Square Coiffier, 43000 LE PUY EN VELAY",,,0,29,,18,4,,,,,,,,,,,3.888802205,45.04285945
-21,7045,Issoire (école),urbaine,fond,Notre Dame du Ponteil  63500 ISSOIRE,,,0,16,24,14,1,,2,12736,,0.8,,,,,,3.248218354,45.54544059
-22,7048,Villeneuve-sur-Allier,proximité trafic,trafic,Route de Paris  03460 VILLENEUVE-SUR-ALLIER,,,0,55,203,,,,,,,,,,,,,3.249300587,46.65905227
-23,15013,Sud grenoblois / Champ sur Drac,périurbaine,fond,École des Gonnardières 24 chemin des Gonnardières 38560 CHAMP-SUR-DRAC,,,0,18,26,,,,,,,,,,,,,5.728653983,45.07959915
-24,15017,Fontaine les Balmes,urbaine,fond,31 bis Avenue Lénine  38600 FONTAINE,,,0,23,36,20,7,,17,15666,,,,,,,,5.686971398,45.19049841
-25,15018,Voiron Urbain,urbaine,fond,Rue de Maubec  38500 VOIRON,,,0,18,29,21,8,,17,15590,,,,,,,,5.589443331,45.36001372
-26,15031,Ecrins,rurale nationale,fond,Le Serre du Cuc Le Casset  05220 LE-MONETIER-LES-BAINS,,,,,,,,,17,25212,,,,,,,,6.469503038,44.99809555
-27,15038,Saint-Martin d'Heres,urbaine,fond,Parc Daniel Casanova Avenue Benoît Frachon 38400 SAINT-MARTIN-D'HERES,,,0,25,46,21,8,,15,14681,,,,,,,,5.753252647,45.18302696
-28,15039,Grenoble Rocade Sud,proximité trafic,trafic,Face au  23 - Chemin du Tremblay  38130 ECHIROLLES,,,0,48,134,28,14,15,,,,,,,,,,5.703764952,45.15842477
-29,15043,Grenoble les Frenes,urbaine,fond,Ecole Maternelle Les Frênes 1 allée de la Pelouse 38100 GRENOBLE,0,0,0,22,40,20,9,12,3,7351,,,5.7,0.5,0.1,1.6,,5.735824383,45.16170648
-30,15045,Sud grenoblois / Vif,périurbaine,fond,Allée traversière  38450 VIF,,,0,13,19,17,2,,27,19400,,,,,,,,5.676897768,45.05803473
-31,15046,Grenoble Grands Boulevards,proximité trafic,trafic,48-50 Boulevard Foch  38000 GRENOBLE,,,13,48,114,28,15,,,,,,,,,,,5.720630177,45.18075469
-32,15048,Est grenoblois / Grésivaudan,périurbaine,fond,Rue Léo Lagrange  38190 CROLLES,,,0,18,31,19,3,,10,11286,,,,,,,,5.882398642,45.27996926
-33,20004,Lyon Saint-Just,urbaine,fond,Ecole Mathilde Siraud 5 Place Abbé Larue 69005 LYON,,,0,30,49,,,,9,12862,,,,,,,,4.820337324,45.75537349
-34,20013,A7 Sud lyonnais,proximité trafic,trafic,Face au 25 ter - Quai Pierre Sémard  (au bord de l'A7)  69350 LA MULATIERE,,,31,72,194,30,24,17,,,0,,,,,,,4.818159756,45.72008214
-35,20017,Lyon Gerland,urbaine,fond,Groupe Scolaire Claudius Berthelier 181 Rue Marcel Mérieux 69007 LYON,,,0,36,66,23,16,,6,12352,,,,,,,,4.829800947,45.73535025
-36,20019,Villeurbanne Place Grandclément,proximité trafic,trafic,Maison Berthy Albrecht 14 Place Jules Grand Clément 69100 VILLEURBANNE,,,2,43,94,22,13,,,,,,,,,,,4.8862195,45.75841628
-37,20029,Sud lyonnais / Feyzin ZI,proximité industrielle,industrielle,Stade Municipal Jean Bouin Rue de la Tuillière 69320 FEYZIN,0,0,0,25,48,23,13,,,,,,,,,,,4.845836121,45.6639401
-38,20031,Sud lyonnais / Saint-Fons,proximité industrielle,industrielle,Stade municipal Carnot 64 Rue Carnot 69190 SAINT-FONS,0,0,0,30,54,22,11,,,,,,,,,,,4.864488928,45.70780483
-39,20034,Sud lyonnais / Pierre-Bénite,proximité industrielle,industrielle,Groupe Scolaire des Cerisiers Impasse Robert d'Aversa 69310 PIERRE-BENITE,0,0,,,,,,,,,,0.7,,,,,,4.829697995,45.69959302
-40,20037,Sud lyonnais / Ternay,périurbaine,fond,Salle Omnisports du Dévès Chemin du Dévès Ouest 69360 TERNAY,,,0,23,36,21,10,,17,17944,,,,,,,,4.802542285,45.60192473
-41,20045,Est lyonnais / Genas,périurbaine,fond,"DDE ""Les Grandes Terres"" - Porte du Dauphiné  69740 GENAS",,,,,,,,,21,19915,,,,,,,,4.98054663,45.73188396
-42,20046,Est lyonnais / Vaulx en Velin,urbaine,fond,ENTPE 3 Rue Maurice Audin 69120 VAULX-EN-VELIN,,,0,25,41,21,12,13,11,15215,,,,,,,,4.924922674,45.77896618
-43,20047,Nord lyonnais / Côtière de l'Ain,périurbaine,fond,Passage de Paravis  1700 MIRIBEL,,,0,18,28,20,7,,6,11997,,,,,,,,4.9539617,45.82328012
-44,20048,Est lyonnais / Saint Exupéry,périurbaine,fond,Complexe Sportif  Louis Durand Rue de l'Egalité 69330 PUSIGNAN,,,0,14,19,20,9,,17,20162,,,,,,,,5.072299004,45.75358327
-45,20049,Haut-Beaujolais,rurale régionale,fond,Le Bourg Derrière l'église 69170 DIEME,,,0,3,4,,,,6,15262,,,,,,,,4.46571625,45.96147357
-46,20060,Sud lyonnais / Vénissieux,proximité industrielle,industrielle,Groupe Scolaire du Centre 43 Boulevard Laurent Gérin 69200 VENISSIEUX,,,,,,,,,,,,,8,0.6,0.2,2,,4.883641896,45.70393737
-47,20061,Villefranche Village,urbaine,fond,330 - rue des Jardiniers  69400 VILLEFRANCHE-SUR-SAONE,,,0,30,55,21,8,13,2,8180,,,,,,,,4.719287515,45.98644081
-48,20062,Lyon Centre,urbaine,fond,20 rue du Lac  69003 LYON,0,0,0,30,47,21,11,14,9,15277,,,7.1,0.5,0.2,1.9,,4.853725888,45.75799123
-49,20063,Lyon Periphérique Est,proximité trafic,trafic,Boulevard périphérique Laurent Bonnevay  69500 BRON,,,10,54,136,26,22,,,,,,,,,,,4.896150838,45.72832693
-50,20064,Vernaison ZI,proximité industrielle,industrielle,Parking du Port Perret  69390 VERNAISON,,,,,,,,,,,,0.5,,,,,,4.816905997,45.65061161
-51,20065,Lyon - Tunnel Croix-Rousse - Sortie Rhône,proximité trafic,trafic,"Ecole Michel Servet 4, rue Alsace Lorraine 69001 LYON",,,,,,26,15,19,,,,,,,,,,4.836938611,45.77247945
-52,27002,Roussillon,urbaine,fond,Lycée de l'Edit 24 Avenue du Lycée 38150 ROUSSILLON,,,0,29,53,23,14,,1,8288,,0.6,,,,,,4.805143352,45.36781814
-53,27003,Les Roches de Condrieu ZI,proximité industrielle,industrielle,"Stade des roches ""SIGIS"" Rue de Champagnole 38370 LES ROCHES-DE-CONDRIEU",5,0,0,21,36,,,,10,14834,,,,,,,,4.76653624,45.45457482
-54,27004,Vienne Centre,urbaine,fond,Place de l'Hôtel de Ville  Francois Mitterrand  38200 VIENNE,,,0,22,40,24,16,,,,,,,,,,,4.875411685,45.52602688
-55,27005,Sud roussillonnais / Sablons,périurbaine,fond,Place du champ de Foire Le Bourg Rue du Dauphiné 38550 SABLONS,,,0,13,20,,,,24,21714,,,,,,,,4.770676158,45.32184864
-56,27007,Bourgoin Jallieu,urbaine,fond,I.F.P.A.C. - Champfleuri  38300 BOURGOIN-JALLIEU,,,0,16,24,16,5,,8,14235,,,,,,,,5.270870484,45.60827983
-57,27008,A7 Nord-Isere,proximité trafic,trafic,Proximité A7  38150 SALAISE-SUR-SANNE,,,0,49,130,21,10,16,,,,0.5,,,,,,4.804823931,45.35324122
-58,29421,Saint-Etienne Nord,périurbaine,fond,1 rue Pierre de Coubertin  42000 SAINT-ETIENNE,,,0,25,50,20,11,,10,13762,,,,,,,,4.389782694,45.46677343
-59,29423,Roanne,urbaine,fond,Rue Gilbertes  42300 ROANNE,,,0,19,34,15,2,,3,10530,,,,,,,,4.07465777,46.04126603
-60,29424,Saint-Etienne Sud,urbaine,fond,Place Préher  42000 SAINT-ETIENNE,0,0,,,,,,10,7,11591,,,5.8,7.6,0.1,2.7,,4.395420543,45.42014241
-61,29426,Est stéphanois / Saint-Chamond,urbaine,fond,8 Rue Dugas Montbel  42400 SAINT-CHAMOND,,,0,29,51,18,5,8,9,13526,,,,,,,,4.515002069,45.47538372
-62,29428,N88 Saint-Etienne,proximité trafic,trafic,7 Rue Ernest Renan  42000 SAINT-ETIENNE,,,0,35,72,20,5,12,,,,,,,,,,4.412784466,45.42205037
-63,29429,A47 Vallée du Gier,proximité trafic,trafic,Rue Michelet  42800 RIVE-DE-GIER,,,0,43,97,21,10,,,,,,,,,,,4.623939552,45.5334837
-64,29439,Est Stéphanois / La Talaudière,périurbaine,fond,19 rue Romain Rolland  42350 LA TALAUDIERE,,,0,15,23,18,6,,17,17590,,,,,,,,4.429905721,45.48160671
-65,29440,Col de l'Oeillon,rurale régionale,fond,42520 ROISEY,,,0,2,2,7,3,,20,17363,,,,,,,,4.615814688,45.38957782
-66,33101,Chambéry Pasteur,urbaine,fond,square Pasteur Rue de Plaisance 73000 CHAMBERY,,,0,23,41,18,5,15,16,15357,,,,,,,,5.928433617,45.56458503
-67,33111,Saint-Jean de Maurienne,urbaine,fond,Rue Charles Dullin  73300 SAINT-JEAN-DE-MAURIENNE,0,0,0,12,17,13,1,,10,13858,,,,,,,,6.34960949,45.27474036
-68,33114,A43 Vallée de la Maurienne,proximité trafic,trafic,Echangeur de Saint-Julien Montdenis  73870 SAINT-JULIEN-MONT-DENIS,0,0,0,32,115,20,8,,,,,,,,,,,6.397013045,45.2520578
-69,33120,Chamonix,urbaine,fond,Rue du Lyret  74400 CHAMONIX-MONT-BLANC,,,1,27,58,20,13,,0,10634,,,,,,,,6.869923167,45.92259347
-70,33121,Albertville,urbaine,fond,Rue Félix Chautemps  73200 ALBERTVILLE,,,,,,17,3,,11,11938,,,13.4,0.9,0.3,14.8,,6.389601421,45.67510546
-71,33122,La Léchère,proximité industrielle,industrielle,Lieu-dit Verney  73260 LA LECHERE,,,,,,25,12,,,,,,,,,,,6.471108479,45.53583296
-72,33201,Annecy Loverchy,urbaine,fond,Rue du Travail  74000 ANNECY,,,0,27,60,23,15,16,3,10798,,,,,,,,6.118434852,45.89534503
-73,33202,Annecy Novel,urbaine,fond,Impasse de l'Arcalod  74000 ANNECY,,,0,20,35,16,6,,12,13178,,,,,,,,6.135661615,45.91705605
-74,33203,Annecy Rocade,proximité trafic,trafic,"16, bd de la Rocade 74000 ANNECY",,,,,,23,11,,,,,,,,,,,6.118119178,45.90961064
-75,33211,Annemasse,urbaine,fond,Avenue Florissant  74100 ANNEMASSE,,,0,25,39,17,6,12,7,13429,,,,,,,,6.24059838,46.19579152
-76,33212,Gaillard,périurbaine,fond,Rue du Pont Noir  74240 GAILLARD,,,0,19,34,,,11,12,15019,,,,,,,,6.215051169,46.19391257
-77,33220,Passy,urbaine,fond,Rue Salvatore Allende  74190 PASSY,,,0,17,33,29,46,,8,14161,,,,,,,,6.713642295,45.9235346
-78,33232,Chamonix Route Blanche,proximité trafic,trafic,En bordure de chaussée de la RD1205 Village des Bossons 74400 CHAMONIX-MONT-BLANC,,,12,49,149,15,0,,,,,,,,,,,6.845044259,45.90670938
-79,33260,Thonon les Bains,urbaine,fond,Ecole des Suets Avenue Jules Ferry 74200 THONON-LES-BAINS,,,0,17,25,,,,1,7649,,,,,,,,6.484687502,46.37449059
-80,33302,Saint-Germain-sur-Rhône,rurale régionale,fond,"Lieu-dit ""Sous les Ages""  74910 SAINT-GERMAIN-SUR-RHONE",0,0,0,10,13,14,1,7,2,7764,,,,,,,,5.820805001,46.07235714
-81,33305,Bourg en Bresse,urbaine,fond,Rue des Blanchisseries 01000 BOURG-EN-BRESSE,,,0,19,31,17,9,,14,16418,,,,,,,,5.226502303,46.21168017
-82,33307,Oyonnax,urbaine,fond,"148, cours de Verdun 01100 OYONNAX",,,0,15,26,13,4,,,,,,,,,,,5.64195541,46.25399732
-83,36001,Valence Sud,périurbaine,fond,Groupe scolaire Joliot-Curie  26800 PORTES-LES-VALENCE,,,,,,,,,13,15320,,,,,,,,4.876292077,44.87029837
-84,36002,Valence urbain centre,urbaine,fond,Square Lesdiguières  26000 VALENCE,,,0,24,35,19,8,14,12,15031,,,,,,,,4.893484512,44.93357135
-85,36003,A7 Valence,proximité trafic,trafic,Rue Alsace-Lorraine  26500 BOURG-LES-VALENCE,,,0,56,157,,,14,,,,,6.4,0.5,0.1,1.7,,4.889883076,44.94897917
-86,36007,Saint-Bauzile ZI,proximité industrielle,industrielle,Mairie de St Bauzile le Village  7210 SAINT-BAUZILE,0,0,,,,,,,,,,,,,,,,4.673594253,44.67599328
-87,36019,Romans Sur Isère,urbaine,fond,extrémité sud-est du Parc François Mitterrand Rue Saint-Romain 26100 ROMANS-SUR-ISERE,,,0,16,24,21,10,,21,19807,,,,,,,,5.044120717,45.04224405
-88,36021,Drome Rurale Sud,rurale nationale,fond,"Centre de Secours, RD 125 26340 Saint-Nazaire-le-Désert",,,0,2,3,10,0,7,22,19632,,,,,,,,5.278963621,44.56945091
+,id_bdqa,nom_site,typologie,influence,adresse,so2_nb_d_3,so2_nb_j_s,no2_nb_h_s,no2_moy_an,nox_moy_an,pm10_moy_a,pm10_nb_j_,pm2_5_moy_,o3_nb_j_ma,o3_aot40,co_nb_moy_,c6h6_moy_a,pb_moy_an,as_moy_an,cd_moy_an,ni_moy_an,bap_moy_an,X,Y,year
+0,7001,Royat,périurbaine,fond,"8 Avenue Louis Pasteur, 63130 ROYAT",,,0,13,17,,,,5,13383,,,,,,,,3.047192684,45.76466592,2014
+1,7004,Montferrand,urbaine,fond,"Rue Gustave Courbet, 63000 CLERMONT-FERRAND",,,0,22,38,17,7,10,4,13413,,,,,,,,3.113828851,45.79727916,2014
+2,7009,Clermont - Jardin Lecoq,urbaine,fond,"Jardin Lecoq, 63000 CLERMONT-FERRAND",,,0,23,39,16,5,,3,11709,,,,,,,,3.087501058,45.77216995,2014
+3,7010,Montluçon - Centre,proximité trafic,trafic,"Place Louis Bavay, 03100 MONTLUCON",,,0,24,51,16,2,,,,,,,,,,,2.598136589,46.34371922,2014
+4,7011,Aurillac - Centre,proximité trafic,trafic,"95 Avenue de la République, 15000 AURILLAC",,,0,32,,14,0,,,,,,,,,,,2.436638464,44.92322084,2014
+5,7012,Le Puy en velais - Centre,urbaine,fond,"Ecole Jules Ferry, 43000 LE PUY EN VELAY",,,0,18,,,,,2,12212,,,,,,,,3.882671542,45.04471809,2014
+6,7013,Montlucon Château,urbaine,fond,"Esplanade du château, 03100 MONTLUCON",,,0,12,17,,,,4,10728,,,,,,,,2.604586073,46.34008581,2014
+7,7014,Aurillac - Aérodrome,périurbaine,fond,"Aérodrome, 15000 AURILLAC",,,,,,,,,3,13051,,,,,,,,2.420192153,44.89833092,2014
+8,7015,Sommet du Puy de Dôme,rurale régionale,fond,"Sommet Puy de Dôme, 63870 ORCINES",,,,,,,,,22,19189,,,,,,,,2.964587812,45.77217131,2014
+9,7016,Montlucon - Hippodrome,urbaine,fond,"Hippodrome, 03100 MONTLUCON",,,,,,,,,5,11779,,,,,,,,2.601308937,46.32413584,2014
+10,7017,Aurillac - Mairie,urbaine,fond,"Mairie 14 rue de la Coste, 15000 AURILLAC",,,0,9,,,,,2,13230,,,,,,,,2.445163491,44.93133111,2014
+11,7018,Vals-près-le-Puy,périurbaine,fond,"Mairie, 43750 VALS PRES LE PUY",,,,,,,,,9,14859,,,,,,,,3.876079536,45.03011099,2014
+12,7020,Busset,rurale régionale,fond,"Ecole, 03270 BUSSET",,,,,,,,,3,10591,,,,,,,,3.515136781,46.06028108,2014
+13,7022,Paray-le-Fresil,rurale régionale,fond,"Stade, 03230 PARAY LE FRESIL",,,0,3,4,12,1,,2,9082,,,,,,,,3.600672372,46.65266263,2014
+14,7028,Les Ancizes,proximité industrielle,industrielle,"Allée du collège, 63770 LES ANCIZES",,,,,,11,3,,,,,,,,,,,2.829801258,45.92969792,2014
+15,7029,Sembadel,rurale régionale,fond,"Mairie, 43160 SEMBADEL",,,,,,,,,2,11608,,,,,,,,3.68791781,45.27472323,2014
+16,7031,Rageade,rurale régionale,fond,"Mairie, 15500 RAGEADE",,,,,,10,1,,12,16629,,,,,,,,3.277361319,45.10472135,2014
+17,7032,Riom,urbaine,fond,"Rue de l'intendance d'Auvergne, 63200 RIOM",,,0,17,25,,,,3,13205,,,,,,,,3.115060644,45.89419792,2014
+18,7034,Clermont - Esplanade de la gare,proximité trafic,trafic,"Esplanade de la gare, 63000 CLERMONT-FERRAND",,,2,42,94,18,8,12,,,,,,,,,,3.096244436,45.77569276,2014
+19,7039,Chamalières,proximité trafic,trafic,"Avenue de Fontmaure,63400 CHAMALIERES",,,0,33,76,19,4,,,,,,,,,,,3.062977994,45.77477972,2014
+20,7043,Le Puy - Coiffier,urbaine,fond,"Square Coiffier, 43000 LE PUY EN VELAY",,,0,29,,18,4,,,,,,,,,,,3.888802205,45.04285945,2014
+21,7045,Issoire (école),urbaine,fond,Notre Dame du Ponteil  63500 ISSOIRE,,,0,16,24,14,1,,2,12736,,0.8,,,,,,3.248218354,45.54544059,2014
+22,7048,Villeneuve-sur-Allier,proximité trafic,trafic,Route de Paris  03460 VILLENEUVE-SUR-ALLIER,,,0,55,203,,,,,,,,,,,,,3.249300587,46.65905227,2014
+23,15013,Sud grenoblois / Champ sur Drac,périurbaine,fond,École des Gonnardières 24 chemin des Gonnardières 38560 CHAMP-SUR-DRAC,,,0,18,26,,,,,,,,,,,,,5.728653983,45.07959915,2014
+24,15017,Fontaine les Balmes,urbaine,fond,31 bis Avenue Lénine  38600 FONTAINE,,,0,23,36,20,7,,17,15666,,,,,,,,5.686971398,45.19049841,2014
+25,15018,Voiron Urbain,urbaine,fond,Rue de Maubec  38500 VOIRON,,,0,18,29,21,8,,17,15590,,,,,,,,5.589443331,45.36001372,2014
+26,15031,Ecrins,rurale nationale,fond,Le Serre du Cuc Le Casset  05220 LE-MONETIER-LES-BAINS,,,,,,,,,17,25212,,,,,,,,6.469503038,44.99809555,2014
+27,15038,Saint-Martin d'Heres,urbaine,fond,Parc Daniel Casanova Avenue Benoît Frachon 38400 SAINT-MARTIN-D'HERES,,,0,25,46,21,8,,15,14681,,,,,,,,5.753252647,45.18302696,2014
+28,15039,Grenoble Rocade Sud,proximité trafic,trafic,Face au  23 - Chemin du Tremblay  38130 ECHIROLLES,,,0,48,134,28,14,15,,,,,,,,,,5.703764952,45.15842477,2014
+29,15043,Grenoble les Frenes,urbaine,fond,Ecole Maternelle Les Frênes 1 allée de la Pelouse 38100 GRENOBLE,0,0,0,22,40,20,9,12,3,7351,,,5.7,0.5,0.1,1.6,,5.735824383,45.16170648,2014
+30,15045,Sud grenoblois / Vif,périurbaine,fond,Allée traversière  38450 VIF,,,0,13,19,17,2,,27,19400,,,,,,,,5.676897768,45.05803473,2014
+31,15046,Grenoble Grands Boulevards,proximité trafic,trafic,48-50 Boulevard Foch  38000 GRENOBLE,,,13,48,114,28,15,,,,,,,,,,,5.720630177,45.18075469,2014
+32,15048,Est grenoblois / Grésivaudan,périurbaine,fond,Rue Léo Lagrange  38190 CROLLES,,,0,18,31,19,3,,10,11286,,,,,,,,5.882398642,45.27996926,2014
+33,20004,Lyon Saint-Just,urbaine,fond,Ecole Mathilde Siraud 5 Place Abbé Larue 69005 LYON,,,0,30,49,,,,9,12862,,,,,,,,4.820337324,45.75537349,2014
+34,20013,A7 Sud lyonnais,proximité trafic,trafic,Face au 25 ter - Quai Pierre Sémard  (au bord de l'A7)  69350 LA MULATIERE,,,31,72,194,30,24,17,,,0,,,,,,,4.818159756,45.72008214,2014
+35,20017,Lyon Gerland,urbaine,fond,Groupe Scolaire Claudius Berthelier 181 Rue Marcel Mérieux 69007 LYON,,,0,36,66,23,16,,6,12352,,,,,,,,4.829800947,45.73535025,2014
+36,20019,Villeurbanne Place Grandclément,proximité trafic,trafic,Maison Berthy Albrecht 14 Place Jules Grand Clément 69100 VILLEURBANNE,,,2,43,94,22,13,,,,,,,,,,,4.8862195,45.75841628,2014
+37,20029,Sud lyonnais / Feyzin ZI,proximité industrielle,industrielle,Stade Municipal Jean Bouin Rue de la Tuillière 69320 FEYZIN,0,0,0,25,48,23,13,,,,,,,,,,,4.845836121,45.6639401,2014
+38,20031,Sud lyonnais / Saint-Fons,proximité industrielle,industrielle,Stade municipal Carnot 64 Rue Carnot 69190 SAINT-FONS,0,0,0,30,54,22,11,,,,,,,,,,,4.864488928,45.70780483,2014
+39,20034,Sud lyonnais / Pierre-Bénite,proximité industrielle,industrielle,Groupe Scolaire des Cerisiers Impasse Robert d'Aversa 69310 PIERRE-BENITE,0,0,,,,,,,,,,0.7,,,,,,4.829697995,45.69959302,2014
+40,20037,Sud lyonnais / Ternay,périurbaine,fond,Salle Omnisports du Dévès Chemin du Dévès Ouest 69360 TERNAY,,,0,23,36,21,10,,17,17944,,,,,,,,4.802542285,45.60192473,2014
+41,20045,Est lyonnais / Genas,périurbaine,fond,"DDE ""Les Grandes Terres"" - Porte du Dauphiné  69740 GENAS",,,,,,,,,21,19915,,,,,,,,4.98054663,45.73188396,2014
+42,20046,Est lyonnais / Vaulx en Velin,urbaine,fond,ENTPE 3 Rue Maurice Audin 69120 VAULX-EN-VELIN,,,0,25,41,21,12,13,11,15215,,,,,,,,4.924922674,45.77896618,2014
+43,20047,Nord lyonnais / Côtière de l'Ain,périurbaine,fond,Passage de Paravis  1700 MIRIBEL,,,0,18,28,20,7,,6,11997,,,,,,,,4.9539617,45.82328012,2014
+44,20048,Est lyonnais / Saint Exupéry,périurbaine,fond,Complexe Sportif  Louis Durand Rue de l'Egalité 69330 PUSIGNAN,,,0,14,19,20,9,,17,20162,,,,,,,,5.072299004,45.75358327,2014
+45,20049,Haut-Beaujolais,rurale régionale,fond,Le Bourg Derrière l'église 69170 DIEME,,,0,3,4,,,,6,15262,,,,,,,,4.46571625,45.96147357,2014
+46,20060,Sud lyonnais / Vénissieux,proximité industrielle,industrielle,Groupe Scolaire du Centre 43 Boulevard Laurent Gérin 69200 VENISSIEUX,,,,,,,,,,,,,8,0.6,0.2,2,,4.883641896,45.70393737,2014
+47,20061,Villefranche Village,urbaine,fond,330 - rue des Jardiniers  69400 VILLEFRANCHE-SUR-SAONE,,,0,30,55,21,8,13,2,8180,,,,,,,,4.719287515,45.98644081,2014
+48,20062,Lyon Centre,urbaine,fond,20 rue du Lac  69003 LYON,0,0,0,30,47,21,11,14,9,15277,,,7.1,0.5,0.2,1.9,,4.853725888,45.75799123,2014
+49,20063,Lyon Periphérique Est,proximité trafic,trafic,Boulevard périphérique Laurent Bonnevay  69500 BRON,,,10,54,136,26,22,,,,,,,,,,,4.896150838,45.72832693,2014
+50,20064,Vernaison ZI,proximité industrielle,industrielle,Parking du Port Perret  69390 VERNAISON,,,,,,,,,,,,0.5,,,,,,4.816905997,45.65061161,2014
+51,20065,Lyon - Tunnel Croix-Rousse - Sortie Rhône,proximité trafic,trafic,"Ecole Michel Servet 4, rue Alsace Lorraine 69001 LYON",,,,,,26,15,19,,,,,,,,,,4.836938611,45.77247945,2014
+52,27002,Roussillon,urbaine,fond,Lycée de l'Edit 24 Avenue du Lycée 38150 ROUSSILLON,,,0,29,53,23,14,,1,8288,,0.6,,,,,,4.805143352,45.36781814,2014
+53,27003,Les Roches de Condrieu ZI,proximité industrielle,industrielle,"Stade des roches ""SIGIS"" Rue de Champagnole 38370 LES ROCHES-DE-CONDRIEU",5,0,0,21,36,,,,10,14834,,,,,,,,4.76653624,45.45457482,2014
+54,27004,Vienne Centre,urbaine,fond,Place de l'Hôtel de Ville  Francois Mitterrand  38200 VIENNE,,,0,22,40,24,16,,,,,,,,,,,4.875411685,45.52602688,2014
+55,27005,Sud roussillonnais / Sablons,périurbaine,fond,Place du champ de Foire Le Bourg Rue du Dauphiné 38550 SABLONS,,,0,13,20,,,,24,21714,,,,,,,,4.770676158,45.32184864,2014
+56,27007,Bourgoin Jallieu,urbaine,fond,I.F.P.A.C. - Champfleuri  38300 BOURGOIN-JALLIEU,,,0,16,24,16,5,,8,14235,,,,,,,,5.270870484,45.60827983,2014
+57,27008,A7 Nord-Isere,proximité trafic,trafic,Proximité A7  38150 SALAISE-SUR-SANNE,,,0,49,130,21,10,16,,,,0.5,,,,,,4.804823931,45.35324122,2014
+58,29421,Saint-Etienne Nord,périurbaine,fond,1 rue Pierre de Coubertin  42000 SAINT-ETIENNE,,,0,25,50,20,11,,10,13762,,,,,,,,4.389782694,45.46677343,2014
+59,29423,Roanne,urbaine,fond,Rue Gilbertes  42300 ROANNE,,,0,19,34,15,2,,3,10530,,,,,,,,4.07465777,46.04126603,2014
+60,29424,Saint-Etienne Sud,urbaine,fond,Place Préher  42000 SAINT-ETIENNE,0,0,,,,,,10,7,11591,,,5.8,7.6,0.1,2.7,,4.395420543,45.42014241,2014
+61,29426,Est stéphanois / Saint-Chamond,urbaine,fond,8 Rue Dugas Montbel  42400 SAINT-CHAMOND,,,0,29,51,18,5,8,9,13526,,,,,,,,4.515002069,45.47538372,2014
+62,29428,N88 Saint-Etienne,proximité trafic,trafic,7 Rue Ernest Renan  42000 SAINT-ETIENNE,,,0,35,72,20,5,12,,,,,,,,,,4.412784466,45.42205037,2014
+63,29429,A47 Vallée du Gier,proximité trafic,trafic,Rue Michelet  42800 RIVE-DE-GIER,,,0,43,97,21,10,,,,,,,,,,,4.623939552,45.5334837,2014
+64,29439,Est Stéphanois / La Talaudière,périurbaine,fond,19 rue Romain Rolland  42350 LA TALAUDIERE,,,0,15,23,18,6,,17,17590,,,,,,,,4.429905721,45.48160671,2014
+65,29440,Col de l'Oeillon,rurale régionale,fond,42520 ROISEY,,,0,2,2,7,3,,20,17363,,,,,,,,4.615814688,45.38957782,2014
+66,33101,Chambéry Pasteur,urbaine,fond,square Pasteur Rue de Plaisance 73000 CHAMBERY,,,0,23,41,18,5,15,16,15357,,,,,,,,5.928433617,45.56458503,2014
+67,33111,Saint-Jean de Maurienne,urbaine,fond,Rue Charles Dullin  73300 SAINT-JEAN-DE-MAURIENNE,0,0,0,12,17,13,1,,10,13858,,,,,,,,6.34960949,45.27474036,2014
+68,33114,A43 Vallée de la Maurienne,proximité trafic,trafic,Echangeur de Saint-Julien Montdenis  73870 SAINT-JULIEN-MONT-DENIS,0,0,0,32,115,20,8,,,,,,,,,,,6.397013045,45.2520578,2014
+69,33120,Chamonix,urbaine,fond,Rue du Lyret  74400 CHAMONIX-MONT-BLANC,,,1,27,58,20,13,,0,10634,,,,,,,,6.869923167,45.92259347,2014
+70,33121,Albertville,urbaine,fond,Rue Félix Chautemps  73200 ALBERTVILLE,,,,,,17,3,,11,11938,,,13.4,0.9,0.3,14.8,,6.389601421,45.67510546,2014
+71,33122,La Léchère,proximité industrielle,industrielle,Lieu-dit Verney  73260 LA LECHERE,,,,,,25,12,,,,,,,,,,,6.471108479,45.53583296,2014
+72,33201,Annecy Loverchy,urbaine,fond,Rue du Travail  74000 ANNECY,,,0,27,60,23,15,16,3,10798,,,,,,,,6.118434852,45.89534503,2014
+73,33202,Annecy Novel,urbaine,fond,Impasse de l'Arcalod  74000 ANNECY,,,0,20,35,16,6,,12,13178,,,,,,,,6.135661615,45.91705605,2014
+74,33203,Annecy Rocade,proximité trafic,trafic,"16, bd de la Rocade 74000 ANNECY",,,,,,23,11,,,,,,,,,,,6.118119178,45.90961064,2014
+75,33211,Annemasse,urbaine,fond,Avenue Florissant  74100 ANNEMASSE,,,0,25,39,17,6,12,7,13429,,,,,,,,6.24059838,46.19579152,2014
+76,33212,Gaillard,périurbaine,fond,Rue du Pont Noir  74240 GAILLARD,,,0,19,34,,,11,12,15019,,,,,,,,6.215051169,46.19391257,2014
+77,33220,Passy,urbaine,fond,Rue Salvatore Allende  74190 PASSY,,,0,17,33,29,46,,8,14161,,,,,,,,6.713642295,45.9235346,2014
+78,33232,Chamonix Route Blanche,proximité trafic,trafic,En bordure de chaussée de la RD1205 Village des Bossons 74400 CHAMONIX-MONT-BLANC,,,12,49,149,15,0,,,,,,,,,,,6.845044259,45.90670938,2014
+79,33260,Thonon les Bains,urbaine,fond,Ecole des Suets Avenue Jules Ferry 74200 THONON-LES-BAINS,,,0,17,25,,,,1,7649,,,,,,,,6.484687502,46.37449059,2014
+80,33302,Saint-Germain-sur-Rhône,rurale régionale,fond,"Lieu-dit ""Sous les Ages""  74910 SAINT-GERMAIN-SUR-RHONE",0,0,0,10,13,14,1,7,2,7764,,,,,,,,5.820805001,46.07235714,2014
+81,33305,Bourg en Bresse,urbaine,fond,Rue des Blanchisseries 01000 BOURG-EN-BRESSE,,,0,19,31,17,9,,14,16418,,,,,,,,5.226502303,46.21168017,2014
+82,33307,Oyonnax,urbaine,fond,"148, cours de Verdun 01100 OYONNAX",,,0,15,26,13,4,,,,,,,,,,,5.64195541,46.25399732,2014
+83,36001,Valence Sud,périurbaine,fond,Groupe scolaire Joliot-Curie  26800 PORTES-LES-VALENCE,,,,,,,,,13,15320,,,,,,,,4.876292077,44.87029837,2014
+84,36002,Valence urbain centre,urbaine,fond,Square Lesdiguières  26000 VALENCE,,,0,24,35,19,8,14,12,15031,,,,,,,,4.893484512,44.93357135,2014
+85,36003,A7 Valence,proximité trafic,trafic,Rue Alsace-Lorraine  26500 BOURG-LES-VALENCE,,,0,56,157,,,14,,,,,6.4,0.5,0.1,1.7,,4.889883076,44.94897917,2014
+86,36007,Saint-Bauzile ZI,proximité industrielle,industrielle,Mairie de St Bauzile le Village  7210 SAINT-BAUZILE,0,0,,,,,,,,,,,,,,,,4.673594253,44.67599328,2014
+87,36019,Romans Sur Isère,urbaine,fond,extrémité sud-est du Parc François Mitterrand Rue Saint-Romain 26100 ROMANS-SUR-ISERE,,,0,16,24,21,10,,21,19807,,,,,,,,5.044120717,45.04224405,2014
+88,36021,Drome Rurale Sud,rurale nationale,fond,"Centre de Secours, RD 125 26340 Saint-Nazaire-le-Désert",,,0,2,3,10,0,7,22,19632,,,,,,,,5.278963621,44.56945091,2014
