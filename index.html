@@ -163,7 +163,7 @@
         if (max < value)
           max = value;   
       };
-      var x = d3.scaleLinear().range([0, width]).domain([0, tox.length - 1]);
+      var x = d3.scaleLinear().range([65, width-50]).domain([0, tox.length - 1]);
       var y = d3.scaleLinear().range([0, height/3]).domain([0, max]);
       var xScale = d3.scaleBand()
         .domain(tox.map(function(d){ return d.toxine; }))
@@ -178,15 +178,15 @@
         .scale(yScale).ticks(4);
       
       svg2.append( "g" )
-    	.attr("transform", "translate("+(30+width*(pos - 1)*1.1)+" ,30)")
+    	.attr("transform", "translate("+((50+width)*(pos - 1) + 30)+" ,30)")
         .append("text")
         .text(data.nom_station)
       ;
       svg2.append( "g" )
-        .attr("transform", "translate(" + (20+width*(pos - 1))*1.1 + " ,30)")
+        .attr("transform", "translate(" + ((40+width)*(pos - 1) + 20) + " ,40)")
         .call(yAxis)
       svg2.append( "g" )
-        .attr("transform", "translate(" + (20+width*(pos - 1))*1.1 + " ,"+ (height/2+10) +")")
+        .attr("transform", "translate(" + ((40+width)*(pos - 1) + 20) + " ,"+ (height/3 + 40) +")")
         .call(xAxis)
         .selectAll("text")	
         .style("text-anchor", "end")
@@ -197,25 +197,31 @@
         .attr("transform", function(d) {
         return "rotate(-65)" 
       });
+      svg2.append( "g" )
+        .attr("transform", "translate(" + ((40+width)*(pos - 1) + 20) + " ,40)")
+      	.append("rect")
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("height", y(max))
+        .attr("width", width )
+      	.attr("fill", "#ffffff")
+        .style("stroke", "#000")
+        .style("stroke-width", "1")
+        .attr("opacity", 0.5)
+      
       var g2 = svg2.append( "g" )
-        .attr("transform", "translate("+(30+width*(pos - 1))+" ,0)")
+        .attr("transform", "translate("+(width*(pos - 1))+" ,0)")
       	.selectAll("rect").data(tox).enter()
           .append("rect")
           .attr("class", "tox")
           .attr("x", function(d,i){ return x(i);})
-          .attr("y",function(d){ return height/2 - y(data[d.toxine]); })
+          .attr("y",function(d){ return height/3 +40- y(data[d.toxine]); })
           .attr("height", function(d){ return y(data[d.toxine]); })
           .attr("width", 30 )
           .on('mouseover', function(d) {
             d3.selectAll(".tox").filter(function(e) {
               return e === d;
             }).attr("fill", "#32ffea");
-        
-            g2.selectAll("#tooltip").data([d]).enter().append("text")
-            .attr("id", "tooltip")
-            .text(function(d) { return data[d.toxine]; })
-            .attr("x", function(d,i){ return x(i);})
-            .attr("y",function(d){ return height/2 - y(data[d.toxine]); })
           })
           .on('mouseout', function(d) {
         		svg2.selectAll(".value").remove();
