@@ -3,7 +3,13 @@
   <meta charset="utf-8">
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <style>
-    body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; }
+    body { margin:10;position:fixed;top:0;right:0;bottom:0;left:0; }
+    h1 {
+      font-weight: bold;
+      color: #ff4747;
+      font-size: 100px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
     .province {
         fill: #000;
         stroke: #fff;
@@ -29,14 +35,45 @@
         opacity: 0.9;
         position: absolute;
     }
+    .slidecontainer {
+      width: 100%;
+    }
+
+    .slider {
+      -webkit-appearance: none;
+      width: 450px;
+      height: 25px;
+      background: #d3d3d3;
+      outline: none;
+      opacity: 0.7;
+      -webkit-transition: .2s;
+      transition: opacity .2s;
+    }
+
+    .slider:hover {
+      opacity: 1;
+    }
+
+    .slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 25px;
+      height: 25px;
+      background: #4CAF50;
+      cursor: pointer;
+    }
+
+    .slider::-moz-range-thumb {
+      width: 25px;
+      height: 25px;
+      background: #4CAF50;
+      cursor: pointer;
+    }
   </style>
 </head>
 
 <body> 
-  <div id="sliderContainer">
-    <input id="timeslide" type="range" min="0" max="12" value="0" step="1"/><br>
-    <span id="month">month</span>
-  </div>
+  <h1 align="center">ToxTracker</h1>
   <script>
     var station_array = [], station_m_array = [];
 		var width = 450,
@@ -45,11 +82,10 @@
         X = 5.11,
         Y = 45.785,
         monthValue = "12-2017";
-		var link_json = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/lyon.geojson",
-//         link_data = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data.json",
-  			link_data_new = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data_new.json",
-        link_slider = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data/slider_value.csv",
-    		link_tox = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data/toxines.csv";
+		var link_json = "lyon.geojson",
+  			link_data_new = "data_new.json",
+			link_slider = "/data/slider_value.csv",
+    		link_tox = "/data/toxines.csv";
     var q = d3.queue();
     q.defer(d3.json, link_data_new)
       .defer(d3.csv, link_tox)
@@ -73,14 +109,12 @@
     	.attr("id", "viz")
     	.attr("top", 10)
     	.attr("left", 10)
-		  .attr( "width", width*3 +120 )
-		  .attr( "height", height ); 
-    var div = d3.select("body")
-      .append("div")        
+		  .attr( "width", width*3+120 )
+		  .attr( "height", height );    
 		var svg = div.append( "svg" )
 		  .attr( "class", "svg_carte")
 		  .attr( "width", width)
-		  .attr( "height", height );
+		  .attr( "height", height );     
     var svg2 = div.append( "svg" )
 		  .attr( "class", "svg_chart")
 		  .attr( "width", width*2+120)
@@ -223,24 +257,15 @@
           .attr("y",function(d){ return height/3 +40- y(data[d.toxine]); })
           .attr("height", function(d){ return y(data[d.toxine]); })
           .attr("width", 30 )
-      		.attr("fill", "#8e32ff")
-          .on('mouseover', function(d,i) {
-            d3.selectAll(".tox").filter(function(e) {
-              return e === d;
-            }).attr("fill", "#ff32e3");
-          })
-          .on('mouseout', function(d) {
-            d3.selectAll(".tox").filter(function(e) {
-              return e === d;
-            }).attr("fill", "#8e32ff");
-          });
+      		.attr("fill", function(d,i){
+              return color_legend(i);
+            });
       svg2.append( "g" )
         .attr("transform", "translate("+(width*(pos - 1)*1.08 + 10)+" ,0)")
       	.selectAll("#tooltip").data(tox).enter().append("text")
           .attr("id", "tooltip")
           .text(function(d) { return data[d.toxine]; })
-          .attr("class", "tox")
-      		.attr("fill", "#8e32ff")
+          .attr("class", "tox_val")
           .attr("x", function(d,i){ return x(i);})
           .attr("y",function(d){ return height/3 +35- y(data[d.toxine]); });
       
@@ -268,7 +293,7 @@
           .attr("width", 10 )
       		.attr("fill", function(d,i){
         return color_legend(i);
-      })
+      });
       svg2.append( "g" )
         .attr("transform", "translate("+(width*(pos - 1)*1.08 + 10)+" ,0)")
       	.selectAll("text").data(tox).enter()
@@ -497,4 +522,8 @@
     }
     
   </script>
+  <div id="sliderContainer" width="450">
+    <input id="timeslide" type="range" min="0" max="12" value="0" step="1" class="slider" id="myRange"  width="450"/><br>
+    <span id="month">month</span>
+  </div>
 </body>
