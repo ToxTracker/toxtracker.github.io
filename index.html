@@ -29,36 +29,39 @@
 
 <body> 
   <div id="sliderContainer">
-    <input id="timeslide" type="range" min="2012" max="2016" value="2012" step="1"/><br>
-    <span id="year">year</span>
+    <input id="timeslide" type="range" min="0" max="12" value="0" step="1"/><br>
+    <span id="month">month</span>
   </div>
   <script>
-    var b_click = false;
-    var first_click;
+    var station_array = new Array();
 		var width = 450,
-  		  height = 650,
+        height = 650,
         scale = 90000,
         X = 5.11,
         Y = 45.785,
         y = "12-2017";
 		var link_json = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/lyon.geojson",
-        link_data = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data.json",
-  			link_data_new =      "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data_new.json",
-        link_test = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/test.csv",
+//         link_data = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data.json",
+  			link_data_new = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data_new.json",
+        link_slider = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data/slider_value.csv",
     		link_tox = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data/toxines.csv";
     var q = d3.queue();
     q.defer(d3.json, link_data_new)
       .defer(d3.csv, link_tox)
+      .defer(d3.csv, link_slider)
       .defer(d3.json, link_json)
     	.await(processData);
-    function processData(err, data, tox, json){
+    function processData(err, data, tox, slider , json){
       var year = "y" + y;
+      console.log(year);
       map(X,Y,scale, data[year], tox, json);
-      d3.select("#timeslide").on("input", function() {
-        year = "y" + this.value;
-        d3.select('#year').html(this.value);
-        map(X,Y,scale, data[year], tox, json);
-      });
+//       d3.select("#timeslide").on("input", function() {
+//         var monthValue = slider[this.value].slider_val;
+//         console.log(slider[0].slider_val);
+//         year = "y" + monthValue;
+//         d3.select('#month').html(monthValue);
+//         map(X,Y,scale, data[year], tox, json);
+//       });
     };
         
     var div = d3.select("body")
