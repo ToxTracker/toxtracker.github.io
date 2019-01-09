@@ -90,12 +90,10 @@
     					.center([X, Y]).scale(scale);
     
 		// On definie une echelle de couleur
-		var color = d3.scaleQuantize()  
-    			.range(["rgb(237,248,233)",
-									"rgb(186,228,179)",
-                  "rgb(116,196,118)",
-                  "rgb(49,163,84)",
-                  "rgb(0,109,44)"]);
+		
+    var color = d3.scaleQuantize()
+      .range(["#10f400","#7ef400","#f4e800","#f49f00","#f41400",]);
+    color.domain([0,150]);
     var c_lyon = "#ffee00",
         c_lyon_mouseOn = "#009900",
         c_n_lyon = "#ccc",
@@ -139,17 +137,9 @@
       }).style("fill", "red");
     }
     function color_array(array, tox){
-      d3.selectAll(".dot").style("fill", function(d){
-        	var value = 0;
-          for (i = 0; i < tox.length; i++) { 
-            var toxine = tox[i].toxine;
-            if(d[toxine]){ 
-              value = value + parseInt(d[toxine], 10);
-            } else{
-              value = value + 0;
-            };  
-          };
-        	return color(value);
+      d3.selectAll(".dot").style("fill", function(d,i){
+        	if(d.value == -1) return "#ccc";
+        	return color(d.value);
         })
       array.forEach(function(d){
         red_dot(d);
@@ -240,9 +230,6 @@
     
     // carte
     function map(X,Y, scale, data, tox, json, a_data, slider){
-      var color = d3.scaleQuantize()
-      .range(["#10f400","#7ef400","#f4e800","#f49f00","#f41400",]);
-    	color.domain([0,150]);
       
       
       g.selectAll("circle").remove();
@@ -317,8 +304,11 @@
               value = value + 0;
             };  
           };
-        console.log(cnt);
-        	if (cnt == 4) return "#ccc";
+        	d.value = value;
+        	if (cnt == 4) {
+            d.value = -1;
+            return "#ccc";
+          };
         	return color(value);
         })
         .style("stroke", "#000")
