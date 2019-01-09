@@ -3,12 +3,31 @@
   <meta charset="utf-8">
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <style>
-    body { margin:10;position:fixed;top:0;right:0;bottom:0;left:0; }
+    body { margin:;position:fixed;top:0;right:0;bottom:0;left:0; }
     h1 {
       font-weight: bold;
       color: #ff4747;
-      font-size: 50px;
+      font-size: 30px;
       font-family: Arial, Helvetica, sans-serif;
+    }
+    /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1; 
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #888; 
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555; 
     }
     .province {
         fill: #000;
@@ -82,10 +101,11 @@
         X = 5.11,
         Y = 45.785,
         monthValue = "12-2017";
-		var link_json = "lyon.geojson",
-  			link_data_new = "data_new.json",
-			link_slider = "/data/slider_value.csv",
-    		link_tox = "/data/toxines.csv";
+		var link_json = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/lyon.geojson",
+//         link_data = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data.json",
+  			link_data_new = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data_new.json",
+        link_slider = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data/slider_value.csv",
+    		link_tox = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data/toxines.csv";
     var q = d3.queue();
     q.defer(d3.json, link_data_new)
       .defer(d3.csv, link_tox)
