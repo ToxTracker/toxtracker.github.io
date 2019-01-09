@@ -33,7 +33,7 @@
     <span id="month">month</span>
   </div>
   <script>
-    var station_array = new Array();
+    var station_array = [], station_m_array = [];
 		var width = 450,
         height = 650,
         scale = 90000,
@@ -51,14 +51,14 @@
       .defer(d3.csv, link_slider)
       .defer(d3.json, link_json)
     	.await(processData);
-    function processData(err, data, tox, slider , json){
+    function processData(err, a_data, tox, slider , json){
       var year = "y" + y;
-      map(X,Y,scale, data[year], tox, json);
+      map(X,Y,scale, a_data[year], tox, json, a_data, slider);
       d3.select("#timeslide").on("input", function() {
         var monthValue = slider[this.value].slider_val;
         year = "y" + monthValue;
         d3.select('#month').html(monthValue);
-        map(X,Y,scale, data[year], tox, json);
+        map(X,Y,scale, a_data[year], tox, json, a_data, slider);
         
       });
     };
@@ -145,27 +145,27 @@
       });
     }
     // chart_array
-    function chart_array(array, tox){
+    function chart_array(array, m_array, tox){
       svg2.selectAll("g").remove();
       array.forEach(function(d,i){
-        chart(d,tox,i+1);
+        chart(d, m_array[i],tox,i+1);
       });
     }
     // chart
-    function chart(data, tox, pos){
+    function chart(data, month , tox, pos){
       if(pos == 3) return;
       var toxines = [];
-      for (i = 0; i < tox.length; i++) { 
-        var toxine = tox[i].toxine;
-        toxines.push(toxine);
-        var value = parseInt(data[toxine], 10);  
-      };
       var x = d3.scaleLinear().range([65, width-50]).domain([0, tox.length - 1]);
       var y = d3.scaleLinear().range([0, height/3]).domain([0, 126.7]);
       var xScale = d3.scaleBand()
         .domain(tox.map(function(d){ return d.toxine; }))
         .range([0, width]);
       var yScale = d3.scaleLinear().range([height/3,0]).domain([0, 126.7]);
+      for (i = 0; i < tox.length; i++) { 
+        var toxine = tox[i].toxine;
+        toxines.push(toxine);
+        var value = parseInt(data[toxine], 10);  
+      };
       
       var xAxis = d3.axisBottom()
         .scale(xScale).ticks(17);
@@ -175,7 +175,7 @@
       svg2.append( "g" )
     	.attr("transform", "translate("+((50+width)*(pos - 1) + 40)+" ,30)")
         .append("text")
-        .text(data.nom_station)
+        .text(data.nom_station + " - " + month)
       ;
       svg2.append( "g" )
         .attr("transform", "translate(" + ((40+width)*(pos - 1) + 30) + " ,40)")
@@ -234,7 +234,7 @@
     };
     
     // carte
-    function map(X,Y, scale, data, tox, json){
+    function map(X,Y, scale, data, tox, json, a_data, slider){
       g.selectAll("circle").remove();
       g.selectAll("path")
         .data(json.features)
@@ -267,17 +267,18 @@
             .html(d.properties.nom);
         })
         .on('mouseout', function(d) {
-        d3.selectAll(".zone").filter(function(e) {
-          return e === d;
-        }).style("fill", function(d) {
-          var nom = lyon_commune.indexOf(d.properties.nom);
-          if(nom >= 0){
-            return c_lyon;
-          } else { 
-            return c_n_lyon;
-          }
-        })
-      });
+          tooltip.classed('hidden', true);
+          d3.selectAll(".zone").filter(function(e) {
+            return e === d;
+          }).style("fill", function(d) {
+            var nom = lyon_commune.indexOf(d.properties.nom);
+            if(nom >= 0){
+              return c_lyon;
+            } else { 
+              return c_n_lyon;
+            }
+          })
+        });
       g.selectAll(".zone").filter(function(d) {
         if(lyon_commune.indexOf(d.properties.nom) >= 0){
           return d;
@@ -301,12 +302,12 @@
           d3.selectAll(".dot").filter(function(e) {
             return e === d;
           }).attr("r", 10)
-            .style("stroke-width", "10");
-        	chart_array(station_array, tox);
-          chart(d, tox, station_array.length + 1);
+            .style("stroke-width", "4");
+        	chart_array(station_array, station_m_array, tox);
+          chart(d,y, tox, station_array.length + 1);
         })
         .on('mouseout', function(d) {
-        	chart_array(station_array, tox);
+        	chart_array(station_array, station_m_array, tox);
           d3.selectAll(".dot").filter(function(e) {
             return e === d;
           }).attr("r", 5)
@@ -315,17 +316,22 @@
       	.on('click', function(d) {
           if (station_array.indexOf(d) === -1){
             if (station_array.length < 2){
+              station_m_array.push(y)
               station_array.push(d);
             } else {
+              station_m_array.pop()
               station_array.pop();
+              station_m_array.push(y)
               station_array.push(d);
             };
             
           } else {
+            
+            station_m_array.splice(station_array.indexOf(d),1)
             station_array.splice(station_array.indexOf(d),1);
           };
         	color_array(station_array);
-        	chart_array(station_array, tox);
+        	chart_array(station_array, station_m_array, tox);
         })
       ;
     }
