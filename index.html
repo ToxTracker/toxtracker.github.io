@@ -53,15 +53,13 @@
     	.await(processData);
     function processData(err, data, tox, slider , json){
       var year = "y" + y;
-      console.log(year);
       map(X,Y,scale, data[year], tox, json);
-//       d3.select("#timeslide").on("input", function() {
-//         var monthValue = slider[this.value].slider_val;
-//         console.log(slider[0].slider_val);
-//         year = "y" + monthValue;
-//         d3.select('#month').html(monthValue);
-//         map(X,Y,scale, data[year], tox, json);
-//       });
+      d3.select("#timeslide").on("input", function() {
+        var monthValue = slider[this.value].slider_val;
+        year = "y" + monthValue;
+        d3.select('#month').html(monthValue);
+        map(X,Y,scale, data[year], tox, json);
+      });
     };
         
     var div = d3.select("body")
@@ -69,7 +67,7 @@
     	.attr("id", "viz")
     	.attr("top", 10)
     	.attr("left", 10)
-		  .attr( "width", width*3 )
+		  .attr( "width", width*3 +120 )
 		  .attr( "height", height ); 
     var div = d3.select("body")
       .append("div")        
@@ -79,7 +77,7 @@
 		  .attr( "height", height );
     var svg2 = div.append( "svg" )
 		  .attr( "class", "svg_chart")
-		  .attr( "width", width+60)
+		  .attr( "width", width*2+120)
 		  .attr( "height", height );
     
     // On rajoute un groupe englobant toute la visualisation pour plus tard
@@ -97,7 +95,7 @@
                   "rgb(116,196,118)",
                   "rgb(49,163,84)",
                   "rgb(0,109,44)"]);
-    var c_lyon = "#00ff00",
+    var c_lyon = "#ffee00",
         c_lyon_mouseOn = "#009900",
         c_n_lyon = "#ccc",
         c_n_lyon_mouseOn = "#666"
@@ -133,9 +131,30 @@
                        ];
     var path = d3.geoPath()
                  .projection(projection); 
-    // chart
-    function chart(data, tox){
+    // dot coloration
+    function red_dot(d){
+      d3.selectAll(".dot").filter(function(e) {
+        return e === d;
+      }).style("fill", "red");
+    }
+    function color_array(array){
+      d3.selectAll(".dot").style("fill", "blue");
+      array.forEach(function(d){
+        red_dot(d);
+      });
+    }
+    // chart_array
+    function chart_array(array, tox){
+      svg2.selectAll("g").remove();
       var max = 0;
+      array.forEach(function(d,i){
+        max = chart(d,tox,i+1, max);
+      });
+      return max;
+    }
+    // chart
+    function chart(data, tox, pos, max){
+      if(pos == 3) return;
       var toxines = [];
       for (i = 0; i < tox.length; i++) { 
         var toxine = tox[i].toxine;
@@ -145,41 +164,66 @@
           max = value;   
       };
       var x = d3.scaleLinear().range([0, width]).domain([0, tox.length - 1]);
-      var y = d3.scaleLinear().range([0, height/2.5]).domain([0, max]);
+      var y = d3.scaleLinear().range([0, height/3]).domain([0, max]);
       var xScale = d3.scaleBand()
         .domain(tox.map(function(d){ return d.toxine; }))
-        .range([0, width*1.063]);
+        .range([0, width]);
+      var yScale = d3.scaleBand()
+        .domain(d3.extent(tox, function(d) { return data[d.toxine]; }))
+        .range([height/3, 0]);
       
       var xAxis = d3.axisBottom()
         .scale(xScale).ticks(17);
+      var yAxis = d3.axisLeft()
+        .scale(yScale).ticks(4);
       
       svg2.append( "g" )
-    	.attr("transform", "translate(30 ,30)")
+    	.attr("transform", "translate("+(30+width*(pos - 1)*1.1)+" ,30)")
         .append("text")
-        .text(data.nom_site)
+        .text(data.nom_station)
       ;
-      for (i = 0; i < tox.length; i++) { 
-        svg2.append( "g" )
-          .attr("transform", "translate(20 ,"+ (height/2+10) +")")
-          .call(xAxis)
-          	.selectAll("text")	
-            .style("text-anchor", "end")
-            .style("font-size", 12)
-            .style("font-family", "monospace")
-            .attr("dx", "-.8em")
-            .attr("dy", ".15em")
-            .attr("transform", function(d) {
-              return "rotate(-65)" 
-            });;
-        
-        svg2.append( "g" )
-          .attr("transform", "translate(30 ,0)")
+      svg2.append( "g" )
+        .attr("transform", "translate(" + (20+width*(pos - 1))*1.1 + " ,30)")
+        .call(yAxis)
+      svg2.append( "g" )
+        .attr("transform", "translate(" + (20+width*(pos - 1))*1.1 + " ,"+ (height/2+10) +")")
+        .call(xAxis)
+        .selectAll("text")	
+        .style("text-anchor", "end")
+        .style("font-size", 12)
+        .style("font-family", "monospace")
+        .attr("dx", "-.8em")
+        .attr("dy", ".15em")
+        .attr("transform", function(d) {
+        return "rotate(-65)" 
+      });
+      var g2 = svg2.append( "g" )
+        .attr("transform", "translate("+(30+width*(pos - 1))+" ,0)")
+      	.selectAll("rect").data(tox).enter()
           .append("rect")
-          .attr("x", x(i))
-          .attr("y", height/2 - y(data[tox[i].toxine]))
-          .attr("height", y(data[tox[i].toxine]))
-          .attr("width", 10 );
-      };
+          .attr("class", "tox")
+          .attr("x", function(d,i){ return x(i);})
+          .attr("y",function(d){ return height/2 - y(data[d.toxine]); })
+          .attr("height", function(d){ return y(data[d.toxine]); })
+          .attr("width", 30 )
+          .on('mouseover', function(d) {
+            d3.selectAll(".tox").filter(function(e) {
+              return e === d;
+            }).attr("fill", "#32ffea");
+        
+            g2.selectAll("#tooltip").data([d]).enter().append("text")
+            .attr("id", "tooltip")
+            .text(function(d) { return data[d.toxine]; })
+            .attr("x", function(d,i){ return x(i);})
+            .attr("y",function(d){ return height/2 - y(data[d.toxine]); })
+          })
+          .on('mouseout', function(d) {
+        		svg2.selectAll(".value").remove();
+            d3.selectAll(".tox").filter(function(e) {
+              return e === d;
+            }).attr("fill", "#000000");
+          });
+      return max;
     };
     
     // carte
@@ -251,33 +295,30 @@
             return e === d;
           }).attr("r", 10)
             .style("stroke-width", "10");
-          svg2.selectAll("g").remove();
-          chart(d, tox);
+        	var max = chart_array(station_array, tox);
+          chart(d, tox, station_array.length + 1, max);
         })
         .on('mouseout', function(d) {
+        	chart_array(station_array, tox);
           d3.selectAll(".dot").filter(function(e) {
             return e === d;
           }).attr("r", 5)
-            .style("stroke-width", "2")
+            .style("stroke-width", "2");
         })
       	.on('click', function(d) {
-        	console.log(b_click)
-        	if (b_click){
-            if (d === first_click){
-              d3.selectAll(".dot").filter(function(e) {
-                return e === d;
-              }).style("fill", "blue");
-              b_click=false;
-            }
+          if (station_array.indexOf(d) === -1){
+            if (station_array.length < 2){
+              station_array.push(d);
+            } else {
+              station_array.pop();
+              station_array.push(d);
+            };
+            
           } else {
-            first_click = d;
-            b_click=true;
-          }
-        	console.log(b_click)
-        	g.selectAll("circle").style("fill", "blue");
-          d3.selectAll(".dot").filter(function(e) {
-            return e === d;
-          }).style("fill", "red");
+            station_array.splice(station_array.indexOf(d),1);
+          };
+        	color_array(station_array);
+        	chart_array(station_array, tox);
         })
       ;
     }
