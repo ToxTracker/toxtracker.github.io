@@ -7,209 +7,15 @@
     h1 {
       font-weight: bold;
       color: #ff4747;
-      font-size: 30px;
+      font-size: 20px;
       font-family: Arial, Helvetica, sans-serif;
     }
-    .scrollbar {
-      margin-left: 22px;
-      float: left;
-      height: 300px;
-      width: 65px;
-      background: #F5F5F5;
-      overflow-y: scroll;
-      margin-bottom: 25px;
+    .container {
+      overflow-y: scroll; 
+      height: 650px;
+      width: 1500px;
     }
-
-    .force-overflow {
-      min-height: 450px;
-    }
-
-    #wrapper {
-      text-align: center;
-      margin: auto;
-    }
-
-    #style-1::-webkit-scrollbar,
-    #style-2::-webkit-scrollbar {
-      width: 12px;
-      background-color: #F5F5F5;
-    }
-
-    #style-4::-webkit-scrollbar,
-    #style-5::-webkit-scrollbar,
-    #style-6::-webkit-scrollbar,
-    #style-7::-webkit-scrollbar,
-    #style-8::-webkit-scrollbar,
-    #style-9::-webkit-scrollbar,
-    #style-10::-webkit-scrollbar,
-    #style-11::-webkit-scrollbar {
-      width: 10px;
-      background-color: #F5F5F5;
-    }
-
-    /**  STYLE 1 */
-    #style-1::-webkit-scrollbar-thumb {
-      border-radius: 10px;
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-      background-color: #555;
-    }
-
-    #style-1::-webkit-scrollbar-track {
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-      border-radius: 10px;
-      background-color: #F5F5F5;
-    }
-
-    /**  STYLE 2 */
-    #style-2::-webkit-scrollbar-thumb {
-      border-radius: 10px;
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-      background-color: #D62929;
-    }
-
-    #style-2::-webkit-scrollbar-track {
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-      border-radius: 10px;
-      background-color: #F5F5F5;
-    }
-
-    /**  STYLE 3 */
-    #style-3::-webkit-scrollbar-track {
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-      background-color: #F5F5F5;
-    }
-
-    #style-3::-webkit-scrollbar {
-      width: 6px;
-      background-color: #F5F5F5;
-    }
-
-    #style-3::-webkit-scrollbar-thumb {
-      background-color: #000000;
-    }
-
-    /**  STYLE 4 */
-    #style-4::-webkit-scrollbar-track {
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-      background-color: #F5F5F5;
-    }
-
-    #style-4::-webkit-scrollbar-thumb {
-      background-color: #000000;
-      border: 2px solid #555555;
-    }
-
-    /**  STYLE 5 */
-    #style-5::-webkit-scrollbar-track {
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-      background-color: #F5F5F5;
-    }
-
-    #style-5::-webkit-scrollbar-thumb {
-      background-color: #0ae;
-      background-image: -webkit-gradient(linear, 0 0, 0 100%,
-                        color-stop(.5, rgba(255, 255, 255, .2)),
-                        color-stop(.5, transparent), to(transparent));
-    }
-
-    /**  STYLE 6 */
-    #style-6::-webkit-scrollbar-track {
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-      background-color: #F5F5F5;
-    }
-
-    #style-6::-webkit-scrollbar-thumb {
-      background-color: #F90;	
-      background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .2) 25%,
-                            transparent 25%,
-                            transparent 50%,
-                            rgba(255, 255, 255, .2) 50%,
-                            rgba(255, 255, 255, .2) 75%,
-                            transparent 75%,
-                            transparent)
-    }
-
-    /** STYLE 7 */
-    #style-7::-webkit-scrollbar-track {
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-      background-color: #F5F5F5;
-      border-radius: 10px;
-    }
-
-    #style-7::-webkit-scrollbar-thumb {
-      border-radius: 10px;
-      background-image: -webkit-gradient(linear,
-                         left bottom,
-                         left top,
-                         color-stop(0.44, rgb(122,153,217)),
-                         color-stop(0.72, rgb(73,125,189)),
-                         color-stop(0.86, rgb(28,58,148)));
-    }
-
-    /**  STYLE 8 */
-    #style-8::-webkit-scrollbar-track {
-      border: 1px solid black;
-      background-color: #F5F5F5;
-    }
-
-    #style-8::-webkit-scrollbar-thumb {
-      background-color: #000000;	
-    }
-
-    /**  STYLE 9 */
-    #style-9::-webkit-scrollbar-track {
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-      background-color: #F5F5F5;
-    }
-
-    #style-9::-webkit-scrollbar-thumb {
-      background-color: #F90;	
-      background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, .2) 25%,
-                            transparent 25%,
-                            transparent 50%,
-                            rgba(255, 255, 255, .2) 50%,
-                            rgba(255, 255, 255, .2) 75%,
-                            transparent 75%,
-                            transparent)
-    }
-
-    /**  STYLE 10 */
-    #style-10::-webkit-scrollbar-thumb {
-      border-radius: 10px;
-      background: linear-gradient(left, #96A6BF, #63738C);
-      box-shadow: inset 0 0 1px 1px #5C6670;
-    }
-
-    #style-10::-webkit-scrollbar-track {
-      border-radius: 10px;
-      background: #eee;
-      box-shadow: 0 0 1px 1px #bbb, inset 0 0 7px rgba(0,0,0,0.3)
-    }
-
-    #style-10::-webkit-scrollbar-thumb:hover {
-      background: linear-gradient(left, #8391A6, #536175);
-    }
-
-    /**  STYLE 11 */
-    #style-11::-webkit-scrollbar-track {
-      border-radius: 10px;
-      background: rgba(0,0,0,0.1);
-      border: 1px solid #ccc;
-    }
-
-    #style-11::-webkit-scrollbar-thumb {
-      border-radius: 10px;
-      background: linear-gradient(left, #fff, #e4e4e4);
-      border: 1px solid #aaa;
-    }
-
-    #style-11::-webkit-scrollbar-thumb:hover {
-      background: #fff;
-    }
-
-    #style-11::-webkit-scrollbar-thumb:active {
-      background: linear-gradient(left, #22ADD4, #1E98BA);
-    }									
+						
     .province {
         fill: #000;
         stroke: #fff;
@@ -273,26 +79,25 @@
 </head>
 
 <body> 
-  <h1 align="center">ToxTracker</h1>
   <script>
     var station_array = [], station_m_array = [];
-		var width = 450,
+    var width = 450,
         height = 650,
         scale = 90000,
         X = 5.11,
         Y = 45.785,
         monthValue = "12-2017";
-		var link_json = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/lyon.geojson",
-//         link_data = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data.json",
-  			link_data_new = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data_new.json",
+    var link_json = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/lyon.geojson",
+        //         link_data = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data.json",
+        link_data_new = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data_new.json",
         link_slider = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data/slider_value.csv",
-    		link_tox = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data/toxines.csv";
+        link_tox = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data/toxines.csv";
     var q = d3.queue();
     q.defer(d3.json, link_data_new)
       .defer(d3.csv, link_tox)
       .defer(d3.csv, link_slider)
       .defer(d3.json, link_json)
-    	.await(processData);
+      .await(processData);
     function processData(err, a_data, tox, slider , json){
       var year = "y" + monthValue;
       map(X,Y,scale, a_data[year], tox, json, a_data, slider);
@@ -301,46 +106,46 @@
         year = "y" + monthValue;
         d3.select('#month').html(monthValue);
         map(X,Y,scale, a_data[year], tox, json, a_data, slider);
-        
+
       });
     };
-        
+
     var div = d3.select("body")
-      .append("div")
-    	.attr("id", "viz")
-    	.attr("top", 10)
-    	.attr("left", 10)
-		  .attr( "width", width*3+120 )
-		  .attr( "height", height );    
-		var svg = div.append( "svg" )
-		  .attr( "class", "svg_carte")
-		  .attr( "width", width)
-		  .attr( "height", height );     
+    .append("div")
+    .attr("class", "viz")
+    .attr("top", 10)
+    .attr("left", 10)
+    .attr( "width", width*3+180 )
+    .attr( "height", height );    
+    var svg = div.append( "svg" )
+    .attr( "class", "svg_carte")
+    .attr( "width", width)
+    .attr( "height", height );     
     var svg2 = div.append( "svg" )
-		  .attr( "class", "svg_chart")
-		  .attr( "width", width*2+120)
-		  .attr( "height", height );
-    
+    .attr( "class", "svg_chart")
+    .attr( "width", width*2+120)
+    .attr( "height", height );
+
     // On rajoute un groupe englobant toute la visualisation pour plus tard
     var g = svg.append( "g" ); 
-    
+
     var tooltip = d3.select('body').append('div')
-            .attr('class', 'hidden tooltip');
+    .attr('class', 'hidden tooltip');
     var projection = d3.geoConicConformal()
-    					.center([X, Y]).scale(scale);
-    
-		// On definie une echelle de couleur
-		
+    .center([X, Y]).scale(scale);
+
+    // On definie une echelle de couleur
+
     var color = d3.scaleQuantize()
-      .range(["#10f400","#7ef400","#f4e800","#f49f00","#f41400"]),
+    .range(["#10f400","#7ef400","#f4e800","#f49f00","#f41400"]),
         color_legend = d3.scaleQuantize()
-      .range(["steelblue","darkviolet","firebrick","palegreen"]).domain([0,4]);
+    .range(["steelblue","darkviolet","firebrick","palegreen"]).domain([0,4]);
     color.domain([0,150]);
     var c_lyon = "#00ffee",
         c_lyon_mouseOn = "#007f77",
         c_n_lyon = "#ccc",
         c_n_lyon_mouseOn = "#666"
-    
+
     var lyon_commune = ["Lyon", "Mulatière", "Villeurbanne",
                         "Saint-Fons", "Vaulx-en-Velin", "Bron", 
                         "Vénissieux", "Pierre-Bénite", "Feyzin",
@@ -371,7 +176,7 @@
                         "Tassin-la-Demi-Lune", "Vernaison", "Ternay"
                        ];
     var path = d3.geoPath()
-                 .projection(projection); 
+    .projection(projection); 
     // dot coloration
     function red_dot(d){
       d3.selectAll(".dot").filter(function(e) {
@@ -380,9 +185,9 @@
     }
     function color_array(array, tox){
       d3.selectAll(".dot").style("fill", function(d,i){
-        	if(d.value == -1) return "#ccc";
-        	return color(d.value);
-        })
+        if(d.value == -1) return "#ccc";
+        return color(d.value);
+      })
       array.forEach(function(d){
         red_dot(d);
       });
@@ -398,27 +203,27 @@
     function chart(data, month , tox, pos, slider, a_data){
       if(pos == 3) return;
       slider.forEach(function (e){
-          tox.forEach(function(f){
-            a_data["y"+e.slider_val].forEach(function(g){
-              if(g["code_station"]===data["code_station"]){
-            		e[f.toxine]=g[f.toxine];
-              }
-            });
+        tox.forEach(function(f){
+          a_data["y"+e.slider_val].forEach(function(g){
+            if(g["code_station"]===data["code_station"]){
+              e[f.toxine]=g[f.toxine];
+            }
           });
         });
+      });
       var x = d3.scaleLinear().range([65, width-50]).domain([0, tox.length - 1]);
       var y = d3.scaleLinear().range([0, height/3]).domain([0, 126.7]);
       var xScale = d3.scaleBand()
-        .domain(tox.map(function(d){ return d.toxine; }))
-        .range([0, width]);
+      .domain(tox.map(function(d){ return d.toxine; }))
+      .range([0, width]);
       var yScale = d3.scaleLinear().range([height/3,0]).domain([0, 126.7]);
       var xAxis = d3.axisBottom()
-        .scale(xScale).ticks(17);
+      .scale(xScale).ticks(17);
       var yAxis = d3.axisLeft()
-        .scale(yScale).ticks(8);
+      .scale(yScale).ticks(8);
       var sc =0.9;
       svg2.append( "g" )
-    	.attr("transform", "translate("+((50+width)*(pos - 1) + 40)+" ,30)")
+        .attr("transform", "translate("+((50+width)*(pos - 1) + 40)+" ,30)")
         .append("text")
         .text(data.nom_station + " - " + month)
       ;
@@ -439,120 +244,120 @@
       });
       svg2.append( "g" )
         .attr("transform", "translate(" + ((40+width)*(pos - 1) + 30) + " ,40)")
-      	.append("rect")
+        .append("rect")
         .attr("x", 0)
         .attr("y", 0)
         .attr("height", y(126.7))
         .attr("width", width )
-      	.attr("fill", "#ffffff")
+        .attr("fill", "#ffffff")
         .style("stroke", "#000")
         .style("stroke-width", "1")
         .attr("opacity", 0.5)
-      
+
       svg2.append( "g" )
         .attr("transform", "translate("+(width*(pos - 1)*1.08 + 10)+" ,0)")
-      	.selectAll("rect").data(tox).enter()
-          .append("rect")
-          .attr("class", "tox")
-          .attr("x", function(d,i){ return x(i);})
-          .attr("y",function(d){ return height/3 +40- y(data[d.toxine]); })
-          .attr("height", function(d){ return y(data[d.toxine]); })
-          .attr("width", 30 )
-      		.attr("fill", function(d,i){
-              return color_legend(i);
-            });
-      svg2.append( "g" )
-        .attr("transform", "translate("+(width*(pos - 1)*1.08 + 10)+" ,0)")
-      	.selectAll("#tooltip").data(tox).enter().append("text")
-          .attr("id", "tooltip")
-          .text(function(d) { return data[d.toxine]; })
-          .attr("class", "tox_val")
-          .attr("x", function(d,i){ return x(i);})
-          .attr("y",function(d){ return height/3 +35- y(data[d.toxine]); });
-      
-      //line chart
-//       var xScaleLine = d3.scaleBand()
-//         .domain(slider.map(function(d){ return d.slider_val; }))
-//         .range([0, width]);
-      
-			var parseTime = d3.timeParse("%m-%Y");
-      var xScaleLine = d3.scaleTime()
-//         .domain(d3.extent(slider,function(d){ return parseTime(d.slider_val); }))
-        .range([0, width]);
-      
-      var yScaleLine = d3.scaleLinear().range([height/3,0]);
-//       			.domain([0, 126.7]);
-      xAxis = d3.axisBottom(xScaleLine);
-      svg2.append( "g" )
-        .attr("transform", "translate("+(width*(pos - 1)*1.08 + 10)+" ,0)")
-      	.selectAll("rect").data(tox).enter()
-          .append("rect")
-          .attr("class", "leg")
-          .attr("x", function(d,i){ return x(i)-50;})
-          .attr("y",function(d){ return height/3 +120; })
-          .attr("height", 10 )
-          .attr("width", 10 )
-      		.attr("fill", function(d,i){
+        .selectAll("rect").data(tox).enter()
+        .append("rect")
+        .attr("class", "tox")
+        .attr("x", function(d,i){ return x(i);})
+        .attr("y",function(d){ return height/3 +40- y(data[d.toxine]); })
+        .attr("height", function(d){ return y(data[d.toxine]); })
+        .attr("width", 30 )
+        .attr("fill", function(d,i){
         return color_legend(i);
       });
       svg2.append( "g" )
         .attr("transform", "translate("+(width*(pos - 1)*1.08 + 10)+" ,0)")
-      	.selectAll("text").data(tox).enter()
-          .append("text")
-          .attr("class", "leg")
-          .attr("x", function(d,i){ return x(i)-30;})
-          .attr("y",function(d){ return height/3 +130; })
-      		.text(function(d){return d.toxine;})
+        .selectAll("#tooltip").data(tox).enter().append("text")
+        .attr("id", "tooltip")
+        .text(function(d) { return data[d.toxine]; })
+        .attr("class", "tox_val")
+        .attr("x", function(d,i){ return x(i);})
+        .attr("y",function(d){ return height/3 +35- y(data[d.toxine]); });
+
+      //line chart
+      //       var xScaleLine = d3.scaleBand()
+      //         .domain(slider.map(function(d){ return d.slider_val; }))
+      //         .range([0, width]);
+
+      var parseTime = d3.timeParse("%m-%Y");
+      var xScaleLine = d3.scaleTime()
+      //         .domain(d3.extent(slider,function(d){ return parseTime(d.slider_val); }))
+      .range([0, width]);
+
+      var yScaleLine = d3.scaleLinear().range([height/3,0]);
+      //       			.domain([0, 126.7]);
+      xAxis = d3.axisBottom(xScaleLine);
+      svg2.append( "g" )
+        .attr("transform", "translate("+(width*(pos - 1)*1.08 + 10)+" ,0)")
+        .selectAll("rect").data(tox).enter()
+        .append("rect")
+        .attr("class", "leg")
+        .attr("x", function(d,i){ return x(i)-50;})
+        .attr("y",function(d){ return height/3 +120; })
+        .attr("height", 10 )
+        .attr("width", 10 )
+        .attr("fill", function(d,i){
+        return color_legend(i);
+      });
+      svg2.append( "g" )
+        .attr("transform", "translate("+(width*(pos - 1)*1.08 + 10)+" ,0)")
+        .selectAll("text").data(tox).enter()
+        .append("text")
+        .attr("class", "leg")
+        .attr("x", function(d,i){ return x(i)-30;})
+        .attr("y",function(d){ return height/3 +130; })
+        .text(function(d){return d.toxine;})
       svg2.append( "g" )
         .attr("transform", "translate(" + ((40+width)*(pos - 1) + 30) + ","+ (height/2 + 40) +")")
         .call(yAxis);
       svg2.append( "g" )
         .attr("transform", "translate(" + ((40+width)*(pos - 1) + 30) + " ,"+ (height/2 + 40) +")")
-      	.append("rect")
+        .append("rect")
         .attr("x", 0)
         .attr("y", 0)
         .attr("height", y(126.7))
         .attr("width", width )
-      	.attr("fill", "#ffffff")
+        .attr("fill", "#ffffff")
         .style("stroke", "#000")
         .style("stroke-width", "1")
         .attr("opacity", 0.5)
       var line1 = d3.line()
-        .x(function(d) { return xScaleLine(parseTime(d.slider_val)); }) 
-        .y(function(d) { 
-          if (d["pm10"]){
-          	return yScaleLine(d["pm10"]); 
-          }
-          return yScaleLine(0);
-        }) 
+      .x(function(d) { return xScaleLine(parseTime(d.slider_val)); }) 
+      .y(function(d) { 
+        if (d["pm10"]){
+          return yScaleLine(d["pm10"]); 
+        }
+        return yScaleLine(0);
+      }) 
       var line2 = d3.line()
-        .x(function(d) { return xScaleLine(parseTime(d.slider_val)); }) 
-        .y(function(d) { 
-          if (d["so2"]){
-          	return yScaleLine(d["so2"]); 
-          }
-          return yScaleLine(0);
-        }) 
+      .x(function(d) { return xScaleLine(parseTime(d.slider_val)); }) 
+      .y(function(d) { 
+        if (d["so2"]){
+          return yScaleLine(d["so2"]); 
+        }
+        return yScaleLine(0);
+      }) 
       var line3 = d3.line()
-        .x(function(d) { return xScaleLine(parseTime(d.slider_val)); }) 
-        .y(function(d) { 
-          if (d["no2"]){
-          	return yScaleLine(d["no2"]); 
-          }
-          return yScaleLine(0);
-        }) 
+      .x(function(d) { return xScaleLine(parseTime(d.slider_val)); }) 
+      .y(function(d) { 
+        if (d["no2"]){
+          return yScaleLine(d["no2"]); 
+        }
+        return yScaleLine(0);
+      }) 
       var line4 = d3.line()
-        .x(function(d) { return xScaleLine(parseTime(d.slider_val)); }) 
-        .y(function(d) { 
-          if (d["ozone"]){
-          	return yScaleLine(d["ozone"]); 
-          }
-          return yScaleLine(0);
-        }) 
-        .curve(d3.curveMonotoneX);
+      .x(function(d) { return xScaleLine(parseTime(d.slider_val)); }) 
+      .y(function(d) { 
+        if (d["ozone"]){
+          return yScaleLine(d["ozone"]); 
+        }
+        return yScaleLine(0);
+      }) 
+      .curve(d3.curveMonotoneX);
       xScaleLine.domain(d3.extent(slider,function(d){ return parseTime(d.slider_val); }));
       yScaleLine.domain([0, 126.7]);
-      
+
       svg2.append( "g" )
         .attr("transform", "translate(" + ((40+width)*(pos - 1) + 30) + " ,"+ (height - 68) +")")
         .call(xAxis)
@@ -567,38 +372,38 @@
       });
       svg2.append("g")
         .attr("transform", "translate(" + ((40+width)*(pos - 1) + 30) + " ,"+ (height/2 + 40) +")")
-      	.append("path")
+        .append("path")
         .data([slider])
         .attr("class", "line")
-      	.style("stroke", "firebrick")
+        .style("stroke", "firebrick")
         .attr("d", line1);
       svg2.append("g")
         .attr("transform", "translate(" + ((40+width)*(pos - 1) + 30) + " ,"+ (height/2 + 40) +")")
-      	.append("path")
+        .append("path")
         .data([slider])
         .attr("class", "line")
-      	.style("stroke", "steelblue")
+        .style("stroke", "steelblue")
         .attr("d", line2);
       svg2.append("g")
         .attr("transform", "translate(" + ((40+width)*(pos - 1) + 30) + " ,"+ (height/2 + 40) +")")
-      	.append("path")
+        .append("path")
         .data([slider])
         .attr("class", "line")
-      	.style("stroke", "darkviolet")
+        .style("stroke", "darkviolet")
         .attr("d", line3);
       svg2.append("g")
         .attr("transform", "translate(" + ((40+width)*(pos - 1) + 30) + " ,"+ (height/2 + 40) +")")
-      	.append("path")
+        .append("path")
         .data([slider])
         .attr("class", "line")
-      	.style("stroke", "palegreen")
+        .style("stroke", "palegreen")
         .attr("d", line4);
     };
-    
+
     // carte
     function map(X,Y, scale, data, tox, json, a_data, slider){
-      
-      
+
+
       g.selectAll("circle").remove();
       g.selectAll("path")
         .data(json.features)
@@ -610,39 +415,39 @@
         .style("stroke-width", "0.2")
         .style("fill", "#ccc")
         .on('mousemove', function(d) {    
-          d3.selectAll(".zone")
-            .filter(function(e) {
-            return e === d;
-          })
-            .style("fill", function(e) {
-            var nom = lyon_commune.indexOf(e.properties.nom);
-            if(nom >= 0){
-              return c_lyon_mouseOn;
-            } else { 
-              return c_n_lyon_mouseOn;
-            }
-          });
-          var mouse = d3.mouse(svg.node()).map(function(d) {
-            return parseInt(d);
-          });
-          tooltip.classed('hidden', false)
-            .attr('style', 'left:' + (mouse[0] + 15) +
-                  'px; top:' + (mouse[1] - 35) + 'px')
-            .html(d.properties.nom);
+        d3.selectAll(".zone")
+          .filter(function(e) {
+          return e === d;
         })
-        .on('mouseout', function(d) {
-          tooltip.classed('hidden', true);
-          d3.selectAll(".zone").filter(function(e) {
-            return e === d;
-          }).style("fill", function(d) {
-            var nom = lyon_commune.indexOf(d.properties.nom);
-            if(nom >= 0){
-              return c_lyon;
-            } else { 
-              return c_n_lyon;
-            }
-          })
+          .style("fill", function(e) {
+          var nom = lyon_commune.indexOf(e.properties.nom);
+          if(nom >= 0){
+            return c_lyon_mouseOn;
+          } else { 
+            return c_n_lyon_mouseOn;
+          }
         });
+        var mouse = d3.mouse(svg.node()).map(function(d) {
+          return parseInt(d);
+        });
+        tooltip.classed('hidden', false)
+          .attr('style', 'left:' + (mouse[0] + 15) +
+                'px; top:' + (mouse[1] - 35) + 'px')
+          .html(d.properties.nom);
+      })
+        .on('mouseout', function(d) {
+        tooltip.classed('hidden', true);
+        d3.selectAll(".zone").filter(function(e) {
+          return e === d;
+        }).style("fill", function(d) {
+          var nom = lyon_commune.indexOf(d.properties.nom);
+          if(nom >= 0){
+            return c_lyon;
+          } else { 
+            return c_n_lyon;
+          }
+        })
+      });
       g.selectAll(".zone").filter(function(d) {
         if(lyon_commune.indexOf(d.properties.nom) >= 0){
           return d;
@@ -660,69 +465,70 @@
         .attr("cx", function(d) { return projection([d.X, d.Y])[0]; })
         .attr("cy", function(d) { return projection([d.X, d.Y])[1]; })
         .style("fill", function(d){
-          var cnt = 0;
-        	var value = 0;
-          for (i = 0; i < tox.length; i++) { 
-            var toxine = tox[i].toxine;
-            if(d[toxine]){ 
-              value = value + parseInt(d[toxine], 10);
-            } else {
-              cnt = cnt + 1;
-              value = value + 0;
-            };  
-          };
-        	d.value = value;
-        	if (cnt == 4) {
-            d.value = -1;
-            return "#ccc";
-          };
-        	return color(value);
-        })
+        var cnt = 0;
+        var value = 0;
+        for (i = 0; i < tox.length; i++) { 
+          var toxine = tox[i].toxine;
+          if(d[toxine]){ 
+            value = value + parseInt(d[toxine], 10);
+          } else {
+            cnt = cnt + 1;
+            value = value + 0;
+          };  
+        };
+        d.value = value;
+        if (cnt == 4) {
+          d.value = -1;
+          return "#ccc";
+        };
+        return color(value);
+      })
         .style("stroke", "#000")
         .style("stroke-width", "2")
         .on('mouseover', function(d) {
-          d3.selectAll(".dot").filter(function(e) {
-            return e === d;
-          }).attr("r", 10)
-            .style("stroke-width", "4")
-          ;
-        	chart_array(station_array, station_m_array, tox, slider,a_data);
-          chart(d,monthValue, tox, station_array.length + 1, slider, a_data);
-        })
+        d3.selectAll(".dot").filter(function(e) {
+          return e === d;
+        }).attr("r", 10)
+          .style("stroke-width", "4")
+        ;
+        chart_array(station_array, station_m_array, tox, slider,a_data);
+        chart(d,monthValue, tox, station_array.length + 1, slider, a_data);
+      })
         .on('mouseout', function(d) {
-        	chart_array(station_array, station_m_array, tox, slider,a_data);
-          d3.selectAll(".dot").filter(function(e) {
-            return e === d;
-          }).attr("r", 8)
-            .style("stroke-width", "2");
-        })
-      	.on('click', function(d) {
-          if (station_array.indexOf(d) === -1){
-            if (station_array.length < 2){
-              d.month = monthValue;
-              station_m_array.push(monthValue)
-              station_array.push(d);
-            } else {
-              station_m_array.pop()
-              station_array.pop();
-              station_m_array.push(monthValue)
-              d.month = monthValue;
-              
-              station_array.push(d);
-            };
-            
+        chart_array(station_array, station_m_array, tox, slider,a_data);
+        d3.selectAll(".dot").filter(function(e) {
+          return e === d;
+        }).attr("r", 8)
+          .style("stroke-width", "2");
+      })
+        .on('click', function(d) {
+        if (station_array.indexOf(d) === -1){
+          if (station_array.length < 2){
+            d.month = monthValue;
+            station_m_array.push(monthValue)
+            station_array.push(d);
           } else {
-            
-            station_m_array.splice(station_array.indexOf(d),1)
-            station_array.splice(station_array.indexOf(d),1);
+            station_m_array.pop()
+            station_array.pop();
+            station_m_array.push(monthValue)
+            d.month = monthValue;
+
+            station_array.push(d);
           };
-        	color_array(station_array,tox);
-        	chart_array(station_array, station_m_array, tox, slider,a_data);
-        })
+
+        } else {
+
+          station_m_array.splice(station_array.indexOf(d),1)
+          station_array.splice(station_array.indexOf(d),1);
+        };
+        color_array(station_array,tox);
+        chart_array(station_array, station_m_array, tox, slider,a_data);
+      })
       ;
     }
-    
+
   </script>
+
   <div id="sliderContainer" width="450">
     <input id="timeslide" type="range" min="0" max="12" value="0" step="1" class="slider" id="myRange"  width="450"/><br>
     <span id="month">month</span>
