@@ -39,7 +39,7 @@
         scale = 90000,
         X = 5.11,
         Y = 45.785,
-        y = "12-2017";
+        monthValue = "12-2017";
 		var link_json = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/lyon.geojson",
 //         link_data = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data.json",
   			link_data_new = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data_new.json",
@@ -52,10 +52,10 @@
       .defer(d3.json, link_json)
     	.await(processData);
     function processData(err, a_data, tox, slider , json){
-      var year = "y" + y;
+      var year = "y" + monthValue;
       map(X,Y,scale, a_data[year], tox, json, a_data, slider);
       d3.select("#timeslide").on("input", function() {
-        var monthValue = slider[this.value].slider_val;
+        monthValue = slider[this.value].slider_val;
         year = "y" + monthValue;
         d3.select('#month').html(monthValue);
         map(X,Y,scale, a_data[year], tox, json, a_data, slider);
@@ -161,12 +161,13 @@
         .domain(tox.map(function(d){ return d.toxine; }))
         .range([0, width]);
       var yScale = d3.scaleLinear().range([height/3,0]).domain([0, 126.7]);
-      
+      var xScale1 = d3.scaleLinear().range([height/3,0]).domain([0, 126.7]);
       var xAxis = d3.axisBottom()
         .scale(xScale).ticks(17);
       var yAxis = d3.axisLeft()
         .scale(yScale).ticks(8);
       var sc =0.9;
+      console.log(data.month)
       svg2.append( "g" )
     	.attr("transform", "translate("+((50+width)*(pos - 1) + 40)+" ,30)")
         .append("text")
@@ -226,6 +227,10 @@
           .attr("class", "tox")
           .attr("x", function(d,i){ return x(i);})
           .attr("y",function(d){ return height/3 +35- y(data[d.toxine]); });
+      var line = d3.line()
+        .x(function(d, i) { return xScale(i); }) 
+        .y(function(d) { return yScale(d.y); }) 
+        .curve(d3.curveMonotoneX) 
     };
     
     // carte
@@ -320,7 +325,7 @@
             .style("stroke-width", "4")
           ;
         	chart_array(station_array, station_m_array, tox);
-          chart(d,y, tox, station_array.length + 1);
+          chart(d,monthValue, tox, station_array.length + 1);
         })
         .on('mouseout', function(d) {
         	chart_array(station_array, station_m_array, tox);
@@ -332,12 +337,15 @@
       	.on('click', function(d) {
           if (station_array.indexOf(d) === -1){
             if (station_array.length < 2){
-              station_m_array.push(y)
+              d.month = monthValue;
+              station_m_array.push(monthValue)
               station_array.push(d);
             } else {
               station_m_array.pop()
               station_array.pop();
-              station_m_array.push(y)
+              station_m_array.push(monthValue)
+              d.month = monthValue;
+              
               station_array.push(d);
             };
             
