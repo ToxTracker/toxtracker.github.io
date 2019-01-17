@@ -112,7 +112,7 @@
         side = 0,
         monthValue = "12-2017";
     var link_json = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/canton.geojson",
-        link_data_new = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data_new.json",
+        link_data_new = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data_new v1.1.json",
         link_slider = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data/slider_value.csv",
         link_tox = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data/toxines.csv";
     var q = d3.queue();
@@ -133,10 +133,12 @@
       d3.select(".openbtn")
         .on('click',function(){ 
         	if (clicked){
+            d3.select("#sliderContainer").style("display","none")
             clicked = false;
             openNav(); 
             chart_array(station_array, station_m_array, tox, slider,a_data);
           } else {
+            d3.select("#sliderContainer").style("display","initial")
             clicked = true;
             svg2.selectAll("g").remove();
             closeNav(); 
