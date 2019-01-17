@@ -1,0 +1,1223 @@
+,gid,nom_dept,nom_com,nom_station,code_station,typologie,influence,nom_poll,id_poll_ue,valeur,unite,metrique,validite,validation,ESRI_OID,mois,annee,X,Y
+0,6,ARDECHE,Saint-Bauzile,Saint Bauzile CEC,FR36007,rural-regional,Industrielle,Dioxyde de soufre,1,6.1,ug.m-3,mensuel,1,1,128536,4,2018,4.673579766,44.67593047
+1,27,RHONE,Villeurbanne,CROIX LUIZET,FR20020,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128868,8,2018,4.894029845,45.77641745
+2,36,RHONE,Villeurbanne,CHARPENNES,FR20021,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128204,1,2018,4.867228342,45.77524286
+3,45,RHONE,Solaize,SOLAIZE,FR20033,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129200,11,2018,4.843340379,45.64917303
+4,43,ISERE,Ã‰chirolles,Le Rondeau,FR15039,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128891,8,2018,5.703760159,45.15832579
+5,88,ISERE,Le Versoud,Versoud,FR15007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128559,4,2018,5.850340053,45.21711641
+6,13,RHONE,DiÃ¨me,HAUT BEAUJOLAIS,FR20049,rural-nearcity,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128227,1,2018,4.465714093,45.96139254
+7,60,RHONE,Lyon,VILLETTE,FR20006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129223,11,2018,4.865014022,45.75807536
+8,44,ISERE,Ã‰chirolles,Le Rondeau,FR15039,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128985,9,2018,5.703760159,45.15832579
+9,88,ISERE,Le Versoud,Versoud,FR15007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128653,5,2018,5.850340053,45.21711641
+10,12,RHONE,DiÃ¨me,HAUT BEAUJOLAIS,FR20049,rural-nearcity,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128321,2,2018,4.465714093,45.96139254
+11,20,RHONE,Lyon,DUCHERE,FR20007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129246,12,2018,4.79473598,45.78641735
+12,42,RHONE,Millery,MILLERY,FR20040,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129083,10,2018,4.803054227,45.63028
+13,7,ISERE,Les Roches-de-Condrieu,ROCHES DE CONDRIEU,FR27003,suburban,Industrielle,Dioxyde de soufre,1,4.6,ug.m-3,mensuel,1,1,128250,1,2018,4.766521159,45.45450301
+14,30,LOIRE,Saint-Ã‰tienne,SAINT ETIENNE SUD,FR29424,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128914,8,2018,4.395419639,45.4201064
+15,83,PUY-DE-DOME,Clermont-Ferrand,Clermont-Esplanade Gare,FR07034,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128582,5,2018,3.096244451,45.77570176
+16,3,SAVOIE,Saint-Jean-de-Maurienne,SAINT JEAN,FR33111,urban,Fond,Dioxyde de soufre,1,3.5,ug.m-3,mensuel,1,1,128728,6,2018,6.349723082,45.27471893
+17,78,HAUTE-SAVOIE,Annecy,LOVERCHY,FR33201,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129269,12,2018,6.118449775,45.89538066
+18,14,AIN,Miribel,COTIERE AIN,FR20047,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128396,3,2018,4.953959787,45.82322611
+19,35,RHONE,Villeurbanne,CHARPENNES,FR20021,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128298,2,2018,4.867228342,45.77524286
+20,76,RHONE,Feyzin,FEYZIN MAIRIE,FR20030,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129060,10,2018,4.856115043,45.67166154
+21,37,ISERE,Vienne,Vienne Estressin,FR27102,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128937,8,2018,4.863904251,45.53975628
+22,67,ISERE,Vizille,Vizille,FR15014,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129037,9,2018,5.770856387,45.07928726
+23,38,ISERE,Vienne,Vienne Estressin,FR27102,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128373,2,2018,4.863904251,45.53975628
+24,18,PUY-DE-DOME,Clermont-Ferrand,Jardin Lecoq,FR07009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128699,6,2018,3.087501101,45.77219697
+25,83,PUY-DE-DOME,Clermont-Ferrand,Clermont-Esplanade Gare,FR07034,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128112,12,2017,3.096244451,45.77570176
+26,78,HAUTE-SAVOIE,Annecy,LOVERCHY,FR33201,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128799,7,2018,6.118449775,45.89538066
+27,72,RHONE,Saint-Genis-Laval,ST GENIS LAVAL,FR20027,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129014,9,2018,4.796125538,45.69335082
+28,31,LOIRE,Saint-Ã‰tienne,SAINT ETIENNE SUD,FR29424,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128350,2,2018,4.395419639,45.4201064
+29,22,PUY-DE-DOME,Clermont-Ferrand,Jardin Lecoq,FR07009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128135,12,2017,3.087501101,45.77219697
+30,83,PUY-DE-DOME,Clermont-Ferrand,Clermont-Esplanade Gare,FR07034,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128676,6,2018,3.096244451,45.77570176
+31,44,ISERE,Ã‰chirolles,Le Rondeau,FR15039,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128327,2,2018,5.703760159,45.15832579
+32,4,SAVOIE,Saint-Jean-de-Maurienne,SAINT JEAN,FR33111,urban,Fond,Dioxyde de soufre,1,4.8,ug.m-3,mensuel,1,1,128822,7,2018,6.349723082,45.27471893
+33,63,RHONE,VÃ©nissieux,VENISSIEUX,FR20043,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128745,6,2018,4.875699604,45.68998231
+34,36,ISERE,Roussillon,ROUSSILLON,FR27002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128158,12,2017,4.805142184,45.36778213
+35,48,PUY-DE-DOME,Clermont-Ferrand,Montferrand,FR07004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128991,9,2018,3.113828888,45.79729717
+36,37,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE Village,FR20061,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128845,7,2018,4.719285546,45.98637779
+37,28,RHONE,Villeurbanne,CROIX LUIZET,FR20020,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128304,2,2018,4.894029845,45.77641745
+38,64,RHONE,VÃ©nissieux,VENISSIEUX,FR20043,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128181,12,2017,4.875699604,45.68998231
+39,33,ISERE,Roussillon,ROUSSILLON,FR27002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128722,6,2018,4.805142184,45.36778213
+40,66,LOIRE,Firminy,FIRMINY,FR29425,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128968,9,2018,4.281682417,45.38796299
+41,90,ISERE,Livet-et-Gavet,Riouperoux,FR15015,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128530,4,2018,5.897099405,45.08625696
+42,93,SAVOIE,ChambÃ©ry,PASTEUR,FR33101,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129277,12,2018,5.928435518,45.56462103
+43,88,ISERE,Le Versoud,Versoud,FR15007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129123,10,2018,5.850340053,45.21711641
+44,12,RHONE,DiÃ¨me,HAUT BEAUJOLAIS,FR20049,rural-nearcity,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128791,7,2018,4.465714093,45.96139254
+45,38,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE Village,FR20061,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128281,1,2018,4.719285546,45.98637779
+46,52,RHONE,Caluire-et-Cuire,CALUIRE,FR20023,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128198,1,2018,4.848345018,45.80140495
+47,65,LOIRE,Firminy,FIRMINY,FR29425,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128874,8,2018,4.281682417,45.38796299
+48,90,ISERE,Livet-et-Gavet,Riouperoux,FR15015,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128436,3,2018,5.897099405,45.08625696
+49,88,ISERE,Le Versoud,Versoud,FR15007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129217,11,2018,5.850340053,45.21711641
+50,56,SAVOIE,Saint-Julien-Mont-Denis,St Julien Montdenis,FR33112,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128922,8,2018,6.412227165,45.2492148
+51,11,RHONE,DiÃ¨me,HAUT BEAUJOLAIS,FR20049,rural-nearcity,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128885,8,2018,4.465714093,45.96139254
+52,54,RHONE,Caluire-et-Cuire,CALUIRE,FR20023,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128104,12,2017,4.848345018,45.80140495
+53,76,RHONE,Feyzin,FEYZIN MAIRIE,FR20030,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128590,5,2018,4.856115043,45.67166154
+54,57,SAVOIE,Saint-Julien-Mont-Denis,St Julien Montdenis,FR33112,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128828,7,2018,6.412227165,45.2492148
+55,78,HAUTE-SAVOIE,Annecy,LOVERCHY,FR33201,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128235,1,2018,6.118449775,45.89538066
+56,80,RHONE,Lyon,POINT DU JOUR,FR20018,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128152,12,2017,4.790200546,45.74856906
+57,76,RHONE,Feyzin,FEYZIN MAIRIE,FR20030,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128496,4,2018,4.856115043,45.67166154
+58,93,SAVOIE,ChambÃ©ry,PASTEUR,FR33101,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129183,11,2018,5.928435518,45.56462103
+59,40,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE Village,FR20061,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128187,12,2017,4.719285546,45.98637779
+60,63,RHONE,VÃ©nissieux,VENISSIEUX,FR20043,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128839,7,2018,4.875699604,45.68998231
+61,38,ISERE,Vienne,Vienne Estressin,FR27102,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129031,9,2018,4.863904251,45.53975628
+62,31,LOIRE,Saint-Ã‰tienne,SAINT ETIENNE SUD,FR29424,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128444,3,2018,4.395419639,45.4201064
+63,40,PUY-DE-DOME,Clermont-Ferrand,Gaillard,FR07007,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128782,7,2018,3.082777891,45.78030494
+64,19,CANTAL,Aurillac,Aurillac Centre,FR07011,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128290,2,2018,2.436778768,44.92313152
+65,67,ISERE,Vizille,Vizille,FR15014,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129131,10,2018,5.770856387,45.07928726
+66,91,ISERE,Grenoble,Grenoble Foch,FR15006,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128977,9,2018,5.721383085,45.18078138
+67,78,HAUTE-SAVOIE,Annecy,LOVERCHY,FR33201,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128141,12,2017,6.118449775,45.89538066
+68,20,RHONE,Lyon,DUCHERE,FR20007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128682,6,2018,4.79473598,45.78641735
+69,3,ISERE,Les Roches-de-Condrieu,ROCHES DE CONDRIEU,FR27003,suburban,Industrielle,Dioxyde de soufre,1,2.4,ug.m-3,mensuel,1,1,128344,2,2018,4.766521159,45.45450301
+70,14,AIN,Miribel,COTIERE AIN,FR20047,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128490,4,2018,4.953959787,45.82322611
+71,30,RHONE,Lyon,ST JUST,FR20004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128736,6,2018,4.820334655,45.75529247
+72,26,RHONE,Pierre-BÃ©nite,PIERRE BENITE,FR20034,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128244,1,2018,4.829697101,45.69956602
+73,87,PUY-DE-DOME,AubiÃ¨re,Landais,FR07005,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129077,10,2018,3.111945993,45.76389086
+74,24,ISERE,Champagnier,Champagnier,FR15012,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128390,3,2018,5.726999066,45.10928942
+75,22,RHONE,Vaulx-en-Velin,VAULX EN VELIN,FR20046,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128931,8,2018,4.924700509,45.77887089
+76,42,RHONE,Millery,MILLERY,FR20040,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129177,11,2018,4.803054227,45.63028
+77,44,RHONE,Solaize,SOLAIZE,FR20033,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128636,5,2018,4.843340379,45.64917303
+78,77,ISERE,Voreppe,Voreppe,FR15003,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128287,1,2018,5.64583986,45.28476346
+79,46,SAVOIE,Saint-Julien-Mont-Denis,St Julien trafic,FR33114,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128453,3,2018,6.397018275,45.25256234
+80,61,PUY-DE-DOME,Clermont-Ferrand,Centre Ville,FR07003,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128951,9,2018,3.083334107,45.77364091
+81,90,ISERE,Livet-et-Gavet,Riouperoux,FR15015,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129094,10,2018,5.897099405,45.08625696
+82,77,ISERE,Voreppe,Voreppe,FR15003,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128381,2,2018,5.64583986,45.28476346
+83,29,HAUTE-SAVOIE,Passy,PASSY,FR33220,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128430,3,2018,6.713642902,45.9235436
+84,86,RHONE,Lyon,GERLAND,FR20017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128596,5,2018,4.829800054,45.73532325
+85,33,RHONE,Ternay,TERNAY,FR20037,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128928,8,2018,4.802195719,45.60192128
+86,91,ISERE,Grenoble,Grenoble Foch,FR15006,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129071,10,2018,5.721383085,45.18078138
+87,65,HAUTE-SAVOIE,Annemasse,ANNEMASSE,FR33211,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128665,6,2018,6.240562703,46.19584661
+88,85,RHONE,Lyon,MONTCHAT,FR20009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128238,1,2018,4.872501618,45.74777291
+89,24,RHONE,Pierre-BÃ©nite,PIERRE BENITE,FR20034,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128902,8,2018,4.829697101,45.69956602
+90,7,RHONE,Saint-Romain-en-Gal,ST ROMAIN,FR20042,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128739,6,2018,4.858617253,45.53497998
+91,94,DROME,Valence,Valence Urb. Centre,FR36002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129306,12,2018,4.893674494,44.93318986
+92,80,RHONE,Lyon,POINT DU JOUR,FR20018,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128716,6,2018,4.790200546,45.74856906
+93,56,RHONE,Saint-Fons,ST FONS CENTRE,FR20031,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128261,1,2018,4.86439959,45.70782432
+94,84,RHONE,Villeurbanne,GRANDCLEMENT,FR20019,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129257,12,2018,4.886217349,45.75835327
+95,66,LOIRE,Firminy,FIRMINY,FR29425,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128310,2,2018,4.281682417,45.38796299
+96,80,RHONE,Lyon,POINT DU JOUR,FR20018,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128622,5,2018,4.790200546,45.74856906
+97,36,RHONE,Saint-Priest,ST PRIEST,FR20036,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129114,10,2018,4.913105816,45.69944163
+98,33,ISERE,Roussillon,ROUSSILLON,FR27002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129286,12,2018,4.805142184,45.36778213
+99,43,LOIRE,Veauche,VEAUCHE,FR29427,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129120,10,2018,4.298550264,45.56581455
+100,67,ISERE,Vizille,Vizille,FR15014,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128473,3,2018,5.770856387,45.07928726
+101,81,ISERE,Champ-sur-Drac,Champ sur Drac,FR15013,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129143,11,2018,5.728650031,45.07951817
+102,22,RHONE,Lyon,GARIBALDI,FR20003,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128971,9,2018,4.850295216,45.7681358
+103,82,RHONE,Lyon,BERTHELOT,FR20002,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128479,4,2018,4.83609939,45.74684026
+104,82,RHONE,Lyon,BERTHELOT,FR20002,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129137,11,2018,4.83609939,45.74684026
+105,80,RHONE,Lyon,POINT DU JOUR,FR20018,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129186,11,2018,4.790200546,45.74856906
+106,36,RHONE,Saint-Priest,ST PRIEST,FR20036,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129020,9,2018,4.913105816,45.69944163
+107,6,RHONE,Saint-Romain-en-Gal,ST ROMAIN,FR20042,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128645,5,2018,4.858617253,45.53497998
+108,81,ISERE,Champ-sur-Drac,Champ sur Drac,FR15013,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129237,12,2018,5.728650031,45.07951817
+109,29,HAUTE-SAVOIE,Passy,PASSY,FR33220,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128994,9,2018,6.713642902,45.9235436
+110,75,RHONE,Lyon,LYON Centre,FR20062,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128330,2,2018,4.853725888,45.75799123
+111,82,RHONE,Lyon,BERTHELOT,FR20002,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128573,5,2018,4.83609939,45.74684026
+112,84,RHONE,Villeurbanne,GRANDCLEMENT,FR20019,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129163,11,2018,4.886217349,45.75835327
+113,66,LOIRE,Firminy,FIRMINY,FR29425,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128404,3,2018,4.281682417,45.38796299
+114,53,ISERE,Salaise-sur-Sanne,SALAISE sur SANNE,FR27001,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128353,2,2018,4.803705088,45.35537585
+115,43,LOIRE,Veauche,VEAUCHE,FR29427,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129214,11,2018,4.298550264,45.56581455
+116,18,PUY-DE-DOME,Clermont-Ferrand,Jardin Lecoq,FR07009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129263,12,2018,3.087501101,45.77219697
+117,6,ARDECHE,Saint-Bauzile,Saint Bauzile CEC,FR36007,rural-regional,Industrielle,Dioxyde de soufre,1,1,ug.m-3,mensuel,1,1,129194,11,2018,4.673579766,44.67593047
+118,77,ISERE,Voreppe,Voreppe,FR15003,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128945,8,2018,5.64583986,45.28476346
+119,85,RHONE,Lyon,MONTCHAT,FR20009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128708,6,2018,4.872501618,45.74777291
+120,30,RHONE,Lyon,ST JUST,FR20004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129206,11,2018,4.820334655,45.75529247
+121,59,ISERE,Chasse-sur-RhÃ´ne,CHATANAY,FR20041,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128957,9,2018,4.825285977,45.57912106
+122,6,ARDECHE,Saint-Bauzile,Saint Bauzile CEC,FR36007,rural-regional,Industrielle,Dioxyde de soufre,1,2,ug.m-3,mensuel,1,1,129100,10,2018,4.673579766,44.67593047
+123,1,ISERE,Grenoble,Grenoble Les Frenes,FR15043,urban,Fond,Dioxyde de soufre,1,-0.9,ug.m-3,mensuel,1,1,128602,5,2018,5.735603366,45.16187407
+124,32,RHONE,Lyon,VAISE MARIETTON,FR20008,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128553,4,2018,4.803604967,45.77690841
+125,75,RHONE,Lyon,LYON Centre,FR20062,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128424,3,2018,4.853725888,45.75799123
+126,59,ISERE,Chasse-sur-RhÃ´ne,CHATANAY,FR20041,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129051,10,2018,4.825285977,45.57912106
+127,8,ISERE,Fontaine,Fontaine Les Balmes,FR15017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129157,11,2018,5.686968799,45.19044442
+128,55,RHONE,Givors,GIVORS,FR20038,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128410,3,2018,4.773027653,45.58220911
+129,72,LOIRE,Saint-Chamond,SAINT-CHAMOND,FR29426,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128161,12,2017,4.514999613,45.47529369
+130,15,LOIRE,Saint-Ã‰tienne,COUBERTIN,FR29421,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129243,12,2018,4.389781793,45.46673742
+131,77,ISERE,Voreppe,Voreppe,FR15003,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128851,7,2018,5.64583986,45.28476346
+132,69,HAUTE-SAVOIE,Chamonix-Mont-Blanc,CHAMONIX,FR33120,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128765,7,2018,6.869996699,45.92253686
+133,85,RHONE,Lyon,MONTCHAT,FR20009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128802,7,2018,4.872501618,45.74777291
+134,11,RHONE,Saint-Romain-en-Gal,ST ROMAIN,FR20042,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128175,12,2017,4.858617253,45.53497998
+135,42,PUY-DE-DOME,Clermont-Ferrand,Gravanches,FR07002, suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128224,1,2018,3.143279556,45.79564274
+136,21,ISERE,Saint-Martin-d'HÃ¨res,St Martin dHeres,FR15038,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128361,2,2018,5.75310114,45.18279644
+137,23,RHONE,Vaulx-en-Velin,VAULX EN VELIN,FR20046,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128367,2,2018,4.924700509,45.77887089
+138,24,RHONE,Lyon,DUCHERE,FR20007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128118,12,2017,4.79473598,45.78641735
+139,68,RHONE,Loire-sur-RhÃ´ne,LES ORLETS,FR20039,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128610,5,2018,4.805002835,45.54864428
+140,43,PUY-DE-DOME,Clermont-Ferrand,Gaillard,FR07007,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128124,12,2017,3.082777891,45.78030494
+141,26,ALLIER,MontluÃ§on,Montlucon Centre,FR07010,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128616,5,2018,2.59800478,46.34396188
+142,54,RHONE,Irigny,IRIGNY,FR20035,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128510,4,2018,4.825566681,45.67801561
+143,68,RHONE,Loire-sur-RhÃ´ne,LES ORLETS,FR20039,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128516,4,2018,4.805002835,45.54864428
+144,38,ISERE,Vienne,Vienne Estressin,FR27102,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128467,3,2018,4.863904251,45.53975628
+145,31,LOIRE,Saint-Ã‰tienne,SAINT ETIENNE SUD,FR29424,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129008,9,2018,4.395419639,45.4201064
+146,10,RHONE,Lyon,CROIX ROUSSE,FR20005,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129151,11,2018,4.819191839,45.77999086
+147,60,RHONE,Lyon,VILLETTE,FR20006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128659,5,2018,4.865014022,45.75807536
+148,2,RHONE,Saint-Fons,ST FONS CENTRE,FR20031,suburban,Industrielle,Dioxyde de soufre,1,-0.5,ug.m-3,mensuel,1,1,128167,12,2017,4.86439959,45.70782432
+149,2,RHONE,Feyzin,FEYZIN STADE,FR20029,suburban,Industrielle,Dioxyde de soufre,1,0.8,ug.m-3,mensuel,1,1,129249,12,2018,4.845899116,45.66390304
+150,54,RHONE,Irigny,IRIGNY,FR20035,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128416,3,2018,4.825566681,45.67801561
+151,72,ISERE,Les Roches-de-Condrieu,ROCHES DE CONDRIEU,FR27003,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128908,8,2018,4.766521159,45.45450301
+152,22,ISERE,Saint-Martin-d'HÃ¨res,St Martin dHeres,FR15038,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128267,1,2018,5.75310114,45.18279644
+153,65,HAUTE-SAVOIE,Annemasse,ANNEMASSE,FR33211,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128759,7,2018,6.240562703,46.19584661
+154,30,RHONE,Lyon,ST JUST,FR20004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129300,12,2018,4.820334655,45.75529247
+155,25,RHONE,Pierre-BÃ©nite,PIERRE BENITE,FR20034,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128808,7,2018,4.829697101,45.69956602
+156,41,PUY-DE-DOME,Clermont-Ferrand,Gaillard,FR07007,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128218,1,2018,3.082777891,45.78030494
+157,13,HAUTE-LOIRE,Le Puy-en-Velay,Le Puy Fayolle,FR07021,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128702,6,2018,3.885422203,45.04195891
+158,11,ISERE,Grenoble,Villeneuve,FR15008,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129034,9,2018,5.736395372,45.16140417
+159,74,RHONE,VÃ©nissieux,VENISSIEUX Village,FR20060,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128370,2,2018,4.883605777,45.70363172
+160,10,RHONE,Lyon,CROIX ROUSSE,FR20005,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129057,10,2018,4.819191839,45.77999086
+161,59,ISERE,Chasse-sur-RhÃ´ne,CHATANAY,FR20041,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128393,3,2018,4.825285977,45.57912106
+162,71,LOIRE,Saint-Chamond,SAINT-CHAMOND,FR29426,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128725,6,2018,4.514999613,45.47529369
+163,17,ISERE,Voiron,Voiron,FR15002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129320,12,2018,5.594389507,45.36002535
+164,48,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE,FR20026,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128656,5,2018,4.715468338,45.98868744
+165,75,RHONE,Lyon,LYON Centre,FR20062,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128988,9,2018,4.853725888,45.75799123
+166,73,RHONE,Lyon,LA MOUCHE,FR20015,urban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128324,2,2018,4.843615666,45.71915521
+167,53,ISERE,Salaise-sur-Sanne,SALAISE sur SANNE,FR27001,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129011,9,2018,4.803705088,45.35537585
+168,15,LOIRE,Saint-Ã‰tienne,COUBERTIN,FR29421,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128679,6,2018,4.389781793,45.46673742
+169,26,PUY-DE-DOME,Royat,Royat,FR07001,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128347,2,2018,3.047192677,45.76465692
+170,69,HAUTE-SAVOIE,Chamonix-Mont-Blanc,CHAMONIX,FR33120,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128201,1,2018,6.869996699,45.92253686
+171,57,RHONE,Lyon,ETATS UNIS,FR20016,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128871,8,2018,4.859768259,45.73870604
+172,70,RHONE,Feyzin,CLOCHETTES,FR20032,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128207,1,2018,4.855563803,45.68779373
+173,69,RHONE,Feyzin,CLOCHETTES,FR20032,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128865,8,2018,4.855563803,45.68779373
+174,40,ISERE,Vienne,Vienne Centre,FR27004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128278,1,2018,4.875409555,45.52596386
+175,94,DROME,Valence,Valence Urb. Centre,FR36002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128178,12,2017,4.893674494,44.93318986
+176,58,RHONE,Lyon,ETATS UNIS,FR20016,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128965,9,2018,4.859768259,45.73870604
+177,51,RHONE,Bron,VINATIER,FR20025,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128848,7,2018,4.893340696,45.7394083
+178,70,RHONE,Feyzin,CLOCHETTES,FR20032,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128301,2,2018,4.855563803,45.68779373
+179,42,ISERE,Vienne,Vienne Centre,FR27004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128184,12,2017,4.875409555,45.52596386
+180,39,ISERE,Vienne,Vienne Centre,FR27004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128842,7,2018,4.875409555,45.52596386
+181,79,LOIRE,Roanne,ROANNE,FR29423,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128155,12,2017,4.074653898,46.04106794
+182,71,LOIRE,Saint-Chamond,SAINT-CHAMOND,FR29426,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128819,7,2018,4.514999613,45.47529369
+183,39,ISERE,Vienne,Vienne Centre,FR27004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128748,6,2018,4.875409555,45.52596386
+184,81,ISERE,Champ-sur-Drac,Champ sur Drac,FR15013,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128673,6,2018,5.728650031,45.07951817
+185,8,ISERE,Grenoble,Grenoble Les Frenes,FR15043,urban,Fond,Dioxyde de soufre,1,1.5,ug.m-3,mensuel,1,1,128132,12,2017,5.735603366,45.16187407
+186,75,RHONE,Lyon,LYON Centre,FR20062,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128894,8,2018,4.853725888,45.75799123
+187,1,ISERE,Grenoble,Grenoble Les Frenes,FR15043,urban,Fond,Dioxyde de soufre,1,-1,ug.m-3,mensuel,1,1,128696,6,2018,5.735603366,45.16187407
+188,79,LOIRE,Roanne,ROANNE,FR29423,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128625,5,2018,4.074653898,46.04106794
+189,74,RHONE,VÃ©nissieux,VENISSIEUX Village,FR20060,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129028,9,2018,4.883605777,45.70363172
+190,2,RHONE,Feyzin,FEYZIN STADE,FR20029,suburban,Industrielle,Dioxyde de soufre,1,4.4,ug.m-3,mensuel,1,1,128779,7,2018,4.845899116,45.66390304
+191,53,ISERE,Salaise-sur-Sanne,SALAISE sur SANNE,FR27001,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128447,3,2018,4.803705088,45.35537585
+192,16,ISERE,Salaise-sur-Sanne,A7 Nord-IsÃ¨re,FR27008,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129040,10,2018,4.804822471,45.35319621
+193,13,HAUTE-LOIRE,Le Puy-en-Velay,Le Puy Fayolle,FR07021,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129266,12,2018,3.885422203,45.04195891
+194,74,RHONE,VÃ©nissieux,VENISSIEUX Village,FR20060,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128934,8,2018,4.883605777,45.70363172
+195,61,PUY-DE-DOME,Clermont-Ferrand,Centre Ville,FR07003,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128387,3,2018,3.083334107,45.77364091
+196,94,DROME,Valence,Valence Urb. Centre,FR36002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128742,6,2018,4.893674494,44.93318986
+197,81,ISERE,Champ-sur-Drac,Champ sur Drac,FR15013,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128579,5,2018,5.728650031,45.07951817
+198,10,RHONE,Lyon,CROIX ROUSSE,FR20005,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128493,4,2018,4.819191839,45.77999086
+199,50,RHONE,Lyon,PUITS GAILLOT,FR20001,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128247,1,2018,4.836389594,45.76719208
+200,56,RHONE,Saint-Fons,ST FONS CENTRE,FR20031,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128825,7,2018,4.86439959,45.70782432
+201,54,RHONE,Irigny,IRIGNY,FR20035,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129074,10,2018,4.825566681,45.67801561
+202,17,HAUTE-LOIRE,Le Puy-en-Velay,Le Puy Fayolle,FR07021,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128138,12,2017,3.885422203,45.04195891
+203,66,HAUTE-SAVOIE,Annemasse,ANNEMASSE,FR33211,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128101,12,2017,6.240562703,46.19584661
+204,49,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE,FR20026,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129220,11,2018,4.715468338,45.98868744
+205,73,RHONE,Lyon,LA MOUCHE,FR20015,urban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128888,8,2018,4.843615666,45.71915521
+206,16,ISERE,Salaise-sur-Sanne,A7 Nord-IsÃ¨re,FR27008,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129134,11,2018,4.804822471,45.35319621
+207,47,PUY-DE-DOME,Clermont-Ferrand,Place de Jaude,FR07030,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128433,3,2018,3.081883877,45.77625339
+208,65,HAUTE-SAVOIE,Annemasse,ANNEMASSE,FR33211,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128195,1,2018,6.240562703,46.19584661
+209,92,RHONE,Pusignan,SAINT EXUPERY,FR20048,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128539,4,2018,5.070377771,45.75485265
+210,80,RHONE,Lyon,POINT DU JOUR,FR20018,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129280,12,2018,4.790200546,45.74856906
+211,9,PUY-DE-DOME,AubiÃ¨re,Roussillon,FR07024,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128533,4,2018,3.132000556,45.75171257
+212,41,PUY-DE-DOME,Clermont-Ferrand,Gravanches,FR07002, suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128788,7,2018,3.143279556,45.79564274
+213,5,HAUTE-SAVOIE,Saint-Germain-sur-RhÃ´ne,St Germain/RhÃ´ne,FR33302,rural-nearcity,Fond,Dioxyde de soufre,1,0.3,ug.m-3,mensuel,1,1,128639,5,2018,5.820837783,46.07223918
+214,92,RHONE,Pusignan,SAINT EXUPERY,FR20048,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128633,5,2018,5.070377771,45.75485265
+215,68,RHONE,Loire-sur-RhÃ´ne,LES ORLETS,FR20039,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129174,11,2018,4.805002835,45.54864428
+216,27,ALLIER,MontluÃ§on,Montlucon Centre,FR07010,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129180,11,2018,2.59800478,46.34396188
+217,21,ISERE,Saint-Martin-d'HÃ¨res,St Martin dHeres,FR15038,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128831,7,2018,5.75310114,45.18279644
+218,89,RHONE,Neuville-sur-SaÃ´ne,NEUVILLE,FR20044,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128241,1,2018,4.838894431,45.87803176
+219,59,ISERE,Chasse-sur-RhÃ´ne,CHATANAY,FR20041,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128487,4,2018,4.825285977,45.57912106
+220,68,RHONE,Loire-sur-RhÃ´ne,LES ORLETS,FR20039,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129080,10,2018,4.805002835,45.54864428
+221,17,ISERE,Voiron,Voiron,FR15002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129226,11,2018,5.594389507,45.36002535
+222,85,RHONE,Lyon,MONTCHAT,FR20009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128144,12,2017,4.872501618,45.74777291
+223,50,RHONE,Lyon,PUITS GAILLOT,FR20001,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128341,2,2018,4.836389594,45.76719208
+224,6,RHONE,Feyzin,FEYZIN STADE,FR20029,suburban,Industrielle,Dioxyde de soufre,1,7.3,ug.m-3,mensuel,1,1,128685,6,2018,4.845899116,45.66390304
+225,40,PUY-DE-DOME,Clermont-Ferrand,Gravanches,FR07002, suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128882,8,2018,3.143279556,45.79564274
+226,93,SAVOIE,ChambÃ©ry,PASTEUR,FR33101,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128619,5,2018,5.928435518,45.56462103
+227,79,LOIRE,Roanne,ROANNE,FR29423,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129283,12,2018,4.074653898,46.04106794
+228,32,RHONE,Lyon,VAISE MARIETTON,FR20008,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129117,10,2018,4.803604967,45.77690841
+229,1,RHONE,Feyzin,FEYZIN STADE,FR20029,suburban,Industrielle,Dioxyde de soufre,1,0.6,ug.m-3,mensuel,1,1,128121,12,2017,4.845899116,45.66390304
+230,64,PUY-DE-DOME,Gerzat,Gerzat,FR07006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128785,7,2018,3.142914792,45.82382861
+231,1,ISERE,Grenoble,Grenoble Les Frenes,FR15043,urban,Fond,Dioxyde de soufre,1,1.5,ug.m-3,mensuel,1,1,129260,12,2018,5.735603366,45.16187407
+232,57,SAVOIE,Saint-Julien-Mont-Denis,St Julien Montdenis,FR33112,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128264,1,2018,6.412227165,45.2492148
+233,52,RHONE,Caluire-et-Cuire,CALUIRE,FR20023,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128762,7,2018,4.848345018,45.80140495
+234,1,RHONE,Feyzin,FEYZIN STADE,FR20029,suburban,Industrielle,Dioxyde de soufre,1,-0.5,ug.m-3,mensuel,1,1,128215,1,2018,4.845899116,45.66390304
+235,62,SAVOIE,ChambÃ©ry,CHAMBERY LE HAUT,FR33102,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129234,12,2018,5.918616424,45.59668502
+236,22,RHONE,Lyon,GARIBALDI,FR20003,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128407,3,2018,4.850295216,45.7681358
+237,15,ISERE,Salaise-sur-Sanne,A7 Nord-IsÃ¨re,FR27008,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128570,5,2018,4.804822471,45.35319621
+238,47,PUY-DE-DOME,Clermont-Ferrand,Place de Jaude,FR07030,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128997,9,2018,3.081883877,45.77625339
+239,48,PUY-DE-DOME,Clermont-Ferrand,Montferrand,FR07004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128333,2,2018,3.113828888,45.79729717
+240,7,ISERE,Fontaine,Fontaine Les Balmes,FR15017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128593,5,2018,5.686968799,45.19044442
+241,24,ISERE,Champagnier,Champagnier,FR15012,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129048,10,2018,5.726999066,45.10928942
+242,20,ISERE,Saint-Martin-d'HÃ¨res,St Martin dHeres,FR15038,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128925,8,2018,5.75310114,45.18279644
+243,29,RHONE,Lyon,ST JUST,FR20004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128642,5,2018,4.820334655,45.75529247
+244,55,RHONE,Givors,GIVORS,FR20038,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128974,9,2018,4.773027653,45.58220911
+245,19,CANTAL,Aurillac,Aurillac Centre,FR07011,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128384,3,2018,2.436778768,44.92313152
+246,51,RHONE,Bron,VINATIER,FR20025,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128284,1,2018,4.893340696,45.7394083
+247,84,RHONE,Villeurbanne,GRANDCLEMENT,FR20019,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128693,6,2018,4.886217349,45.75835327
+248,36,RHONE,Saint-Priest,ST PRIEST,FR20036,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128456,3,2018,4.913105816,45.69944163
+249,72,RHONE,Saint-Genis-Laval,ST GENIS LAVAL,FR20027,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128450,3,2018,4.796125538,45.69335082
+250,47,PUY-DE-DOME,Clermont-Ferrand,Place de Jaude,FR07030,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128527,4,2018,3.081883877,45.77625339
+251,19,CANTAL,Aurillac,Aurillac Centre,FR07011,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128948,9,2018,2.436778768,44.92313152
+252,58,RHONE,Lyon,ETATS UNIS,FR20016,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128307,2,2018,4.859768259,45.73870604
+253,63,RHONE,VÃ©nissieux,VENISSIEUX,FR20043,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129309,12,2018,4.875699604,45.68998231
+254,62,SAVOIE,ChambÃ©ry,CHAMBERY LE HAUT,FR33102,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128576,5,2018,5.918616424,45.59668502
+255,8,ISERE,Fontaine,Fontaine Les Balmes,FR15017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128499,4,2018,5.686968799,45.19044442
+256,1,ISERE,Grenoble,Grenoble Les Frenes,FR15043,urban,Fond,Dioxyde de soufre,1,1.5,ug.m-3,mensuel,1,1,129166,11,2018,5.735603366,45.16187407
+257,55,RHONE,Givors,GIVORS,FR20038,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129068,10,2018,4.773027653,45.58220911
+258,83,PUY-DE-DOME,Clermont-Ferrand,Clermont-Esplanade Gare,FR07034,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129240,12,2018,3.096244451,45.77570176
+259,62,SAVOIE,ChambÃ©ry,CHAMBERY LE HAUT,FR33102,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129140,11,2018,5.918616424,45.59668502
+260,46,SAVOIE,Saint-Julien-Mont-Denis,St Julien trafic,FR33114,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129017,9,2018,6.397018275,45.25256234
+261,84,RHONE,Villeurbanne,GRANDCLEMENT,FR20019,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128599,5,2018,4.886217349,45.75835327
+262,36,RHONE,Saint-Priest,ST PRIEST,FR20036,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128550,4,2018,4.913105816,45.69944163
+263,16,ISERE,Salaise-sur-Sanne,A7 Nord-IsÃ¨re,FR27008,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128476,4,2018,4.804822471,45.35319621
+264,47,PUY-DE-DOME,Clermont-Ferrand,Place de Jaude,FR07030,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129091,10,2018,3.081883877,45.77625339
+265,48,PUY-DE-DOME,Clermont-Ferrand,Montferrand,FR07004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128427,3,2018,3.113828888,45.79729717
+266,46,SAVOIE,Saint-Julien-Mont-Denis,St Julien trafic,FR33114,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129111,10,2018,6.397018275,45.25256234
+267,34,RHONE,Villeurbanne,CHARPENNES,FR20021,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128862,8,2018,4.867228342,45.77524286
+268,34,RHONE,Ternay,TERNAY,FR20037,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128364,2,2018,4.802195719,45.60192128
+269,41,RHONE,Millery,MILLERY,FR20040,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128613,5,2018,4.803054227,45.63028
+270,71,LOIRE,Saint-Chamond,SAINT-CHAMOND,FR29426,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129289,12,2018,4.514999613,45.47529369
+271,19,LOIRE,Saint-Ã‰tienne,COUBERTIN,FR29421,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128115,12,2017,4.389781793,45.46673742
+272,17,ISERE,Voiron,Voiron,FR15002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128756,6,2018,5.594389507,45.36002535
+273,2,SAVOIE,Saint-Jean-de-Maurienne,SAINT JEAN,FR33111,urban,Fond,Dioxyde de soufre,1,10.5,ug.m-3,mensuel,1,1,128258,1,2018,6.349723082,45.27471893
+274,79,LOIRE,Roanne,ROANNE,FR29423,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128719,6,2018,4.074653898,46.04106794
+275,35,RHONE,Villeurbanne,CHARPENNES,FR20021,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128768,7,2018,4.867228342,45.77524286
+276,35,RHONE,Ternay,TERNAY,FR20037,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128270,1,2018,4.802195719,45.60192128
+277,64,PUY-DE-DOME,Gerzat,Gerzat,FR07006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128221,1,2018,3.142914792,45.82382861
+278,6,SAVOIE,Saint-Jean-de-Maurienne,SAINT JEAN,FR33111,urban,Fond,Dioxyde de soufre,1,10.3,ug.m-3,mensuel,1,1,128164,12,2017,6.349723082,45.27471893
+279,86,RHONE,Lyon,GERLAND,FR20017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129160,11,2018,4.829800054,45.73532325
+280,25,PUY-DE-DOME,Royat,Royat,FR07001,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128911,8,2018,3.047192677,45.76465692
+281,91,ISERE,Grenoble,Grenoble Foch,FR15006,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128507,4,2018,5.721383085,45.18078138
+282,11,ISERE,Grenoble,Villeneuve,FR15008,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128470,3,2018,5.736395372,45.16140417
+283,42,RHONE,Millery,MILLERY,FR20040,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128519,4,2018,4.803054227,45.63028
+284,43,LOIRE,Veauche,VEAUCHE,FR29427,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128556,4,2018,4.298550264,45.56581455
+285,9,PUY-DE-DOME,AubiÃ¨re,Roussillon,FR07024,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129097,10,2018,3.132000556,45.75171257
+286,24,ISERE,Champagnier,Champagnier,FR15012,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128954,9,2018,5.726999066,45.10928942
+287,78,HAUTE-SAVOIE,Annecy,LOVERCHY,FR33201,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128705,6,2018,6.118449775,45.89538066
+288,5,HAUTE-SAVOIE,Saint-Germain-sur-RhÃ´ne,St Germain/RhÃ´ne,FR33302,rural-nearcity,Fond,Dioxyde de soufre,1,0.1,ug.m-3,mensuel,1,1,129203,11,2018,5.820837783,46.07223918
+289,92,RHONE,Pusignan,SAINT EXUPERY,FR20048,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129197,11,2018,5.070377771,45.75485265
+290,5,HAUTE-SAVOIE,Saint-Germain-sur-RhÃ´ne,St Germain/RhÃ´ne,FR33302,rural-nearcity,Fond,Dioxyde de soufre,1,0.1,ug.m-3,mensuel,1,1,129297,12,2018,5.820837783,46.07223918
+291,89,RHONE,Neuville-sur-SaÃ´ne,NEUVILLE,FR20044,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128805,7,2018,4.838894431,45.87803176
+292,22,RHONE,Lyon,GARIBALDI,FR20003,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128313,2,2018,4.850295216,45.7681358
+293,50,RHONE,Lyon,PUITS GAILLOT,FR20001,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128811,7,2018,4.836389594,45.76719208
+294,7,RHONE,Saint-Romain-en-Gal,ST ROMAIN,FR20042,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129303,12,2018,4.858617253,45.53497998
+295,18,CANTAL,Aurillac,Aurillac Centre,FR07011,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128854,8,2018,2.436778768,44.92313152
+296,16,ISERE,Voiron,Voiron,FR15002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128662,5,2018,5.594389507,45.36002535
+297,91,ISERE,Grenoble,Grenoble Foch,FR15006,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128413,3,2018,5.721383085,45.18078138
+298,49,RHONE,Lyon,PUITS GAILLOT,FR20001,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128905,8,2018,4.836389594,45.76719208
+299,76,RHONE,Feyzin,FEYZIN MAIRIE,FR20030,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129154,11,2018,4.856115043,45.67166154
+300,92,RHONE,Pusignan,SAINT EXUPERY,FR20048,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129103,10,2018,5.070377771,45.75485265
+301,49,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE,FR20026,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128562,4,2018,4.715468338,45.98868744
+302,14,AIN,Miribel,COTIERE AIN,FR20047,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129054,10,2018,4.953959787,45.82322611
+303,74,RHONE,VÃ©nissieux,VENISSIEUX Village,FR20060,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128464,3,2018,4.883605777,45.70363172
+304,26,PUY-DE-DOME,Royat,Royat,FR07001,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129005,9,2018,3.047192677,45.76465692
+305,87,PUY-DE-DOME,AubiÃ¨re,Landais,FR07005,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128513,4,2018,3.111945993,45.76389086
+306,44,ISERE,Ã‰chirolles,Le Rondeau,FR15039,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128797,7,2018,5.703760159,45.15832579
+307,88,ISERE,Le Versoud,Versoud,FR15007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128465,3,2018,5.850340053,45.21711641
+308,16,RHONE,DiÃ¨me,HAUT BEAUJOLAIS,FR20049,rural-nearcity,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128133,12,2017,4.465714093,45.96139254
+309,60,RHONE,Lyon,VILLETTE,FR20006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129129,10,2018,4.865014022,45.75807536
+310,6,ARDECHE,Saint-Bauzile,Saint Bauzile CEC,FR36007,rural-regional,Industrielle,Dioxyde de soufre,1,3.8,ug.m-3,mensuel,1,1,128442,3,2018,4.673579766,44.67593047
+311,28,RHONE,Villeurbanne,CROIX LUIZET,FR20020,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128774,7,2018,4.894029845,45.77641745
+312,38,RHONE,Villeurbanne,CHARPENNES,FR20021,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128110,12,2017,4.867228342,45.77524286
+313,45,RHONE,Solaize,SOLAIZE,FR20033,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129106,10,2018,4.843340379,45.64917303
+314,6,ARDECHE,Saint-Bauzile,Saint Bauzile CEC,FR36007,rural-regional,Industrielle,Dioxyde de soufre,1,3.8,ug.m-3,mensuel,1,1,128348,2,2018,4.673579766,44.67593047
+315,37,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE Village,FR20061,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128751,6,2018,4.719285546,45.98637779
+316,28,RHONE,Villeurbanne,CROIX LUIZET,FR20020,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128680,6,2018,4.894029845,45.77641745
+317,45,RHONE,Solaize,SOLAIZE,FR20033,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129012,9,2018,4.843340379,45.64917303
+318,87,PUY-DE-DOME,AubiÃ¨re,Landais,FR07005,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128419,3,2018,3.111945993,45.76389086
+319,44,ISERE,Ã‰chirolles,Le Rondeau,FR15039,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128703,6,2018,5.703760159,45.15832579
+320,24,RHONE,Vaulx-en-Velin,VAULX EN VELIN,FR20046,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128273,1,2018,4.924700509,45.77887089
+321,60,RHONE,Lyon,VILLETTE,FR20006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129035,9,2018,4.865014022,45.75807536
+322,17,PUY-DE-DOME,Clermont-Ferrand,Jardin Lecoq,FR07009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128605,5,2018,3.087501101,45.77219697
+323,4,SAVOIE,Saint-Jean-de-Maurienne,SAINT JEAN,FR33111,urban,Fond,Dioxyde de soufre,1,10.2,ug.m-3,mensuel,1,1,129292,12,2018,6.349723082,45.27471893
+324,14,AIN,Miribel,COTIERE AIN,FR20047,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128302,2,2018,4.953959787,45.82322611
+325,76,RHONE,Feyzin,FEYZIN MAIRIE,FR20030,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128966,9,2018,4.856115043,45.67166154
+326,32,ISERE,Roussillon,ROUSSILLON,FR27002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128628,5,2018,4.805142184,45.36778213
+327,87,PUY-DE-DOME,AubiÃ¨re,Landais,FR07005,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128889,8,2018,3.111945993,45.76389086
+328,25,ISERE,Champagnier,Champagnier,FR15012,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128202,1,2018,5.726999066,45.10928942
+329,37,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE Village,FR20061,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129315,12,2018,4.719285546,45.98637779
+330,13,AIN,Miribel,COTIERE AIN,FR20047,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128866,8,2018,4.953959787,45.82322611
+331,42,RHONE,Millery,MILLERY,FR20040,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128989,9,2018,4.803054227,45.63028
+332,63,RHONE,VÃ©nissieux,VENISSIEUX,FR20043,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128651,5,2018,4.875699604,45.68998231
+333,87,PUY-DE-DOME,AubiÃ¨re,Landais,FR07005,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128325,2,2018,3.111945993,45.76389086
+334,27,RHONE,Vaulx-en-Velin,VAULX EN VELIN,FR20046,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128179,12,2017,4.924700509,45.77887089
+335,35,RHONE,Villeurbanne,CHARPENNES,FR20021,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128674,6,2018,4.867228342,45.77524286
+336,71,RHONE,Saint-Genis-Laval,ST GENIS LAVAL,FR20027,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128920,8,2018,4.796125538,45.69335082
+337,38,ISERE,Vienne,Vienne Estressin,FR27102,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128843,7,2018,4.863904251,45.53975628
+338,32,LOIRE,Saint-Ã‰tienne,SAINT ETIENNE SUD,FR29424,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128256,1,2018,4.395419639,45.4201064
+339,66,ISERE,Vizille,Vizille,FR15014,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128943,8,2018,5.770856387,45.07928726
+340,12,RHONE,DiÃ¨me,HAUT BEAUJOLAIS,FR20049,rural-nearcity,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128697,6,2018,4.465714093,45.96139254
+341,5,ISERE,Les Roches-de-Condrieu,ROCHES DE CONDRIEU,FR27003,suburban,Industrielle,Dioxyde de soufre,1,4.4,ug.m-3,mensuel,1,1,128156,12,2017,4.766521159,45.45450301
+342,39,ISERE,Vienne,Vienne Estressin,FR27102,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128279,1,2018,4.863904251,45.53975628
+343,31,LOIRE,Saint-Ã‰tienne,SAINT ETIENNE SUD,FR29424,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128820,7,2018,4.395419639,45.4201064
+344,62,SAVOIE,ChambÃ©ry,CHAMBERY LE HAUT,FR33102,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128388,3,2018,5.918616424,45.59668502
+345,47,ISERE,Ã‰chirolles,Le Rondeau,FR15039,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128139,12,2017,5.703760159,45.15832579
+346,65,HAUTE-SAVOIE,Annemasse,ANNEMASSE,FR33211,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129135,11,2018,6.240562703,46.19584661
+347,45,RHONE,Solaize,SOLAIZE,FR20033,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128542,4,2018,4.843340379,45.64917303
+348,45,ISERE,Ã‰chirolles,Le Rondeau,FR15039,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128233,1,2018,5.703760159,45.15832579
+349,65,HAUTE-SAVOIE,Annemasse,ANNEMASSE,FR33211,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129229,12,2018,6.240562703,46.19584661
+350,23,RHONE,Vaulx-en-Velin,VAULX EN VELIN,FR20046,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128743,6,2018,4.924700509,45.77887089
+351,45,RHONE,Solaize,SOLAIZE,FR20033,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128448,3,2018,4.843340379,45.64917303
+352,66,LOIRE,Firminy,FIRMINY,FR29425,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128780,7,2018,4.281682417,45.38796299
+353,18,PUY-DE-DOME,Clermont-Ferrand,Jardin Lecoq,FR07009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129075,10,2018,3.087501101,45.77219697
+354,89,RHONE,Neuville-sur-SaÃ´ne,NEUVILLE,FR20044,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129181,11,2018,4.838894431,45.87803176
+355,23,RHONE,Vaulx-en-Velin,VAULX EN VELIN,FR20046,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128837,7,2018,4.924700509,45.77887089
+356,18,PUY-DE-DOME,Clermont-Ferrand,Jardin Lecoq,FR07009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129169,11,2018,3.087501101,45.77219697
+357,62,SAVOIE,ChambÃ©ry,CHAMBERY LE HAUT,FR33102,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128482,4,2018,5.918616424,45.59668502
+358,20,RHONE,Lyon,DUCHERE,FR20007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128494,4,2018,4.79473598,45.78641735
+359,3,RHONE,Pierre-BÃ©nite,PIERRE BENITE,FR20034,suburban,Industrielle,Dioxyde de soufre,1,2.5,ug.m-3,mensuel,1,1,128150,12,2017,4.829697101,45.69956602
+360,72,RHONE,Saint-Genis-Laval,ST GENIS LAVAL,FR20027,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128826,7,2018,4.796125538,45.69335082
+361,91,ISERE,Grenoble,Grenoble Foch,FR15006,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128883,8,2018,5.721383085,45.18078138
+362,24,ISERE,Champagnier,Champagnier,FR15012,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128296,2,2018,5.726999066,45.10928942
+363,4,SAVOIE,Saint-Jean-de-Maurienne,SAINT JEAN,FR33111,urban,Fond,Dioxyde de soufre,1,7.1,ug.m-3,mensuel,1,1,128634,5,2018,6.349723082,45.27471893
+364,57,SAVOIE,Saint-Julien-Mont-Denis,St Julien Montdenis,FR33112,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128640,5,2018,6.412227165,45.2492148
+365,37,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE Village,FR20061,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129221,11,2018,4.719285546,45.98637779
+366,77,ISERE,Voreppe,Voreppe,FR15003,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129321,12,2018,5.64583986,45.28476346
+367,33,ISERE,Roussillon,ROUSSILLON,FR27002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128534,4,2018,4.805142184,45.36778213
+368,40,PUY-DE-DOME,Clermont-Ferrand,Gaillard,FR07007,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128688,6,2018,3.082777891,45.78030494
+369,87,PUY-DE-DOME,AubiÃ¨re,Landais,FR07005,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128983,9,2018,3.111945993,45.76389086
+370,20,CANTAL,Aurillac,Aurillac Centre,FR07011,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128196,1,2018,2.436778768,44.92313152
+371,90,ISERE,Livet-et-Gavet,Riouperoux,FR15015,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128342,2,2018,5.897099405,45.08625696
+372,78,HAUTE-SAVOIE,Annecy,LOVERCHY,FR33201,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129175,11,2018,6.118449775,45.89538066
+373,19,RHONE,Lyon,DUCHERE,FR20007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128588,5,2018,4.79473598,45.78641735
+374,31,RHONE,Lyon,VAISE MARIETTON,FR20008,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128929,8,2018,4.803604967,45.77690841
+375,88,ISERE,Le Versoud,Versoud,FR15007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129029,9,2018,5.850340053,45.21711641
+376,57,SAVOIE,Saint-Julien-Mont-Denis,St Julien Montdenis,FR33112,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128734,6,2018,6.412227165,45.2492148
+377,30,HAUTE-SAVOIE,Passy,PASSY,FR33220,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128242,1,2018,6.713642902,45.9235436
+378,89,RHONE,Neuville-sur-SaÃ´ne,NEUVILLE,FR20044,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129275,12,2018,4.838894431,45.87803176
+379,83,PUY-DE-DOME,Clermont-Ferrand,Clermont-Esplanade Gare,FR07034,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128488,4,2018,3.096244451,45.77570176
+380,94,DROME,Valence,Valence Urb. Centre,FR36002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129212,11,2018,4.893674494,44.93318986
+381,25,RHONE,Pierre-BÃ©nite,PIERRE BENITE,FR20034,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128714,6,2018,4.829697101,45.69956602
+382,66,LOIRE,Firminy,FIRMINY,FR29425,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128216,1,2018,4.281682417,45.38796299
+383,94,DROME,Valence,Valence Urb. Centre,FR36002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129118,10,2018,4.893674494,44.93318986
+384,21,ISERE,Saint-Martin-d'HÃ¨res,St Martin dHeres,FR15038,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128737,6,2018,5.75310114,45.18279644
+385,69,HAUTE-SAVOIE,Chamonix-Mont-Blanc,CHAMONIX,FR33120,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129235,12,2018,6.869996699,45.92253686
+386,65,HAUTE-SAVOIE,Annemasse,ANNEMASSE,FR33211,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128571,5,2018,6.240562703,46.19584661
+387,84,RHONE,Villeurbanne,GRANDCLEMENT,FR20019,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129069,10,2018,4.886217349,45.75835327
+388,55,RHONE,Givors,GIVORS,FR20038,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128786,7,2018,4.773027653,45.58220911
+389,3,ISERE,Les Roches-de-Condrieu,ROCHES DE CONDRIEU,FR27003,suburban,Industrielle,Dioxyde de soufre,1,9.2,ug.m-3,mensuel,1,1,129284,12,2018,4.766521159,45.45450301
+390,90,ISERE,Livet-et-Gavet,Riouperoux,FR15015,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129000,9,2018,5.897099405,45.08625696
+391,29,HAUTE-SAVOIE,Passy,PASSY,FR33220,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128336,2,2018,6.713642902,45.9235436
+392,35,RHONE,Saint-Priest,ST PRIEST,FR20036,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128926,8,2018,4.913105816,45.69944163
+393,39,PUY-DE-DOME,Clermont-Ferrand,Gaillard,FR07007,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128594,5,2018,3.082777891,45.78030494
+394,61,PUY-DE-DOME,Clermont-Ferrand,Centre Ville,FR07003,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128763,7,2018,3.083334107,45.77364091
+395,67,ISERE,Vizille,Vizille,FR15014,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128285,1,2018,5.770856387,45.07928726
+396,46,SAVOIE,Saint-Julien-Mont-Denis,St Julien trafic,FR33114,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128359,2,2018,6.397018275,45.25256234
+397,82,RHONE,Lyon,BERTHELOT,FR20002,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128949,9,2018,4.83609939,45.74684026
+398,86,RHONE,Lyon,GERLAND,FR20017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128408,3,2018,4.829800054,45.73532325
+399,67,ISERE,Vizille,Vizille,FR15014,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128379,2,2018,5.770856387,45.07928726
+400,5,HAUTE-SAVOIE,Saint-Germain-sur-RhÃ´ne,St Germain/RhÃ´ne,FR33302,rural-nearcity,Fond,Dioxyde de soufre,1,0.9,ug.m-3,mensuel,1,1,128545,4,2018,5.820837783,46.07223918
+401,82,RHONE,Lyon,BERTHELOT,FR20002,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129043,10,2018,4.83609939,45.74684026
+402,7,RHONE,Saint-Romain-en-Gal,ST ROMAIN,FR20042,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128551,4,2018,4.858617253,45.53497998
+403,80,RHONE,Lyon,POINT DU JOUR,FR20018,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128528,4,2018,4.790200546,45.74856906
+404,33,ISERE,Roussillon,ROUSSILLON,FR27002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129192,11,2018,4.805142184,45.36778213
+405,41,PUY-DE-DOME,Clermont-Ferrand,Gravanches,FR07002, suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128694,6,2018,3.143279556,45.79564274
+406,64,PUY-DE-DOME,Gerzat,Gerzat,FR07006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129161,11,2018,3.142914792,45.82382861
+407,27,ALLIER,MontluÃ§on,Montlucon Centre,FR07010,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128522,4,2018,2.59800478,46.34396188
+408,69,HAUTE-SAVOIE,Chamonix-Mont-Blanc,CHAMONIX,FR33120,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128671,6,2018,6.869996699,45.92253686
+409,12,RHONE,DiÃ¨me,HAUT BEAUJOLAIS,FR20049,rural-nearcity,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129261,12,2018,4.465714093,45.96139254
+410,80,RHONE,Lyon,POINT DU JOUR,FR20018,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129092,10,2018,4.790200546,45.74856906
+411,86,RHONE,Lyon,GERLAND,FR20017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128502,4,2018,4.829800054,45.73532325
+412,27,ALLIER,MontluÃ§on,Montlucon Centre,FR07010,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128428,3,2018,2.59800478,46.34396188
+413,5,HAUTE-SAVOIE,Saint-Germain-sur-RhÃ´ne,St Germain/RhÃ´ne,FR33302,rural-nearcity,Fond,Dioxyde de soufre,1,1,ug.m-3,mensuel,1,1,128451,3,2018,5.820837783,46.07223918
+414,76,RHONE,Feyzin,FEYZIN MAIRIE,FR20030,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128402,3,2018,4.856115043,45.67166154
+415,39,ISERE,Vienne,Vienne Centre,FR27004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129312,12,2018,4.875409555,45.52596386
+416,29,RHONE,Villeurbanne,CROIX LUIZET,FR20020,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128210,1,2018,4.894029845,45.77641745
+417,32,RHONE,Lyon,VAISE MARIETTON,FR20008,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128459,3,2018,4.803604967,45.77690841
+418,60,RHONE,Lyon,VILLETTE,FR20006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128471,3,2018,4.865014022,45.75807536
+419,55,RHONE,Givors,GIVORS,FR20038,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128222,1,2018,4.773027653,45.58220911
+420,2,ISERE,Les Roches-de-Condrieu,ROCHES DE CONDRIEU,FR27003,suburban,Industrielle,Dioxyde de soufre,1,5.4,ug.m-3,mensuel,1,1,128720,6,2018,4.766521159,45.45450301
+421,8,ISERE,Fontaine,Fontaine Les Balmes,FR15017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129063,10,2018,5.686968799,45.19044442
+422,31,RHONE,Villeurbanne,CROIX LUIZET,FR20020,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128116,12,2017,4.894029845,45.77641745
+423,60,RHONE,Lyon,VILLETTE,FR20006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128565,4,2018,4.865014022,45.75807536
+424,85,RHONE,Lyon,MONTCHAT,FR20009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128614,5,2018,4.872501618,45.74777291
+425,30,RHONE,Lyon,ST JUST,FR20004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129112,10,2018,4.820334655,45.75529247
+426,70,RHONE,Feyzin,CLOCHETTES,FR20032,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129241,12,2018,4.855563803,45.68779373
+427,1,ISERE,Grenoble,Grenoble Les Frenes,FR15043,urban,Fond,Dioxyde de soufre,1,-0.2,ug.m-3,mensuel,1,1,128508,4,2018,5.735603366,45.16187407
+428,25,ISERE,Saint-Martin-d'HÃ¨res,St Martin dHeres,FR15038,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128173,12,2017,5.75310114,45.18279644
+429,68,RHONE,Loire-sur-RhÃ´ne,LES ORLETS,FR20039,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128422,3,2018,4.805002835,45.54864428
+430,33,ISERE,Roussillon,ROUSSILLON,FR27002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129098,10,2018,4.805142184,45.36778213
+431,53,ISERE,Salaise-sur-Sanne,SALAISE sur SANNE,FR27001,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128259,1,2018,4.803705088,45.35537585
+432,64,PUY-DE-DOME,Gerzat,Gerzat,FR07006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129255,12,2018,3.142914792,45.82382861
+433,28,HAUTE-SAVOIE,Passy,PASSY,FR33220,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128900,8,2018,6.713642902,45.9235436
+434,58,ISERE,Chasse-sur-RhÃ´ne,CHATANAY,FR20041,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128863,8,2018,4.825285977,45.57912106
+435,3,ISERE,Les Roches-de-Condrieu,ROCHES DE CONDRIEU,FR27003,suburban,Industrielle,Dioxyde de soufre,1,5.1,ug.m-3,mensuel,1,1,128814,7,2018,4.766521159,45.45450301
+436,81,ISERE,Champ-sur-Drac,Champ sur Drac,FR15013,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129049,10,2018,5.728650031,45.07951817
+437,57,SAVOIE,Saint-Julien-Mont-Denis,St Julien Montdenis,FR33112,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129298,12,2018,6.412227165,45.2492148
+438,29,HAUTE-SAVOIE,Passy,PASSY,FR33220,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128806,7,2018,6.713642902,45.9235436
+439,34,RHONE,Ternay,TERNAY,FR20037,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129304,12,2018,4.802195719,45.60192128
+440,63,RHONE,VÃ©nissieux,VENISSIEUX,FR20043,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128557,4,2018,4.875699604,45.68998231
+441,15,LOIRE,Saint-Ã‰tienne,COUBERTIN,FR29421,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129055,10,2018,4.389781793,45.46673742
+442,4,SAVOIE,Saint-Jean-de-Maurienne,SAINT JEAN,FR33111,urban,Fond,Dioxyde de soufre,1,6,ug.m-3,mensuel,1,1,129198,11,2018,6.349723082,45.27471893
+443,36,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE Village,FR20061,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128657,5,2018,4.719285546,45.98637779
+444,2,RHONE,Feyzin,FEYZIN STADE,FR20029,suburban,Industrielle,Dioxyde de soufre,1,0.3,ug.m-3,mensuel,1,1,129155,11,2018,4.845899116,45.66390304
+445,15,LOIRE,Saint-Ã‰tienne,COUBERTIN,FR29421,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129149,11,2018,4.389781793,45.46673742
+446,13,HAUTE-LOIRE,Le Puy-en-Velay,Le Puy Fayolle,FR07021,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128514,4,2018,3.885422203,45.04195891
+447,6,ARDECHE,Saint-Bauzile,Saint Bauzile CEC,FR36007,rural-regional,Industrielle,Dioxyde de soufre,1,5.1,ug.m-3,mensuel,1,1,129006,9,2018,4.673579766,44.67593047
+448,77,ISERE,Voreppe,Voreppe,FR15003,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128757,6,2018,5.64583986,45.28476346
+449,3,SAVOIE,Saint-Julien-Mont-Denis,St Julien trafic,FR33114,urban,Trafic,Dioxyde de soufre,1,8.1,ug.m-3,mensuel,1,1,128265,1,2018,6.397018275,45.25256234
+450,90,ISERE,Livet-et-Gavet,Riouperoux,FR15015,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128906,8,2018,5.897099405,45.08625696
+451,32,RHONE,Lyon,VAISE MARIETTON,FR20008,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128365,2,2018,4.803604967,45.77690841
+452,55,RHONE,Givors,GIVORS,FR20038,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128316,2,2018,4.773027653,45.58220911
+453,60,PUY-DE-DOME,Clermont-Ferrand,Centre Ville,FR07003,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128857,8,2018,3.083334107,45.77364091
+454,10,RHONE,Lyon,CROIX ROUSSE,FR20005,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128963,9,2018,4.819191839,45.77999086
+455,56,RHONE,Saint-Fons,ST FONS CENTRE,FR20031,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129295,12,2018,4.86439959,45.70782432
+456,59,ISERE,Chasse-sur-RhÃ´ne,CHATANAY,FR20041,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128299,2,2018,4.825285977,45.57912106
+457,71,LOIRE,Saint-Chamond,SAINT-CHAMOND,FR29426,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128631,5,2018,4.514999613,45.47529369
+458,12,HAUTE-LOIRE,Le Puy-en-Velay,Le Puy Fayolle,FR07021,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128608,5,2018,3.885422203,45.04195891
+459,10,ISERE,Grenoble,Villeneuve,FR15008,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128940,8,2018,5.736395372,45.16140417
+460,85,RHONE,Lyon,MONTCHAT,FR20009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129272,12,2018,4.872501618,45.74777291
+461,74,RHONE,VÃ©nissieux,VENISSIEUX Village,FR20060,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128276,1,2018,4.883605777,45.70363172
+462,92,RHONE,Pusignan,SAINT EXUPERY,FR20048,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129009,9,2018,5.070377771,45.75485265
+463,70,RHONE,Feyzin,CLOCHETTES,FR20032,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128677,6,2018,4.855563803,45.68779373
+464,9,PUY-DE-DOME,AubiÃ¨re,Roussillon,FR07024,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128345,2,2018,3.132000556,45.75171257
+465,51,RHONE,Bron,VINATIER,FR20025,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,129318,12,2018,4.893340696,45.7394083
+466,54,RHONE,Irigny,IRIGNY,FR20035,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128322,2,2018,4.825566681,45.67801561
+467,68,RHONE,Loire-sur-RhÃ´ne,LES ORLETS,FR20039,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128986,9,2018,4.805002835,45.54864428
+468,38,ISERE,Vienne,Vienne Centre,FR27004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128654,5,2018,4.875409555,45.52596386
+469,75,RHONE,Lyon,LYON Centre,FR20062,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128800,7,2018,4.853725888,45.75799123
+470,74,RHONE,Lyon,LA MOUCHE,FR20015,urban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128136,12,2017,4.843615666,45.71915521
+471,73,RHONE,Lyon,LA MOUCHE,FR20015,urban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128794,7,2018,4.843615666,45.71915521
+472,26,PUY-DE-DOME,Royat,Royat,FR07001,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128723,6,2018,3.047192677,45.76465692
+473,44,PUY-DE-DOME,Clermont-Ferrand,Gravanches,FR07002, suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128130,12,2017,3.143279556,45.79564274
+474,52,RHONE,Lyon,PUITS GAILLOT,FR20001,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128153,12,2017,4.836389594,45.76719208
+475,73,RHONE,Lyon,LA MOUCHE,FR20015,urban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,0,0,128700,6,2018,4.843615666,45.71915521
+476,20,ISERE,Salaise-sur-Sanne,A7 Nord-IsÃ¨re,FR27008,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128100,12,2017,4.804822471,45.35319621
+477,23,CANTAL,Aurillac,Aurillac Centre,FR07011,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128102,12,2017,2.436778768,44.92313152
+478,82,RHONE,Lyon,BERTHELOT,FR20002,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128103,12,2017,4.83609939,45.74684026
+479,62,PUY-DE-DOME,Clermont-Ferrand,Centre Ville,FR07003,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128105,12,2017,3.083334107,45.77364091
+480,63,SAVOIE,ChambÃ©ry,CHAMBERY LE HAUT,FR33102,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128106,12,2017,5.918616424,45.59668502
+481,70,HAUTE-SAVOIE,Chamonix-Mont-Blanc,CHAMONIX,FR33120,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128107,12,2017,6.869996699,45.92253686
+482,28,ISERE,Champagnier,Champagnier,FR15012,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128108,12,2017,5.726999066,45.10928942
+483,81,ISERE,Champ-sur-Drac,Champ sur Drac,FR15013,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128109,12,2017,5.728650031,45.07951817
+484,60,ISERE,Chasse-sur-RhÃ´ne,CHATANAY,FR20041,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128111,12,2017,4.825285977,45.57912106
+485,71,RHONE,Feyzin,CLOCHETTES,FR20032,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128113,12,2017,4.855563803,45.68779373
+486,18,AIN,Miribel,COTIERE AIN,FR20047,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128114,12,2017,4.953959787,45.82322611
+487,14,RHONE,Lyon,CROIX ROUSSE,FR20005,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128117,12,2017,4.819191839,45.77999086
+488,59,RHONE,Lyon,ETATS UNIS,FR20016,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128119,12,2017,4.859768259,45.73870604
+489,76,RHONE,Feyzin,FEYZIN MAIRIE,FR20030,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128120,12,2017,4.856115043,45.67166154
+490,67,LOIRE,Firminy,FIRMINY,FR29425,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128122,12,2017,4.281682417,45.38796299
+491,12,ISERE,Fontaine,Fontaine Les Balmes,FR15017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128123,12,2017,5.686968799,45.19044442
+492,26,RHONE,Lyon,GARIBALDI,FR20003,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128125,12,2017,4.850295216,45.7681358
+493,86,RHONE,Lyon,GERLAND,FR20017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128126,12,2017,4.829800054,45.73532325
+494,65,PUY-DE-DOME,Gerzat,Gerzat,FR07006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128127,12,2017,3.142914792,45.82382861
+495,57,RHONE,Givors,GIVORS,FR20038,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128128,12,2017,4.773027653,45.58220911
+496,84,RHONE,Villeurbanne,GRANDCLEMENT,FR20019,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128129,12,2017,4.886217349,45.75835327
+497,91,ISERE,Grenoble,Grenoble Foch,FR15006,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128131,12,2017,5.721383085,45.18078138
+498,56,RHONE,Irigny,IRIGNY,FR20035,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128134,12,2017,4.825566681,45.67801561
+499,87,PUY-DE-DOME,AubiÃ¨re,Landais,FR07005,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128137,12,2017,3.111945993,45.76389086
+500,69,RHONE,Loire-sur-RhÃ´ne,LES ORLETS,FR20039,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128140,12,2017,4.805002835,45.54864428
+501,75,RHONE,Lyon,LYON Centre,FR20062,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128142,12,2017,4.853725888,45.75799123
+502,45,RHONE,Millery,MILLERY,FR20040,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128143,12,2017,4.803054227,45.63028
+503,50,PUY-DE-DOME,Clermont-Ferrand,Montferrand,FR07004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128145,12,2017,3.113828888,45.79729717
+504,30,ALLIER,MontluÃ§on,Montlucon Centre,FR07010,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128146,12,2017,2.59800478,46.34396188
+505,89,RHONE,Neuville-sur-SaÃ´ne,NEUVILLE,FR20044,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128147,12,2017,4.838894431,45.87803176
+506,32,HAUTE-SAVOIE,Passy,PASSY,FR33220,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128148,12,2017,6.713642902,45.9235436
+507,93,SAVOIE,ChambÃ©ry,PASTEUR,FR33101,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128149,12,2017,5.928435518,45.56462103
+508,49,PUY-DE-DOME,Clermont-Ferrand,Place de Jaude,FR07030,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128151,12,2017,3.081883877,45.77625339
+509,90,ISERE,Livet-et-Gavet,Riouperoux,FR15015,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128154,12,2017,5.897099405,45.08625696
+510,13,PUY-DE-DOME,AubiÃ¨re,Roussillon,FR07024,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128157,12,2017,3.132000556,45.75171257
+511,29,PUY-DE-DOME,Royat,Royat,FR07001,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128159,12,2017,3.047192677,45.76465692
+512,7,ARDECHE,Saint-Bauzile,Saint Bauzile CEC,FR36007,rural-regional,Industrielle,Dioxyde de soufre,1,2.3,ug.m-3,mensuel,1,1,128160,12,2017,4.673579766,44.67593047
+513,34,LOIRE,Saint-Ã‰tienne,SAINT ETIENNE SUD,FR29424,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128162,12,2017,4.395419639,45.4201064
+514,92,RHONE,Pusignan,SAINT EXUPERY,FR20048,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128163,12,2017,5.070377771,45.75485265
+515,55,ISERE,Salaise-sur-Sanne,SALAISE sur SANNE,FR27001,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128165,12,2017,4.803705088,45.35537585
+516,48,RHONE,Solaize,SOLAIZE,FR20033,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128166,12,2017,4.843340379,45.64917303
+517,73,RHONE,Saint-Genis-Laval,ST GENIS LAVAL,FR20027,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128168,12,2017,4.796125538,45.69335082
+518,10,HAUTE-SAVOIE,Saint-Germain-sur-RhÃ´ne,St Germain/RhÃ´ne,FR33302,rural-nearcity,Fond,Dioxyde de soufre,1,0.7,ug.m-3,mensuel,1,1,128169,12,2017,5.820837783,46.07223918
+519,58,SAVOIE,Saint-Julien-Mont-Denis,St Julien Montdenis,FR33112,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128170,12,2017,6.412227165,45.2492148
+520,9,SAVOIE,Saint-Julien-Mont-Denis,St Julien trafic,FR33114,urban,Trafic,Dioxyde de soufre,1,6.6,ug.m-3,mensuel,1,1,128171,12,2017,6.397018275,45.25256234
+521,33,RHONE,Lyon,ST JUST,FR20004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128172,12,2017,4.820334655,45.75529247
+522,39,RHONE,Saint-Priest,ST PRIEST,FR20036,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128174,12,2017,4.913105816,45.69944163
+523,37,RHONE,Ternay,TERNAY,FR20037,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128176,12,2017,4.802195719,45.60192128
+524,35,RHONE,Lyon,VAISE MARIETTON,FR20008,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128177,12,2017,4.803604967,45.77690841
+525,46,LOIRE,Veauche,VEAUCHE,FR29427,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128180,12,2017,4.298550264,45.56581455
+526,4,RHONE,VÃ©nissieux,VENISSIEUX Village,FR20060,suburban,Industrielle,Dioxyde de soufre,1,-0.7,ug.m-3,mensuel,1,1,128182,12,2017,4.883605777,45.70363172
+527,88,ISERE,Le Versoud,Versoud,FR15007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128183,12,2017,5.850340053,45.21711641
+528,41,ISERE,Vienne,Vienne Estressin,FR27102,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128185,12,2017,4.863904251,45.53975628
+529,51,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE,FR20026,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128186,12,2017,4.715468338,45.98868744
+530,15,ISERE,Grenoble,Villeneuve,FR15008,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128188,12,2017,5.736395372,45.16140417
+531,61,RHONE,Lyon,VILLETTE,FR20006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128189,12,2017,4.865014022,45.75807536
+532,53,RHONE,Bron,VINATIER,FR20025,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128190,12,2017,4.893340696,45.7394083
+533,68,ISERE,Vizille,Vizille,FR15014,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128191,12,2017,5.770856387,45.07928726
+534,21,ISERE,Voiron,Voiron,FR15002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128192,12,2017,5.594389507,45.36002535
+535,77,ISERE,Voreppe,Voreppe,FR15003,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128193,12,2017,5.64583986,45.28476346
+536,17,ISERE,Salaise-sur-Sanne,A7 Nord-IsÃ¨re,FR27008,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128194,1,2018,4.804822471,45.35319621
+537,82,RHONE,Lyon,BERTHELOT,FR20002,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128197,1,2018,4.83609939,45.74684026
+538,61,PUY-DE-DOME,Clermont-Ferrand,Centre Ville,FR07003,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128199,1,2018,3.083334107,45.77364091
+539,62,SAVOIE,ChambÃ©ry,CHAMBERY LE HAUT,FR33102,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128200,1,2018,5.918616424,45.59668502
+540,81,ISERE,Champ-sur-Drac,Champ sur Drac,FR15013,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128203,1,2018,5.728650031,45.07951817
+541,59,ISERE,Chasse-sur-RhÃ´ne,CHATANAY,FR20041,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128205,1,2018,4.825285977,45.57912106
+542,83,PUY-DE-DOME,Clermont-Ferrand,Clermont-Esplanade Gare,FR07034,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128206,1,2018,3.096244451,45.77570176
+543,15,AIN,Miribel,COTIERE AIN,FR20047,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128208,1,2018,4.953959787,45.82322611
+544,16,LOIRE,Saint-Ã‰tienne,COUBERTIN,FR29421,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128209,1,2018,4.389781793,45.46673742
+545,11,RHONE,Lyon,CROIX ROUSSE,FR20005,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128211,1,2018,4.819191839,45.77999086
+546,21,RHONE,Lyon,DUCHERE,FR20007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128212,1,2018,4.79473598,45.78641735
+547,58,RHONE,Lyon,ETATS UNIS,FR20016,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128213,1,2018,4.859768259,45.73870604
+548,76,RHONE,Feyzin,FEYZIN MAIRIE,FR20030,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128214,1,2018,4.856115043,45.67166154
+549,9,ISERE,Fontaine,Fontaine Les Balmes,FR15017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128217,1,2018,5.686968799,45.19044442
+550,23,RHONE,Lyon,GARIBALDI,FR20003,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128219,1,2018,4.850295216,45.7681358
+551,86,RHONE,Lyon,GERLAND,FR20017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128220,1,2018,4.829800054,45.73532325
+552,84,RHONE,Villeurbanne,GRANDCLEMENT,FR20019,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128223,1,2018,4.886217349,45.75835327
+553,91,ISERE,Grenoble,Grenoble Foch,FR15006,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128225,1,2018,5.721383085,45.18078138
+554,6,ISERE,Grenoble,Grenoble Les Frenes,FR15043,urban,Fond,Dioxyde de soufre,1,1.3,ug.m-3,mensuel,1,1,128226,1,2018,5.735603366,45.16187407
+555,54,RHONE,Irigny,IRIGNY,FR20035,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128228,1,2018,4.825566681,45.67801561
+556,19,PUY-DE-DOME,Clermont-Ferrand,Jardin Lecoq,FR07009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128229,1,2018,3.087501101,45.77219697
+557,73,RHONE,Lyon,LA MOUCHE,FR20015,urban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128230,1,2018,4.843615666,45.71915521
+558,87,PUY-DE-DOME,AubiÃ¨re,Landais,FR07005,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128231,1,2018,3.111945993,45.76389086
+559,14,HAUTE-LOIRE,Le Puy-en-Velay,Le Puy Fayolle,FR07021,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128232,1,2018,3.885422203,45.04195891
+560,68,RHONE,Loire-sur-RhÃ´ne,LES ORLETS,FR20039,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128234,1,2018,4.805002835,45.54864428
+561,75,RHONE,Lyon,LYON Centre,FR20062,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128236,1,2018,4.853725888,45.75799123
+562,43,RHONE,Millery,MILLERY,FR20040,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128237,1,2018,4.803054227,45.63028
+563,48,PUY-DE-DOME,Clermont-Ferrand,Montferrand,FR07004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128239,1,2018,3.113828888,45.79729717
+564,28,ALLIER,MontluÃ§on,Montlucon Centre,FR07010,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128240,1,2018,2.59800478,46.34396188
+565,93,SAVOIE,ChambÃ©ry,PASTEUR,FR33101,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128243,1,2018,5.928435518,45.56462103
+566,47,PUY-DE-DOME,Clermont-Ferrand,Place de Jaude,FR07030,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128245,1,2018,3.081883877,45.77625339
+567,80,RHONE,Lyon,POINT DU JOUR,FR20018,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128246,1,2018,4.790200546,45.74856906
+568,90,ISERE,Livet-et-Gavet,Riouperoux,FR15015,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128248,1,2018,5.897099405,45.08625696
+569,79,LOIRE,Roanne,ROANNE,FR29423,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128249,1,2018,4.074653898,46.04106794
+570,10,PUY-DE-DOME,AubiÃ¨re,Roussillon,FR07024,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128251,1,2018,3.132000556,45.75171257
+571,34,ISERE,Roussillon,ROUSSILLON,FR27002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128252,1,2018,4.805142184,45.36778213
+572,27,PUY-DE-DOME,Royat,Royat,FR07001,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128253,1,2018,3.047192677,45.76465692
+573,5,ARDECHE,Saint-Bauzile,Saint Bauzile CEC,FR36007,rural-regional,Industrielle,Dioxyde de soufre,1,5.2,ug.m-3,mensuel,1,1,128254,1,2018,4.673579766,44.67593047
+574,71,LOIRE,Saint-Chamond,SAINT-CHAMOND,FR29426,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128255,1,2018,4.514999613,45.47529369
+575,92,RHONE,Pusignan,SAINT EXUPERY,FR20048,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128257,1,2018,5.070377771,45.75485265
+576,46,RHONE,Solaize,SOLAIZE,FR20033,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128260,1,2018,4.843340379,45.64917303
+577,72,RHONE,Saint-Genis-Laval,ST GENIS LAVAL,FR20027,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128262,1,2018,4.796125538,45.69335082
+578,4,HAUTE-SAVOIE,Saint-Germain-sur-RhÃ´ne,St Germain/RhÃ´ne,FR33302,rural-nearcity,Fond,Dioxyde de soufre,1,0.7,ug.m-3,mensuel,1,1,128263,1,2018,5.820837783,46.07223918
+579,31,RHONE,Lyon,ST JUST,FR20004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128266,1,2018,4.820334655,45.75529247
+580,37,RHONE,Saint-Priest,ST PRIEST,FR20036,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128268,1,2018,4.913105816,45.69944163
+581,8,RHONE,Saint-Romain-en-Gal,ST ROMAIN,FR20042,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128269,1,2018,4.858617253,45.53497998
+582,33,RHONE,Lyon,VAISE MARIETTON,FR20008,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128271,1,2018,4.803604967,45.77690841
+583,94,DROME,Valence,Valence Urb. Centre,FR36002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128272,1,2018,4.893674494,44.93318986
+584,44,LOIRE,Veauche,VEAUCHE,FR29427,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128274,1,2018,4.298550264,45.56581455
+585,63,RHONE,VÃ©nissieux,VENISSIEUX,FR20043,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128275,1,2018,4.875699604,45.68998231
+586,88,ISERE,Le Versoud,Versoud,FR15007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128277,1,2018,5.850340053,45.21711641
+587,49,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE,FR20026,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128280,1,2018,4.715468338,45.98868744
+588,12,ISERE,Grenoble,Villeneuve,FR15008,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128282,1,2018,5.736395372,45.16140417
+589,60,RHONE,Lyon,VILLETTE,FR20006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128283,1,2018,4.865014022,45.75807536
+590,18,ISERE,Voiron,Voiron,FR15002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128286,1,2018,5.594389507,45.36002535
+591,16,ISERE,Salaise-sur-Sanne,A7 Nord-IsÃ¨re,FR27008,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128288,2,2018,4.804822471,45.35319621
+592,65,HAUTE-SAVOIE,Annemasse,ANNEMASSE,FR33211,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128289,2,2018,6.240562703,46.19584661
+593,82,RHONE,Lyon,BERTHELOT,FR20002,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128291,2,2018,4.83609939,45.74684026
+594,52,RHONE,Caluire-et-Cuire,CALUIRE,FR20023,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128292,2,2018,4.848345018,45.80140495
+595,61,PUY-DE-DOME,Clermont-Ferrand,Centre Ville,FR07003,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128293,2,2018,3.083334107,45.77364091
+596,62,SAVOIE,ChambÃ©ry,CHAMBERY LE HAUT,FR33102,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128294,2,2018,5.918616424,45.59668502
+597,69,HAUTE-SAVOIE,Chamonix-Mont-Blanc,CHAMONIX,FR33120,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128295,2,2018,6.869996699,45.92253686
+598,81,ISERE,Champ-sur-Drac,Champ sur Drac,FR15013,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128297,2,2018,5.728650031,45.07951817
+599,83,PUY-DE-DOME,Clermont-Ferrand,Clermont-Esplanade Gare,FR07034,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128300,2,2018,3.096244451,45.77570176
+600,15,LOIRE,Saint-Ã‰tienne,COUBERTIN,FR29421,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128303,2,2018,4.389781793,45.46673742
+601,10,RHONE,Lyon,CROIX ROUSSE,FR20005,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128305,2,2018,4.819191839,45.77999086
+602,20,RHONE,Lyon,DUCHERE,FR20007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128306,2,2018,4.79473598,45.78641735
+603,76,RHONE,Feyzin,FEYZIN MAIRIE,FR20030,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128308,2,2018,4.856115043,45.67166154
+604,2,RHONE,Feyzin,FEYZIN STADE,FR20029,suburban,Industrielle,Dioxyde de soufre,1,3.4,ug.m-3,mensuel,1,1,128309,2,2018,4.845899116,45.66390304
+605,8,ISERE,Fontaine,Fontaine Les Balmes,FR15017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128311,2,2018,5.686968799,45.19044442
+606,40,PUY-DE-DOME,Clermont-Ferrand,Gaillard,FR07007,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128312,2,2018,3.082777891,45.78030494
+607,86,RHONE,Lyon,GERLAND,FR20017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128314,2,2018,4.829800054,45.73532325
+608,64,PUY-DE-DOME,Gerzat,Gerzat,FR07006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128315,2,2018,3.142914792,45.82382861
+609,84,RHONE,Villeurbanne,GRANDCLEMENT,FR20019,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128317,2,2018,4.886217349,45.75835327
+610,41,PUY-DE-DOME,Clermont-Ferrand,Gravanches,FR07002, suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128318,2,2018,3.143279556,45.79564274
+611,91,ISERE,Grenoble,Grenoble Foch,FR15006,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128319,2,2018,5.721383085,45.18078138
+612,1,ISERE,Grenoble,Grenoble Les Frenes,FR15043,urban,Fond,Dioxyde de soufre,1,1,ug.m-3,mensuel,1,1,128320,2,2018,5.735603366,45.16187407
+613,18,PUY-DE-DOME,Clermont-Ferrand,Jardin Lecoq,FR07009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128323,2,2018,3.087501101,45.77219697
+614,13,HAUTE-LOIRE,Le Puy-en-Velay,Le Puy Fayolle,FR07021,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128326,2,2018,3.885422203,45.04195891
+615,68,RHONE,Loire-sur-RhÃ´ne,LES ORLETS,FR20039,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128328,2,2018,4.805002835,45.54864428
+616,78,HAUTE-SAVOIE,Annecy,LOVERCHY,FR33201,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128329,2,2018,6.118449775,45.89538066
+617,42,RHONE,Millery,MILLERY,FR20040,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128331,2,2018,4.803054227,45.63028
+618,85,RHONE,Lyon,MONTCHAT,FR20009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128332,2,2018,4.872501618,45.74777291
+619,27,ALLIER,MontluÃ§on,Montlucon Centre,FR07010,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128334,2,2018,2.59800478,46.34396188
+620,89,RHONE,Neuville-sur-SaÃ´ne,NEUVILLE,FR20044,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128335,2,2018,4.838894431,45.87803176
+621,93,SAVOIE,ChambÃ©ry,PASTEUR,FR33101,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128337,2,2018,5.928435518,45.56462103
+622,25,RHONE,Pierre-BÃ©nite,PIERRE BENITE,FR20034,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128338,2,2018,4.829697101,45.69956602
+623,47,PUY-DE-DOME,Clermont-Ferrand,Place de Jaude,FR07030,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128339,2,2018,3.081883877,45.77625339
+624,80,RHONE,Lyon,POINT DU JOUR,FR20018,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128340,2,2018,4.790200546,45.74856906
+625,79,LOIRE,Roanne,ROANNE,FR29423,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128343,2,2018,4.074653898,46.04106794
+626,33,ISERE,Roussillon,ROUSSILLON,FR27002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128346,2,2018,4.805142184,45.36778213
+627,71,LOIRE,Saint-Chamond,SAINT-CHAMOND,FR29426,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128349,2,2018,4.514999613,45.47529369
+628,92,RHONE,Pusignan,SAINT EXUPERY,FR20048,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128351,2,2018,5.070377771,45.75485265
+629,4,SAVOIE,Saint-Jean-de-Maurienne,SAINT JEAN,FR33111,urban,Fond,Dioxyde de soufre,1,6.9,ug.m-3,mensuel,1,1,128352,2,2018,6.349723082,45.27471893
+630,45,RHONE,Solaize,SOLAIZE,FR20033,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128354,2,2018,4.843340379,45.64917303
+631,56,RHONE,Saint-Fons,ST FONS CENTRE,FR20031,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128355,2,2018,4.86439959,45.70782432
+632,72,RHONE,Saint-Genis-Laval,ST GENIS LAVAL,FR20027,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128356,2,2018,4.796125538,45.69335082
+633,5,HAUTE-SAVOIE,Saint-Germain-sur-RhÃ´ne,St Germain/RhÃ´ne,FR33302,rural-nearcity,Fond,Dioxyde de soufre,1,0.9,ug.m-3,mensuel,1,1,128357,2,2018,5.820837783,46.07223918
+634,57,SAVOIE,Saint-Julien-Mont-Denis,St Julien Montdenis,FR33112,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128358,2,2018,6.412227165,45.2492148
+635,30,RHONE,Lyon,ST JUST,FR20004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128360,2,2018,4.820334655,45.75529247
+636,36,RHONE,Saint-Priest,ST PRIEST,FR20036,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128362,2,2018,4.913105816,45.69944163
+637,7,RHONE,Saint-Romain-en-Gal,ST ROMAIN,FR20042,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128363,2,2018,4.858617253,45.53497998
+638,94,DROME,Valence,Valence Urb. Centre,FR36002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128366,2,2018,4.893674494,44.93318986
+639,43,LOIRE,Veauche,VEAUCHE,FR29427,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128368,2,2018,4.298550264,45.56581455
+640,63,RHONE,VÃ©nissieux,VENISSIEUX,FR20043,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128369,2,2018,4.875699604,45.68998231
+641,88,ISERE,Le Versoud,Versoud,FR15007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128371,2,2018,5.850340053,45.21711641
+642,39,ISERE,Vienne,Vienne Centre,FR27004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128372,2,2018,4.875409555,45.52596386
+643,49,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE,FR20026,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128374,2,2018,4.715468338,45.98868744
+644,37,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE Village,FR20061,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128375,2,2018,4.719285546,45.98637779
+645,11,ISERE,Grenoble,Villeneuve,FR15008,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128376,2,2018,5.736395372,45.16140417
+646,60,RHONE,Lyon,VILLETTE,FR20006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128377,2,2018,4.865014022,45.75807536
+647,51,RHONE,Bron,VINATIER,FR20025,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128378,2,2018,4.893340696,45.7394083
+648,17,ISERE,Voiron,Voiron,FR15002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128380,2,2018,5.594389507,45.36002535
+649,16,ISERE,Salaise-sur-Sanne,A7 Nord-IsÃ¨re,FR27008,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128382,3,2018,4.804822471,45.35319621
+650,65,HAUTE-SAVOIE,Annemasse,ANNEMASSE,FR33211,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128383,3,2018,6.240562703,46.19584661
+651,82,RHONE,Lyon,BERTHELOT,FR20002,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128385,3,2018,4.83609939,45.74684026
+652,52,RHONE,Caluire-et-Cuire,CALUIRE,FR20023,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128386,3,2018,4.848345018,45.80140495
+653,69,HAUTE-SAVOIE,Chamonix-Mont-Blanc,CHAMONIX,FR33120,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128389,3,2018,6.869996699,45.92253686
+654,81,ISERE,Champ-sur-Drac,Champ sur Drac,FR15013,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128391,3,2018,5.728650031,45.07951817
+655,35,RHONE,Villeurbanne,CHARPENNES,FR20021,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128392,3,2018,4.867228342,45.77524286
+656,83,PUY-DE-DOME,Clermont-Ferrand,Clermont-Esplanade Gare,FR07034,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128394,3,2018,3.096244451,45.77570176
+657,70,RHONE,Feyzin,CLOCHETTES,FR20032,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128395,3,2018,4.855563803,45.68779373
+658,15,LOIRE,Saint-Ã‰tienne,COUBERTIN,FR29421,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128397,3,2018,4.389781793,45.46673742
+659,28,RHONE,Villeurbanne,CROIX LUIZET,FR20020,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128398,3,2018,4.894029845,45.77641745
+660,10,RHONE,Lyon,CROIX ROUSSE,FR20005,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128399,3,2018,4.819191839,45.77999086
+661,20,RHONE,Lyon,DUCHERE,FR20007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128400,3,2018,4.79473598,45.78641735
+662,58,RHONE,Lyon,ETATS UNIS,FR20016,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128401,3,2018,4.859768259,45.73870604
+663,2,RHONE,Feyzin,FEYZIN STADE,FR20029,suburban,Industrielle,Dioxyde de soufre,1,1.6,ug.m-3,mensuel,1,1,128403,3,2018,4.845899116,45.66390304
+664,8,ISERE,Fontaine,Fontaine Les Balmes,FR15017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128405,3,2018,5.686968799,45.19044442
+665,40,PUY-DE-DOME,Clermont-Ferrand,Gaillard,FR07007,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128406,3,2018,3.082777891,45.78030494
+666,64,PUY-DE-DOME,Gerzat,Gerzat,FR07006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128409,3,2018,3.142914792,45.82382861
+667,84,RHONE,Villeurbanne,GRANDCLEMENT,FR20019,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128411,3,2018,4.886217349,45.75835327
+668,41,PUY-DE-DOME,Clermont-Ferrand,Gravanches,FR07002, suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128412,3,2018,3.143279556,45.79564274
+669,1,ISERE,Grenoble,Grenoble Les Frenes,FR15043,urban,Fond,Dioxyde de soufre,1,0.6,ug.m-3,mensuel,1,1,128414,3,2018,5.735603366,45.16187407
+670,12,RHONE,DiÃ¨me,HAUT BEAUJOLAIS,FR20049,rural-nearcity,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128415,3,2018,4.465714093,45.96139254
+671,18,PUY-DE-DOME,Clermont-Ferrand,Jardin Lecoq,FR07009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128417,3,2018,3.087501101,45.77219697
+672,73,RHONE,Lyon,LA MOUCHE,FR20015,urban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128418,3,2018,4.843615666,45.71915521
+673,13,HAUTE-LOIRE,Le Puy-en-Velay,Le Puy Fayolle,FR07021,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128420,3,2018,3.885422203,45.04195891
+674,44,ISERE,Ã‰chirolles,Le Rondeau,FR15039,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128421,3,2018,5.703760159,45.15832579
+675,78,HAUTE-SAVOIE,Annecy,LOVERCHY,FR33201,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128423,3,2018,6.118449775,45.89538066
+676,42,RHONE,Millery,MILLERY,FR20040,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128425,3,2018,4.803054227,45.63028
+677,85,RHONE,Lyon,MONTCHAT,FR20009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128426,3,2018,4.872501618,45.74777291
+678,89,RHONE,Neuville-sur-SaÃ´ne,NEUVILLE,FR20044,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128429,3,2018,4.838894431,45.87803176
+679,93,SAVOIE,ChambÃ©ry,PASTEUR,FR33101,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128431,3,2018,5.928435518,45.56462103
+680,25,RHONE,Pierre-BÃ©nite,PIERRE BENITE,FR20034,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128432,3,2018,4.829697101,45.69956602
+681,80,RHONE,Lyon,POINT DU JOUR,FR20018,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128434,3,2018,4.790200546,45.74856906
+682,50,RHONE,Lyon,PUITS GAILLOT,FR20001,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128435,3,2018,4.836389594,45.76719208
+683,79,LOIRE,Roanne,ROANNE,FR29423,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128437,3,2018,4.074653898,46.04106794
+684,3,ISERE,Les Roches-de-Condrieu,ROCHES DE CONDRIEU,FR27003,suburban,Industrielle,Dioxyde de soufre,1,6.7,ug.m-3,mensuel,1,1,128438,3,2018,4.766521159,45.45450301
+685,9,PUY-DE-DOME,AubiÃ¨re,Roussillon,FR07024,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128439,3,2018,3.132000556,45.75171257
+686,33,ISERE,Roussillon,ROUSSILLON,FR27002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128440,3,2018,4.805142184,45.36778213
+687,26,PUY-DE-DOME,Royat,Royat,FR07001,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128441,3,2018,3.047192677,45.76465692
+688,71,LOIRE,Saint-Chamond,SAINT-CHAMOND,FR29426,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128443,3,2018,4.514999613,45.47529369
+689,92,RHONE,Pusignan,SAINT EXUPERY,FR20048,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128445,3,2018,5.070377771,45.75485265
+690,4,SAVOIE,Saint-Jean-de-Maurienne,SAINT JEAN,FR33111,urban,Fond,Dioxyde de soufre,1,6.7,ug.m-3,mensuel,1,1,128446,3,2018,6.349723082,45.27471893
+691,56,RHONE,Saint-Fons,ST FONS CENTRE,FR20031,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128449,3,2018,4.86439959,45.70782432
+692,57,SAVOIE,Saint-Julien-Mont-Denis,St Julien Montdenis,FR33112,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128452,3,2018,6.412227165,45.2492148
+693,30,RHONE,Lyon,ST JUST,FR20004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128454,3,2018,4.820334655,45.75529247
+694,21,ISERE,Saint-Martin-d'HÃ¨res,St Martin dHeres,FR15038,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128455,3,2018,5.75310114,45.18279644
+695,7,RHONE,Saint-Romain-en-Gal,ST ROMAIN,FR20042,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128457,3,2018,4.858617253,45.53497998
+696,34,RHONE,Ternay,TERNAY,FR20037,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128458,3,2018,4.802195719,45.60192128
+697,94,DROME,Valence,Valence Urb. Centre,FR36002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128460,3,2018,4.893674494,44.93318986
+698,23,RHONE,Vaulx-en-Velin,VAULX EN VELIN,FR20046,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128461,3,2018,4.924700509,45.77887089
+699,43,LOIRE,Veauche,VEAUCHE,FR29427,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128462,3,2018,4.298550264,45.56581455
+700,63,RHONE,VÃ©nissieux,VENISSIEUX,FR20043,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128463,3,2018,4.875699604,45.68998231
+701,39,ISERE,Vienne,Vienne Centre,FR27004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128466,3,2018,4.875409555,45.52596386
+702,49,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE,FR20026,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128468,3,2018,4.715468338,45.98868744
+703,37,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE Village,FR20061,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128469,3,2018,4.719285546,45.98637779
+704,51,RHONE,Bron,VINATIER,FR20025,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128472,3,2018,4.893340696,45.7394083
+705,17,ISERE,Voiron,Voiron,FR15002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128474,3,2018,5.594389507,45.36002535
+706,77,ISERE,Voreppe,Voreppe,FR15003,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128475,3,2018,5.64583986,45.28476346
+707,65,HAUTE-SAVOIE,Annemasse,ANNEMASSE,FR33211,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128477,4,2018,6.240562703,46.19584661
+708,19,CANTAL,Aurillac,Aurillac Centre,FR07011,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128478,4,2018,2.436778768,44.92313152
+709,52,RHONE,Caluire-et-Cuire,CALUIRE,FR20023,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128480,4,2018,4.848345018,45.80140495
+710,61,PUY-DE-DOME,Clermont-Ferrand,Centre Ville,FR07003,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128481,4,2018,3.083334107,45.77364091
+711,69,HAUTE-SAVOIE,Chamonix-Mont-Blanc,CHAMONIX,FR33120,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128483,4,2018,6.869996699,45.92253686
+712,24,ISERE,Champagnier,Champagnier,FR15012,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128484,4,2018,5.726999066,45.10928942
+713,81,ISERE,Champ-sur-Drac,Champ sur Drac,FR15013,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128485,4,2018,5.728650031,45.07951817
+714,35,RHONE,Villeurbanne,CHARPENNES,FR20021,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128486,4,2018,4.867228342,45.77524286
+715,70,RHONE,Feyzin,CLOCHETTES,FR20032,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128489,4,2018,4.855563803,45.68779373
+716,15,LOIRE,Saint-Ã‰tienne,COUBERTIN,FR29421,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128491,4,2018,4.389781793,45.46673742
+717,28,RHONE,Villeurbanne,CROIX LUIZET,FR20020,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128492,4,2018,4.894029845,45.77641745
+718,58,RHONE,Lyon,ETATS UNIS,FR20016,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128495,4,2018,4.859768259,45.73870604
+719,2,RHONE,Feyzin,FEYZIN STADE,FR20029,suburban,Industrielle,Dioxyde de soufre,1,0.8,ug.m-3,mensuel,1,1,128497,4,2018,4.845899116,45.66390304
+720,66,LOIRE,Firminy,FIRMINY,FR29425,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128498,4,2018,4.281682417,45.38796299
+721,40,PUY-DE-DOME,Clermont-Ferrand,Gaillard,FR07007,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128500,4,2018,3.082777891,45.78030494
+722,22,RHONE,Lyon,GARIBALDI,FR20003,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128501,4,2018,4.850295216,45.7681358
+723,64,PUY-DE-DOME,Gerzat,Gerzat,FR07006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128503,4,2018,3.142914792,45.82382861
+724,55,RHONE,Givors,GIVORS,FR20038,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128504,4,2018,4.773027653,45.58220911
+725,84,RHONE,Villeurbanne,GRANDCLEMENT,FR20019,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128505,4,2018,4.886217349,45.75835327
+726,41,PUY-DE-DOME,Clermont-Ferrand,Gravanches,FR07002, suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128506,4,2018,3.143279556,45.79564274
+727,12,RHONE,DiÃ¨me,HAUT BEAUJOLAIS,FR20049,rural-nearcity,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128509,4,2018,4.465714093,45.96139254
+728,18,PUY-DE-DOME,Clermont-Ferrand,Jardin Lecoq,FR07009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128511,4,2018,3.087501101,45.77219697
+729,73,RHONE,Lyon,LA MOUCHE,FR20015,urban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128512,4,2018,4.843615666,45.71915521
+730,44,ISERE,Ã‰chirolles,Le Rondeau,FR15039,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128515,4,2018,5.703760159,45.15832579
+731,78,HAUTE-SAVOIE,Annecy,LOVERCHY,FR33201,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128517,4,2018,6.118449775,45.89538066
+732,75,RHONE,Lyon,LYON Centre,FR20062,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128518,4,2018,4.853725888,45.75799123
+733,85,RHONE,Lyon,MONTCHAT,FR20009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128520,4,2018,4.872501618,45.74777291
+734,48,PUY-DE-DOME,Clermont-Ferrand,Montferrand,FR07004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128521,4,2018,3.113828888,45.79729717
+735,89,RHONE,Neuville-sur-SaÃ´ne,NEUVILLE,FR20044,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128523,4,2018,4.838894431,45.87803176
+736,29,HAUTE-SAVOIE,Passy,PASSY,FR33220,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128524,4,2018,6.713642902,45.9235436
+737,93,SAVOIE,ChambÃ©ry,PASTEUR,FR33101,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128525,4,2018,5.928435518,45.56462103
+738,25,RHONE,Pierre-BÃ©nite,PIERRE BENITE,FR20034,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128526,4,2018,4.829697101,45.69956602
+739,50,RHONE,Lyon,PUITS GAILLOT,FR20001,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128529,4,2018,4.836389594,45.76719208
+740,79,LOIRE,Roanne,ROANNE,FR29423,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128531,4,2018,4.074653898,46.04106794
+741,3,ISERE,Les Roches-de-Condrieu,ROCHES DE CONDRIEU,FR27003,suburban,Industrielle,Dioxyde de soufre,1,9.8,ug.m-3,mensuel,1,1,128532,4,2018,4.766521159,45.45450301
+742,26,PUY-DE-DOME,Royat,Royat,FR07001,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128535,4,2018,3.047192677,45.76465692
+743,71,LOIRE,Saint-Chamond,SAINT-CHAMOND,FR29426,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128537,4,2018,4.514999613,45.47529369
+744,31,LOIRE,Saint-Ã‰tienne,SAINT ETIENNE SUD,FR29424,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128538,4,2018,4.395419639,45.4201064
+745,4,SAVOIE,Saint-Jean-de-Maurienne,SAINT JEAN,FR33111,urban,Fond,Dioxyde de soufre,1,6,ug.m-3,mensuel,1,1,128540,4,2018,6.349723082,45.27471893
+746,53,ISERE,Salaise-sur-Sanne,SALAISE sur SANNE,FR27001,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128541,4,2018,4.803705088,45.35537585
+747,56,RHONE,Saint-Fons,ST FONS CENTRE,FR20031,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128543,4,2018,4.86439959,45.70782432
+748,72,RHONE,Saint-Genis-Laval,ST GENIS LAVAL,FR20027,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128544,4,2018,4.796125538,45.69335082
+749,57,SAVOIE,Saint-Julien-Mont-Denis,St Julien Montdenis,FR33112,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128546,4,2018,6.412227165,45.2492148
+750,46,SAVOIE,Saint-Julien-Mont-Denis,St Julien trafic,FR33114,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128547,4,2018,6.397018275,45.25256234
+751,30,RHONE,Lyon,ST JUST,FR20004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128548,4,2018,4.820334655,45.75529247
+752,21,ISERE,Saint-Martin-d'HÃ¨res,St Martin dHeres,FR15038,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128549,4,2018,5.75310114,45.18279644
+753,34,RHONE,Ternay,TERNAY,FR20037,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128552,4,2018,4.802195719,45.60192128
+754,94,DROME,Valence,Valence Urb. Centre,FR36002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128554,4,2018,4.893674494,44.93318986
+755,23,RHONE,Vaulx-en-Velin,VAULX EN VELIN,FR20046,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128555,4,2018,4.924700509,45.77887089
+756,74,RHONE,VÃ©nissieux,VENISSIEUX Village,FR20060,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128558,4,2018,4.883605777,45.70363172
+757,39,ISERE,Vienne,Vienne Centre,FR27004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128560,4,2018,4.875409555,45.52596386
+758,38,ISERE,Vienne,Vienne Estressin,FR27102,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128561,4,2018,4.863904251,45.53975628
+759,37,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE Village,FR20061,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128563,4,2018,4.719285546,45.98637779
+760,11,ISERE,Grenoble,Villeneuve,FR15008,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128564,4,2018,5.736395372,45.16140417
+761,51,RHONE,Bron,VINATIER,FR20025,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128566,4,2018,4.893340696,45.7394083
+762,67,ISERE,Vizille,Vizille,FR15014,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128567,4,2018,5.770856387,45.07928726
+763,17,ISERE,Voiron,Voiron,FR15002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128568,4,2018,5.594389507,45.36002535
+764,77,ISERE,Voreppe,Voreppe,FR15003,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128569,4,2018,5.64583986,45.28476346
+765,18,CANTAL,Aurillac,Aurillac Centre,FR07011,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128572,5,2018,2.436778768,44.92313152
+766,52,RHONE,Caluire-et-Cuire,CALUIRE,FR20023,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128574,5,2018,4.848345018,45.80140495
+767,61,PUY-DE-DOME,Clermont-Ferrand,Centre Ville,FR07003,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128575,5,2018,3.083334107,45.77364091
+768,69,HAUTE-SAVOIE,Chamonix-Mont-Blanc,CHAMONIX,FR33120,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128577,5,2018,6.869996699,45.92253686
+769,23,ISERE,Champagnier,Champagnier,FR15012,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128578,5,2018,5.726999066,45.10928942
+770,34,RHONE,Villeurbanne,CHARPENNES,FR20021,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128580,5,2018,4.867228342,45.77524286
+771,59,ISERE,Chasse-sur-RhÃ´ne,CHATANAY,FR20041,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128581,5,2018,4.825285977,45.57912106
+772,70,RHONE,Feyzin,CLOCHETTES,FR20032,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128583,5,2018,4.855563803,45.68779373
+773,13,AIN,Miribel,COTIERE AIN,FR20047,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128584,5,2018,4.953959787,45.82322611
+774,14,LOIRE,Saint-Ã‰tienne,COUBERTIN,FR29421,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128585,5,2018,4.389781793,45.46673742
+775,27,RHONE,Villeurbanne,CROIX LUIZET,FR20020,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128586,5,2018,4.894029845,45.77641745
+776,9,RHONE,Lyon,CROIX ROUSSE,FR20005,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128587,5,2018,4.819191839,45.77999086
+777,58,RHONE,Lyon,ETATS UNIS,FR20016,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128589,5,2018,4.859768259,45.73870604
+778,2,RHONE,Feyzin,FEYZIN STADE,FR20029,suburban,Industrielle,Dioxyde de soufre,1,1.5,ug.m-3,mensuel,1,1,128591,5,2018,4.845899116,45.66390304
+779,66,LOIRE,Firminy,FIRMINY,FR29425,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128592,5,2018,4.281682417,45.38796299
+780,21,RHONE,Lyon,GARIBALDI,FR20003,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128595,5,2018,4.850295216,45.7681358
+781,64,PUY-DE-DOME,Gerzat,Gerzat,FR07006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128597,5,2018,3.142914792,45.82382861
+782,55,RHONE,Givors,GIVORS,FR20038,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128598,5,2018,4.773027653,45.58220911
+783,40,PUY-DE-DOME,Clermont-Ferrand,Gravanches,FR07002, suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128600,5,2018,3.143279556,45.79564274
+784,91,ISERE,Grenoble,Grenoble Foch,FR15006,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128601,5,2018,5.721383085,45.18078138
+785,11,RHONE,DiÃ¨me,HAUT BEAUJOLAIS,FR20049,rural-nearcity,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128603,5,2018,4.465714093,45.96139254
+786,54,RHONE,Irigny,IRIGNY,FR20035,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128604,5,2018,4.825566681,45.67801561
+787,73,RHONE,Lyon,LA MOUCHE,FR20015,urban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128606,5,2018,4.843615666,45.71915521
+788,87,PUY-DE-DOME,AubiÃ¨re,Landais,FR07005,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128607,5,2018,3.111945993,45.76389086
+789,43,ISERE,Ã‰chirolles,Le Rondeau,FR15039,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128609,5,2018,5.703760159,45.15832579
+790,78,HAUTE-SAVOIE,Annecy,LOVERCHY,FR33201,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128611,5,2018,6.118449775,45.89538066
+791,75,RHONE,Lyon,LYON Centre,FR20062,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128612,5,2018,4.853725888,45.75799123
+792,47,PUY-DE-DOME,Clermont-Ferrand,Montferrand,FR07004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128615,5,2018,3.113828888,45.79729717
+793,89,RHONE,Neuville-sur-SaÃ´ne,NEUVILLE,FR20044,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128617,5,2018,4.838894431,45.87803176
+794,28,HAUTE-SAVOIE,Passy,PASSY,FR33220,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128618,5,2018,6.713642902,45.9235436
+795,24,RHONE,Pierre-BÃ©nite,PIERRE BENITE,FR20034,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128620,5,2018,4.829697101,45.69956602
+796,46,PUY-DE-DOME,Clermont-Ferrand,Place de Jaude,FR07030,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128621,5,2018,3.081883877,45.77625339
+797,49,RHONE,Lyon,PUITS GAILLOT,FR20001,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128623,5,2018,4.836389594,45.76719208
+798,90,ISERE,Livet-et-Gavet,Riouperoux,FR15015,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128624,5,2018,5.897099405,45.08625696
+799,3,ISERE,Les Roches-de-Condrieu,ROCHES DE CONDRIEU,FR27003,suburban,Industrielle,Dioxyde de soufre,1,5.2,ug.m-3,mensuel,1,1,128626,5,2018,4.766521159,45.45450301
+800,8,PUY-DE-DOME,AubiÃ¨re,Roussillon,FR07024,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128627,5,2018,3.132000556,45.75171257
+801,25,PUY-DE-DOME,Royat,Royat,FR07001,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128629,5,2018,3.047192677,45.76465692
+802,51,ARDECHE,Saint-Bauzile,Saint Bauzile CEC,FR36007,rural-regional,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128630,5,2018,4.673579766,44.67593047
+803,30,LOIRE,Saint-Ã‰tienne,SAINT ETIENNE SUD,FR29424,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128632,5,2018,4.395419639,45.4201064
+804,53,ISERE,Salaise-sur-Sanne,SALAISE sur SANNE,FR27001,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128635,5,2018,4.803705088,45.35537585
+805,56,RHONE,Saint-Fons,ST FONS CENTRE,FR20031,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128637,5,2018,4.86439959,45.70782432
+806,72,RHONE,Saint-Genis-Laval,ST GENIS LAVAL,FR20027,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128638,5,2018,4.796125538,45.69335082
+807,45,SAVOIE,Saint-Julien-Mont-Denis,St Julien trafic,FR33114,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128641,5,2018,6.397018275,45.25256234
+808,20,ISERE,Saint-Martin-d'HÃ¨res,St Martin dHeres,FR15038,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128643,5,2018,5.75310114,45.18279644
+809,35,RHONE,Saint-Priest,ST PRIEST,FR20036,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128644,5,2018,4.913105816,45.69944163
+810,33,RHONE,Ternay,TERNAY,FR20037,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128646,5,2018,4.802195719,45.60192128
+811,31,RHONE,Lyon,VAISE MARIETTON,FR20008,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128647,5,2018,4.803604967,45.77690841
+812,94,DROME,Valence,Valence Urb. Centre,FR36002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128648,5,2018,4.893674494,44.93318986
+813,22,RHONE,Vaulx-en-Velin,VAULX EN VELIN,FR20046,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128649,5,2018,4.924700509,45.77887089
+814,42,LOIRE,Veauche,VEAUCHE,FR29427,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128650,5,2018,4.298550264,45.56581455
+815,74,RHONE,VÃ©nissieux,VENISSIEUX Village,FR20060,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128652,5,2018,4.883605777,45.70363172
+816,37,ISERE,Vienne,Vienne Estressin,FR27102,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128655,5,2018,4.863904251,45.53975628
+817,10,ISERE,Grenoble,Villeneuve,FR15008,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128658,5,2018,5.736395372,45.16140417
+818,50,RHONE,Bron,VINATIER,FR20025,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128660,5,2018,4.893340696,45.7394083
+819,67,ISERE,Vizille,Vizille,FR15014,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128661,5,2018,5.770856387,45.07928726
+820,77,ISERE,Voreppe,Voreppe,FR15003,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128663,5,2018,5.64583986,45.28476346
+821,16,ISERE,Salaise-sur-Sanne,A7 Nord-IsÃ¨re,FR27008,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128664,6,2018,4.804822471,45.35319621
+822,19,CANTAL,Aurillac,Aurillac Centre,FR07011,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128666,6,2018,2.436778768,44.92313152
+823,82,RHONE,Lyon,BERTHELOT,FR20002,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128667,6,2018,4.83609939,45.74684026
+824,52,RHONE,Caluire-et-Cuire,CALUIRE,FR20023,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128668,6,2018,4.848345018,45.80140495
+825,61,PUY-DE-DOME,Clermont-Ferrand,Centre Ville,FR07003,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128669,6,2018,3.083334107,45.77364091
+826,62,SAVOIE,ChambÃ©ry,CHAMBERY LE HAUT,FR33102,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128670,6,2018,5.918616424,45.59668502
+827,24,ISERE,Champagnier,Champagnier,FR15012,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128672,6,2018,5.726999066,45.10928942
+828,59,ISERE,Chasse-sur-RhÃ´ne,CHATANAY,FR20041,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128675,6,2018,4.825285977,45.57912106
+829,14,AIN,Miribel,COTIERE AIN,FR20047,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128678,6,2018,4.953959787,45.82322611
+830,10,RHONE,Lyon,CROIX ROUSSE,FR20005,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128681,6,2018,4.819191839,45.77999086
+831,58,RHONE,Lyon,ETATS UNIS,FR20016,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128683,6,2018,4.859768259,45.73870604
+832,76,RHONE,Feyzin,FEYZIN MAIRIE,FR20030,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128684,6,2018,4.856115043,45.67166154
+833,66,LOIRE,Firminy,FIRMINY,FR29425,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128686,6,2018,4.281682417,45.38796299
+834,8,ISERE,Fontaine,Fontaine Les Balmes,FR15017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128687,6,2018,5.686968799,45.19044442
+835,22,RHONE,Lyon,GARIBALDI,FR20003,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128689,6,2018,4.850295216,45.7681358
+836,86,RHONE,Lyon,GERLAND,FR20017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128690,6,2018,4.829800054,45.73532325
+837,64,PUY-DE-DOME,Gerzat,Gerzat,FR07006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128691,6,2018,3.142914792,45.82382861
+838,55,RHONE,Givors,GIVORS,FR20038,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128692,6,2018,4.773027653,45.58220911
+839,91,ISERE,Grenoble,Grenoble Foch,FR15006,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128695,6,2018,5.721383085,45.18078138
+840,54,RHONE,Irigny,IRIGNY,FR20035,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128698,6,2018,4.825566681,45.67801561
+841,87,PUY-DE-DOME,AubiÃ¨re,Landais,FR07005,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128701,6,2018,3.111945993,45.76389086
+842,68,RHONE,Loire-sur-RhÃ´ne,LES ORLETS,FR20039,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128704,6,2018,4.805002835,45.54864428
+843,75,RHONE,Lyon,LYON Centre,FR20062,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128706,6,2018,4.853725888,45.75799123
+844,42,RHONE,Millery,MILLERY,FR20040,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128707,6,2018,4.803054227,45.63028
+845,48,PUY-DE-DOME,Clermont-Ferrand,Montferrand,FR07004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128709,6,2018,3.113828888,45.79729717
+846,27,ALLIER,MontluÃ§on,Montlucon Centre,FR07010,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128710,6,2018,2.59800478,46.34396188
+847,89,RHONE,Neuville-sur-SaÃ´ne,NEUVILLE,FR20044,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128711,6,2018,4.838894431,45.87803176
+848,29,HAUTE-SAVOIE,Passy,PASSY,FR33220,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128712,6,2018,6.713642902,45.9235436
+849,93,SAVOIE,ChambÃ©ry,PASTEUR,FR33101,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128713,6,2018,5.928435518,45.56462103
+850,47,PUY-DE-DOME,Clermont-Ferrand,Place de Jaude,FR07030,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128715,6,2018,3.081883877,45.77625339
+851,50,RHONE,Lyon,PUITS GAILLOT,FR20001,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128717,6,2018,4.836389594,45.76719208
+852,90,ISERE,Livet-et-Gavet,Riouperoux,FR15015,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128718,6,2018,5.897099405,45.08625696
+853,9,PUY-DE-DOME,AubiÃ¨re,Roussillon,FR07024,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128721,6,2018,3.132000556,45.75171257
+854,5,ARDECHE,Saint-Bauzile,Saint Bauzile CEC,FR36007,rural-regional,Industrielle,Dioxyde de soufre,1,4,ug.m-3,mensuel,1,1,128724,6,2018,4.673579766,44.67593047
+855,31,LOIRE,Saint-Ã‰tienne,SAINT ETIENNE SUD,FR29424,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128726,6,2018,4.395419639,45.4201064
+856,92,RHONE,Pusignan,SAINT EXUPERY,FR20048,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128727,6,2018,5.070377771,45.75485265
+857,53,ISERE,Salaise-sur-Sanne,SALAISE sur SANNE,FR27001,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128729,6,2018,4.803705088,45.35537585
+858,45,RHONE,Solaize,SOLAIZE,FR20033,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128730,6,2018,4.843340379,45.64917303
+859,56,RHONE,Saint-Fons,ST FONS CENTRE,FR20031,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128731,6,2018,4.86439959,45.70782432
+860,72,RHONE,Saint-Genis-Laval,ST GENIS LAVAL,FR20027,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128732,6,2018,4.796125538,45.69335082
+861,4,HAUTE-SAVOIE,Saint-Germain-sur-RhÃ´ne,St Germain/RhÃ´ne,FR33302,rural-nearcity,Fond,Dioxyde de soufre,1,-0.2,ug.m-3,mensuel,1,1,128733,6,2018,5.820837783,46.07223918
+862,46,SAVOIE,Saint-Julien-Mont-Denis,St Julien trafic,FR33114,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128735,6,2018,6.397018275,45.25256234
+863,36,RHONE,Saint-Priest,ST PRIEST,FR20036,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128738,6,2018,4.913105816,45.69944163
+864,34,RHONE,Ternay,TERNAY,FR20037,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128740,6,2018,4.802195719,45.60192128
+865,32,RHONE,Lyon,VAISE MARIETTON,FR20008,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128741,6,2018,4.803604967,45.77690841
+866,43,LOIRE,Veauche,VEAUCHE,FR29427,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128744,6,2018,4.298550264,45.56581455
+867,74,RHONE,VÃ©nissieux,VENISSIEUX Village,FR20060,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128746,6,2018,4.883605777,45.70363172
+868,88,ISERE,Le Versoud,Versoud,FR15007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128747,6,2018,5.850340053,45.21711641
+869,38,ISERE,Vienne,Vienne Estressin,FR27102,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128749,6,2018,4.863904251,45.53975628
+870,49,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE,FR20026,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128750,6,2018,4.715468338,45.98868744
+871,11,ISERE,Grenoble,Villeneuve,FR15008,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128752,6,2018,5.736395372,45.16140417
+872,60,RHONE,Lyon,VILLETTE,FR20006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128753,6,2018,4.865014022,45.75807536
+873,51,RHONE,Bron,VINATIER,FR20025,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128754,6,2018,4.893340696,45.7394083
+874,67,ISERE,Vizille,Vizille,FR15014,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128755,6,2018,5.770856387,45.07928726
+875,16,ISERE,Salaise-sur-Sanne,A7 Nord-IsÃ¨re,FR27008,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128758,7,2018,4.804822471,45.35319621
+876,19,CANTAL,Aurillac,Aurillac Centre,FR07011,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128760,7,2018,2.436778768,44.92313152
+877,82,RHONE,Lyon,BERTHELOT,FR20002,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128761,7,2018,4.83609939,45.74684026
+878,62,SAVOIE,ChambÃ©ry,CHAMBERY LE HAUT,FR33102,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128764,7,2018,5.918616424,45.59668502
+879,24,ISERE,Champagnier,Champagnier,FR15012,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128766,7,2018,5.726999066,45.10928942
+880,81,ISERE,Champ-sur-Drac,Champ sur Drac,FR15013,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128767,7,2018,5.728650031,45.07951817
+881,59,ISERE,Chasse-sur-RhÃ´ne,CHATANAY,FR20041,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128769,7,2018,4.825285977,45.57912106
+882,83,PUY-DE-DOME,Clermont-Ferrand,Clermont-Esplanade Gare,FR07034,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128770,7,2018,3.096244451,45.77570176
+883,70,RHONE,Feyzin,CLOCHETTES,FR20032,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128771,7,2018,4.855563803,45.68779373
+884,14,AIN,Miribel,COTIERE AIN,FR20047,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128772,7,2018,4.953959787,45.82322611
+885,15,LOIRE,Saint-Ã‰tienne,COUBERTIN,FR29421,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128773,7,2018,4.389781793,45.46673742
+886,10,RHONE,Lyon,CROIX ROUSSE,FR20005,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128775,7,2018,4.819191839,45.77999086
+887,20,RHONE,Lyon,DUCHERE,FR20007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128776,7,2018,4.79473598,45.78641735
+888,58,RHONE,Lyon,ETATS UNIS,FR20016,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128777,7,2018,4.859768259,45.73870604
+889,76,RHONE,Feyzin,FEYZIN MAIRIE,FR20030,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128778,7,2018,4.856115043,45.67166154
+890,8,ISERE,Fontaine,Fontaine Les Balmes,FR15017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128781,7,2018,5.686968799,45.19044442
+891,22,RHONE,Lyon,GARIBALDI,FR20003,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128783,7,2018,4.850295216,45.7681358
+892,86,RHONE,Lyon,GERLAND,FR20017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128784,7,2018,4.829800054,45.73532325
+893,84,RHONE,Villeurbanne,GRANDCLEMENT,FR20019,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128787,7,2018,4.886217349,45.75835327
+894,91,ISERE,Grenoble,Grenoble Foch,FR15006,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128789,7,2018,5.721383085,45.18078138
+895,1,ISERE,Grenoble,Grenoble Les Frenes,FR15043,urban,Fond,Dioxyde de soufre,1,0.2,ug.m-3,mensuel,1,1,128790,7,2018,5.735603366,45.16187407
+896,54,RHONE,Irigny,IRIGNY,FR20035,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128792,7,2018,4.825566681,45.67801561
+897,18,PUY-DE-DOME,Clermont-Ferrand,Jardin Lecoq,FR07009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128793,7,2018,3.087501101,45.77219697
+898,87,PUY-DE-DOME,AubiÃ¨re,Landais,FR07005,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128795,7,2018,3.111945993,45.76389086
+899,13,HAUTE-LOIRE,Le Puy-en-Velay,Le Puy Fayolle,FR07021,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128796,7,2018,3.885422203,45.04195891
+900,68,RHONE,Loire-sur-RhÃ´ne,LES ORLETS,FR20039,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128798,7,2018,4.805002835,45.54864428
+901,42,RHONE,Millery,MILLERY,FR20040,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128801,7,2018,4.803054227,45.63028
+902,48,PUY-DE-DOME,Clermont-Ferrand,Montferrand,FR07004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128803,7,2018,3.113828888,45.79729717
+903,27,ALLIER,MontluÃ§on,Montlucon Centre,FR07010,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128804,7,2018,2.59800478,46.34396188
+904,93,SAVOIE,ChambÃ©ry,PASTEUR,FR33101,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128807,7,2018,5.928435518,45.56462103
+905,47,PUY-DE-DOME,Clermont-Ferrand,Place de Jaude,FR07030,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128809,7,2018,3.081883877,45.77625339
+906,80,RHONE,Lyon,POINT DU JOUR,FR20018,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128810,7,2018,4.790200546,45.74856906
+907,90,ISERE,Livet-et-Gavet,Riouperoux,FR15015,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128812,7,2018,5.897099405,45.08625696
+908,79,LOIRE,Roanne,ROANNE,FR29423,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128813,7,2018,4.074653898,46.04106794
+909,9,PUY-DE-DOME,AubiÃ¨re,Roussillon,FR07024,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128815,7,2018,3.132000556,45.75171257
+910,33,ISERE,Roussillon,ROUSSILLON,FR27002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128816,7,2018,4.805142184,45.36778213
+911,26,PUY-DE-DOME,Royat,Royat,FR07001,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128817,7,2018,3.047192677,45.76465692
+912,6,ARDECHE,Saint-Bauzile,Saint Bauzile CEC,FR36007,rural-regional,Industrielle,Dioxyde de soufre,1,5.8,ug.m-3,mensuel,1,1,128818,7,2018,4.673579766,44.67593047
+913,92,RHONE,Pusignan,SAINT EXUPERY,FR20048,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128821,7,2018,5.070377771,45.75485265
+914,53,ISERE,Salaise-sur-Sanne,SALAISE sur SANNE,FR27001,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128823,7,2018,4.803705088,45.35537585
+915,45,RHONE,Solaize,SOLAIZE,FR20033,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128824,7,2018,4.843340379,45.64917303
+916,5,HAUTE-SAVOIE,Saint-Germain-sur-RhÃ´ne,St Germain/RhÃ´ne,FR33302,rural-nearcity,Fond,Dioxyde de soufre,1,-0.5,ug.m-3,mensuel,1,1,128827,7,2018,5.820837783,46.07223918
+917,46,SAVOIE,Saint-Julien-Mont-Denis,St Julien trafic,FR33114,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128829,7,2018,6.397018275,45.25256234
+918,30,RHONE,Lyon,ST JUST,FR20004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128830,7,2018,4.820334655,45.75529247
+919,36,RHONE,Saint-Priest,ST PRIEST,FR20036,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128832,7,2018,4.913105816,45.69944163
+920,7,RHONE,Saint-Romain-en-Gal,ST ROMAIN,FR20042,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128833,7,2018,4.858617253,45.53497998
+921,34,RHONE,Ternay,TERNAY,FR20037,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128834,7,2018,4.802195719,45.60192128
+922,32,RHONE,Lyon,VAISE MARIETTON,FR20008,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128835,7,2018,4.803604967,45.77690841
+923,94,DROME,Valence,Valence Urb. Centre,FR36002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128836,7,2018,4.893674494,44.93318986
+924,43,LOIRE,Veauche,VEAUCHE,FR29427,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128838,7,2018,4.298550264,45.56581455
+925,74,RHONE,VÃ©nissieux,VENISSIEUX Village,FR20060,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128840,7,2018,4.883605777,45.70363172
+926,88,ISERE,Le Versoud,Versoud,FR15007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128841,7,2018,5.850340053,45.21711641
+927,49,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE,FR20026,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128844,7,2018,4.715468338,45.98868744
+928,11,ISERE,Grenoble,Villeneuve,FR15008,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128846,7,2018,5.736395372,45.16140417
+929,60,RHONE,Lyon,VILLETTE,FR20006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128847,7,2018,4.865014022,45.75807536
+930,67,ISERE,Vizille,Vizille,FR15014,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128849,7,2018,5.770856387,45.07928726
+931,17,ISERE,Voiron,Voiron,FR15002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128850,7,2018,5.594389507,45.36002535
+932,15,ISERE,Salaise-sur-Sanne,A7 Nord-IsÃ¨re,FR27008,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128852,8,2018,4.804822471,45.35319621
+933,64,HAUTE-SAVOIE,Annemasse,ANNEMASSE,FR33211,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128853,8,2018,6.240562703,46.19584661
+934,82,RHONE,Lyon,BERTHELOT,FR20002,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128855,8,2018,4.83609939,45.74684026
+935,51,RHONE,Caluire-et-Cuire,CALUIRE,FR20023,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128856,8,2018,4.848345018,45.80140495
+936,61,SAVOIE,ChambÃ©ry,CHAMBERY LE HAUT,FR33102,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128858,8,2018,5.918616424,45.59668502
+937,68,HAUTE-SAVOIE,Chamonix-Mont-Blanc,CHAMONIX,FR33120,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128859,8,2018,6.869996699,45.92253686
+938,23,ISERE,Champagnier,Champagnier,FR15012,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128860,8,2018,5.726999066,45.10928942
+939,81,ISERE,Champ-sur-Drac,Champ sur Drac,FR15013,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128861,8,2018,5.728650031,45.07951817
+940,83,PUY-DE-DOME,Clermont-Ferrand,Clermont-Esplanade Gare,FR07034,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128864,8,2018,3.096244451,45.77570176
+941,14,LOIRE,Saint-Ã‰tienne,COUBERTIN,FR29421,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128867,8,2018,4.389781793,45.46673742
+942,9,RHONE,Lyon,CROIX ROUSSE,FR20005,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128869,8,2018,4.819191839,45.77999086
+943,19,RHONE,Lyon,DUCHERE,FR20007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128870,8,2018,4.79473598,45.78641735
+944,76,RHONE,Feyzin,FEYZIN MAIRIE,FR20030,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128872,8,2018,4.856115043,45.67166154
+945,2,RHONE,Feyzin,FEYZIN STADE,FR20029,suburban,Industrielle,Dioxyde de soufre,1,3.4,ug.m-3,mensuel,1,1,128873,8,2018,4.845899116,45.66390304
+946,7,ISERE,Fontaine,Fontaine Les Balmes,FR15017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128875,8,2018,5.686968799,45.19044442
+947,39,PUY-DE-DOME,Clermont-Ferrand,Gaillard,FR07007,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128876,8,2018,3.082777891,45.78030494
+948,21,RHONE,Lyon,GARIBALDI,FR20003,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128877,8,2018,4.850295216,45.7681358
+949,86,RHONE,Lyon,GERLAND,FR20017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128878,8,2018,4.829800054,45.73532325
+950,63,PUY-DE-DOME,Gerzat,Gerzat,FR07006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128879,8,2018,3.142914792,45.82382861
+951,54,RHONE,Givors,GIVORS,FR20038,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128880,8,2018,4.773027653,45.58220911
+952,84,RHONE,Villeurbanne,GRANDCLEMENT,FR20019,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128881,8,2018,4.886217349,45.75835327
+953,1,ISERE,Grenoble,Grenoble Les Frenes,FR15043,urban,Fond,Dioxyde de soufre,1,0.2,ug.m-3,mensuel,1,1,128884,8,2018,5.735603366,45.16187407
+954,53,RHONE,Irigny,IRIGNY,FR20035,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128886,8,2018,4.825566681,45.67801561
+955,17,PUY-DE-DOME,Clermont-Ferrand,Jardin Lecoq,FR07009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128887,8,2018,3.087501101,45.77219697
+956,12,HAUTE-LOIRE,Le Puy-en-Velay,Le Puy Fayolle,FR07021,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128890,8,2018,3.885422203,45.04195891
+957,67,RHONE,Loire-sur-RhÃ´ne,LES ORLETS,FR20039,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128892,8,2018,4.805002835,45.54864428
+958,78,HAUTE-SAVOIE,Annecy,LOVERCHY,FR33201,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128893,8,2018,6.118449775,45.89538066
+959,41,RHONE,Millery,MILLERY,FR20040,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128895,8,2018,4.803054227,45.63028
+960,85,RHONE,Lyon,MONTCHAT,FR20009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128896,8,2018,4.872501618,45.74777291
+961,47,PUY-DE-DOME,Clermont-Ferrand,Montferrand,FR07004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128897,8,2018,3.113828888,45.79729717
+962,26,ALLIER,MontluÃ§on,Montlucon Centre,FR07010,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128898,8,2018,2.59800478,46.34396188
+963,89,RHONE,Neuville-sur-SaÃ´ne,NEUVILLE,FR20044,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128899,8,2018,4.838894431,45.87803176
+964,93,SAVOIE,ChambÃ©ry,PASTEUR,FR33101,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128901,8,2018,5.928435518,45.56462103
+965,46,PUY-DE-DOME,Clermont-Ferrand,Place de Jaude,FR07030,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128903,8,2018,3.081883877,45.77625339
+966,80,RHONE,Lyon,POINT DU JOUR,FR20018,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128904,8,2018,4.790200546,45.74856906
+967,79,LOIRE,Roanne,ROANNE,FR29423,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128907,8,2018,4.074653898,46.04106794
+968,8,PUY-DE-DOME,AubiÃ¨re,Roussillon,FR07024,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128909,8,2018,3.132000556,45.75171257
+969,32,ISERE,Roussillon,ROUSSILLON,FR27002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128910,8,2018,4.805142184,45.36778213
+970,5,ARDECHE,Saint-Bauzile,Saint Bauzile CEC,FR36007,rural-regional,Industrielle,Dioxyde de soufre,1,4,ug.m-3,mensuel,1,1,128912,8,2018,4.673579766,44.67593047
+971,70,LOIRE,Saint-Chamond,SAINT-CHAMOND,FR29426,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128913,8,2018,4.514999613,45.47529369
+972,92,RHONE,Pusignan,SAINT EXUPERY,FR20048,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128915,8,2018,5.070377771,45.75485265
+973,3,SAVOIE,Saint-Jean-de-Maurienne,SAINT JEAN,FR33111,urban,Fond,Dioxyde de soufre,1,5.3,ug.m-3,mensuel,1,1,128916,8,2018,6.349723082,45.27471893
+974,52,ISERE,Salaise-sur-Sanne,SALAISE sur SANNE,FR27001,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128917,8,2018,4.803705088,45.35537585
+975,44,RHONE,Solaize,SOLAIZE,FR20033,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128918,8,2018,4.843340379,45.64917303
+976,55,RHONE,Saint-Fons,ST FONS CENTRE,FR20031,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128919,8,2018,4.86439959,45.70782432
+977,4,HAUTE-SAVOIE,Saint-Germain-sur-RhÃ´ne,St Germain/RhÃ´ne,FR33302,rural-nearcity,Fond,Dioxyde de soufre,1,-0.1,ug.m-3,mensuel,1,1,128921,8,2018,5.820837783,46.07223918
+978,45,SAVOIE,Saint-Julien-Mont-Denis,St Julien trafic,FR33114,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128923,8,2018,6.397018275,45.25256234
+979,29,RHONE,Lyon,ST JUST,FR20004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128924,8,2018,4.820334655,45.75529247
+980,6,RHONE,Saint-Romain-en-Gal,ST ROMAIN,FR20042,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128927,8,2018,4.858617253,45.53497998
+981,94,DROME,Valence,Valence Urb. Centre,FR36002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128930,8,2018,4.893674494,44.93318986
+982,42,LOIRE,Veauche,VEAUCHE,FR29427,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128932,8,2018,4.298550264,45.56581455
+983,62,RHONE,VÃ©nissieux,VENISSIEUX,FR20043,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128933,8,2018,4.875699604,45.68998231
+984,88,ISERE,Le Versoud,Versoud,FR15007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128935,8,2018,5.850340053,45.21711641
+985,38,ISERE,Vienne,Vienne Centre,FR27004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128936,8,2018,4.875409555,45.52596386
+986,48,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE,FR20026,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128938,8,2018,4.715468338,45.98868744
+987,36,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE Village,FR20061,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128939,8,2018,4.719285546,45.98637779
+988,59,RHONE,Lyon,VILLETTE,FR20006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128941,8,2018,4.865014022,45.75807536
+989,50,RHONE,Bron,VINATIER,FR20025,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128942,8,2018,4.893340696,45.7394083
+990,16,ISERE,Voiron,Voiron,FR15002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128944,8,2018,5.594389507,45.36002535
+991,16,ISERE,Salaise-sur-Sanne,A7 Nord-IsÃ¨re,FR27008,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128946,9,2018,4.804822471,45.35319621
+992,65,HAUTE-SAVOIE,Annemasse,ANNEMASSE,FR33211,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128947,9,2018,6.240562703,46.19584661
+993,52,RHONE,Caluire-et-Cuire,CALUIRE,FR20023,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128950,9,2018,4.848345018,45.80140495
+994,62,SAVOIE,ChambÃ©ry,CHAMBERY LE HAUT,FR33102,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128952,9,2018,5.918616424,45.59668502
+995,69,HAUTE-SAVOIE,Chamonix-Mont-Blanc,CHAMONIX,FR33120,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128953,9,2018,6.869996699,45.92253686
+996,81,ISERE,Champ-sur-Drac,Champ sur Drac,FR15013,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128955,9,2018,5.728650031,45.07951817
+997,35,RHONE,Villeurbanne,CHARPENNES,FR20021,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128956,9,2018,4.867228342,45.77524286
+998,83,PUY-DE-DOME,Clermont-Ferrand,Clermont-Esplanade Gare,FR07034,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128958,9,2018,3.096244451,45.77570176
+999,70,RHONE,Feyzin,CLOCHETTES,FR20032,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128959,9,2018,4.855563803,45.68779373
+1000,14,AIN,Miribel,COTIERE AIN,FR20047,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128960,9,2018,4.953959787,45.82322611
+1001,15,LOIRE,Saint-Ã‰tienne,COUBERTIN,FR29421,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128961,9,2018,4.389781793,45.46673742
+1002,28,RHONE,Villeurbanne,CROIX LUIZET,FR20020,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128962,9,2018,4.894029845,45.77641745
+1003,20,RHONE,Lyon,DUCHERE,FR20007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128964,9,2018,4.79473598,45.78641735
+1004,2,RHONE,Feyzin,FEYZIN STADE,FR20029,suburban,Industrielle,Dioxyde de soufre,1,2.8,ug.m-3,mensuel,1,1,128967,9,2018,4.845899116,45.66390304
+1005,8,ISERE,Fontaine,Fontaine Les Balmes,FR15017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128969,9,2018,5.686968799,45.19044442
+1006,40,PUY-DE-DOME,Clermont-Ferrand,Gaillard,FR07007,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128970,9,2018,3.082777891,45.78030494
+1007,86,RHONE,Lyon,GERLAND,FR20017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128972,9,2018,4.829800054,45.73532325
+1008,64,PUY-DE-DOME,Gerzat,Gerzat,FR07006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128973,9,2018,3.142914792,45.82382861
+1009,84,RHONE,Villeurbanne,GRANDCLEMENT,FR20019,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128975,9,2018,4.886217349,45.75835327
+1010,41,PUY-DE-DOME,Clermont-Ferrand,Gravanches,FR07002, suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128976,9,2018,3.143279556,45.79564274
+1011,1,ISERE,Grenoble,Grenoble Les Frenes,FR15043,urban,Fond,Dioxyde de soufre,1,0.2,ug.m-3,mensuel,1,1,128978,9,2018,5.735603366,45.16187407
+1012,12,RHONE,DiÃ¨me,HAUT BEAUJOLAIS,FR20049,rural-nearcity,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128979,9,2018,4.465714093,45.96139254
+1013,54,RHONE,Irigny,IRIGNY,FR20035,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128980,9,2018,4.825566681,45.67801561
+1014,18,PUY-DE-DOME,Clermont-Ferrand,Jardin Lecoq,FR07009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128981,9,2018,3.087501101,45.77219697
+1015,73,RHONE,Lyon,LA MOUCHE,FR20015,urban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128982,9,2018,4.843615666,45.71915521
+1016,13,HAUTE-LOIRE,Le Puy-en-Velay,Le Puy Fayolle,FR07021,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128984,9,2018,3.885422203,45.04195891
+1017,78,HAUTE-SAVOIE,Annecy,LOVERCHY,FR33201,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128987,9,2018,6.118449775,45.89538066
+1018,85,RHONE,Lyon,MONTCHAT,FR20009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128990,9,2018,4.872501618,45.74777291
+1019,27,ALLIER,MontluÃ§on,Montlucon Centre,FR07010,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128992,9,2018,2.59800478,46.34396188
+1020,89,RHONE,Neuville-sur-SaÃ´ne,NEUVILLE,FR20044,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128993,9,2018,4.838894431,45.87803176
+1021,93,SAVOIE,ChambÃ©ry,PASTEUR,FR33101,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128995,9,2018,5.928435518,45.56462103
+1022,25,RHONE,Pierre-BÃ©nite,PIERRE BENITE,FR20034,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128996,9,2018,4.829697101,45.69956602
+1023,80,RHONE,Lyon,POINT DU JOUR,FR20018,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128998,9,2018,4.790200546,45.74856906
+1024,50,RHONE,Lyon,PUITS GAILLOT,FR20001,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,128999,9,2018,4.836389594,45.76719208
+1025,79,LOIRE,Roanne,ROANNE,FR29423,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129001,9,2018,4.074653898,46.04106794
+1026,3,ISERE,Les Roches-de-Condrieu,ROCHES DE CONDRIEU,FR27003,suburban,Industrielle,Dioxyde de soufre,1,6.3,ug.m-3,mensuel,1,1,129002,9,2018,4.766521159,45.45450301
+1027,9,PUY-DE-DOME,AubiÃ¨re,Roussillon,FR07024,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129003,9,2018,3.132000556,45.75171257
+1028,33,ISERE,Roussillon,ROUSSILLON,FR27002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129004,9,2018,4.805142184,45.36778213
+1029,71,LOIRE,Saint-Chamond,SAINT-CHAMOND,FR29426,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129007,9,2018,4.514999613,45.47529369
+1030,4,SAVOIE,Saint-Jean-de-Maurienne,SAINT JEAN,FR33111,urban,Fond,Dioxyde de soufre,1,5.6,ug.m-3,mensuel,1,1,129010,9,2018,6.349723082,45.27471893
+1031,56,RHONE,Saint-Fons,ST FONS CENTRE,FR20031,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129013,9,2018,4.86439959,45.70782432
+1032,5,HAUTE-SAVOIE,Saint-Germain-sur-RhÃ´ne,St Germain/RhÃ´ne,FR33302,rural-nearcity,Fond,Dioxyde de soufre,1,-0.2,ug.m-3,mensuel,1,1,129015,9,2018,5.820837783,46.07223918
+1033,57,SAVOIE,Saint-Julien-Mont-Denis,St Julien Montdenis,FR33112,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129016,9,2018,6.412227165,45.2492148
+1034,30,RHONE,Lyon,ST JUST,FR20004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129018,9,2018,4.820334655,45.75529247
+1035,21,ISERE,Saint-Martin-d'HÃ¨res,St Martin dHeres,FR15038,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129019,9,2018,5.75310114,45.18279644
+1036,7,RHONE,Saint-Romain-en-Gal,ST ROMAIN,FR20042,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129021,9,2018,4.858617253,45.53497998
+1037,34,RHONE,Ternay,TERNAY,FR20037,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129022,9,2018,4.802195719,45.60192128
+1038,32,RHONE,Lyon,VAISE MARIETTON,FR20008,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129023,9,2018,4.803604967,45.77690841
+1039,94,DROME,Valence,Valence Urb. Centre,FR36002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129024,9,2018,4.893674494,44.93318986
+1040,23,RHONE,Vaulx-en-Velin,VAULX EN VELIN,FR20046,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129025,9,2018,4.924700509,45.77887089
+1041,43,LOIRE,Veauche,VEAUCHE,FR29427,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129026,9,2018,4.298550264,45.56581455
+1042,63,RHONE,VÃ©nissieux,VENISSIEUX,FR20043,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129027,9,2018,4.875699604,45.68998231
+1043,39,ISERE,Vienne,Vienne Centre,FR27004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129030,9,2018,4.875409555,45.52596386
+1044,49,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE,FR20026,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129032,9,2018,4.715468338,45.98868744
+1045,37,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE Village,FR20061,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129033,9,2018,4.719285546,45.98637779
+1046,51,RHONE,Bron,VINATIER,FR20025,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129036,9,2018,4.893340696,45.7394083
+1047,17,ISERE,Voiron,Voiron,FR15002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129038,9,2018,5.594389507,45.36002535
+1048,77,ISERE,Voreppe,Voreppe,FR15003,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129039,9,2018,5.64583986,45.28476346
+1049,65,HAUTE-SAVOIE,Annemasse,ANNEMASSE,FR33211,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129041,10,2018,6.240562703,46.19584661
+1050,19,CANTAL,Aurillac,Aurillac Centre,FR07011,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129042,10,2018,2.436778768,44.92313152
+1051,52,RHONE,Caluire-et-Cuire,CALUIRE,FR20023,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129044,10,2018,4.848345018,45.80140495
+1052,61,PUY-DE-DOME,Clermont-Ferrand,Centre Ville,FR07003,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129045,10,2018,3.083334107,45.77364091
+1053,62,SAVOIE,ChambÃ©ry,CHAMBERY LE HAUT,FR33102,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129046,10,2018,5.918616424,45.59668502
+1054,69,HAUTE-SAVOIE,Chamonix-Mont-Blanc,CHAMONIX,FR33120,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129047,10,2018,6.869996699,45.92253686
+1055,35,RHONE,Villeurbanne,CHARPENNES,FR20021,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129050,10,2018,4.867228342,45.77524286
+1056,83,PUY-DE-DOME,Clermont-Ferrand,Clermont-Esplanade Gare,FR07034,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129052,10,2018,3.096244451,45.77570176
+1057,70,RHONE,Feyzin,CLOCHETTES,FR20032,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129053,10,2018,4.855563803,45.68779373
+1058,28,RHONE,Villeurbanne,CROIX LUIZET,FR20020,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129056,10,2018,4.894029845,45.77641745
+1059,20,RHONE,Lyon,DUCHERE,FR20007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129058,10,2018,4.79473598,45.78641735
+1060,58,RHONE,Lyon,ETATS UNIS,FR20016,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129059,10,2018,4.859768259,45.73870604
+1061,2,RHONE,Feyzin,FEYZIN STADE,FR20029,suburban,Industrielle,Dioxyde de soufre,1,2,ug.m-3,mensuel,1,1,129061,10,2018,4.845899116,45.66390304
+1062,66,LOIRE,Firminy,FIRMINY,FR29425,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129062,10,2018,4.281682417,45.38796299
+1063,40,PUY-DE-DOME,Clermont-Ferrand,Gaillard,FR07007,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129064,10,2018,3.082777891,45.78030494
+1064,22,RHONE,Lyon,GARIBALDI,FR20003,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129065,10,2018,4.850295216,45.7681358
+1065,86,RHONE,Lyon,GERLAND,FR20017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129066,10,2018,4.829800054,45.73532325
+1066,64,PUY-DE-DOME,Gerzat,Gerzat,FR07006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129067,10,2018,3.142914792,45.82382861
+1067,41,PUY-DE-DOME,Clermont-Ferrand,Gravanches,FR07002, suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129070,10,2018,3.143279556,45.79564274
+1068,1,ISERE,Grenoble,Grenoble Les Frenes,FR15043,urban,Fond,Dioxyde de soufre,1,0.8,ug.m-3,mensuel,1,1,129072,10,2018,5.735603366,45.16187407
+1069,12,RHONE,DiÃ¨me,HAUT BEAUJOLAIS,FR20049,rural-nearcity,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129073,10,2018,4.465714093,45.96139254
+1070,73,RHONE,Lyon,LA MOUCHE,FR20015,urban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129076,10,2018,4.843615666,45.71915521
+1071,13,HAUTE-LOIRE,Le Puy-en-Velay,Le Puy Fayolle,FR07021,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129078,10,2018,3.885422203,45.04195891
+1072,44,ISERE,Ã‰chirolles,Le Rondeau,FR15039,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129079,10,2018,5.703760159,45.15832579
+1073,78,HAUTE-SAVOIE,Annecy,LOVERCHY,FR33201,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129081,10,2018,6.118449775,45.89538066
+1074,75,RHONE,Lyon,LYON Centre,FR20062,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129082,10,2018,4.853725888,45.75799123
+1075,85,RHONE,Lyon,MONTCHAT,FR20009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129084,10,2018,4.872501618,45.74777291
+1076,48,PUY-DE-DOME,Clermont-Ferrand,Montferrand,FR07004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129085,10,2018,3.113828888,45.79729717
+1077,27,ALLIER,MontluÃ§on,Montlucon Centre,FR07010,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129086,10,2018,2.59800478,46.34396188
+1078,89,RHONE,Neuville-sur-SaÃ´ne,NEUVILLE,FR20044,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129087,10,2018,4.838894431,45.87803176
+1079,29,HAUTE-SAVOIE,Passy,PASSY,FR33220,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129088,10,2018,6.713642902,45.9235436
+1080,93,SAVOIE,ChambÃ©ry,PASTEUR,FR33101,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129089,10,2018,5.928435518,45.56462103
+1081,25,RHONE,Pierre-BÃ©nite,PIERRE BENITE,FR20034,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129090,10,2018,4.829697101,45.69956602
+1082,50,RHONE,Lyon,PUITS GAILLOT,FR20001,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129093,10,2018,4.836389594,45.76719208
+1083,79,LOIRE,Roanne,ROANNE,FR29423,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129095,10,2018,4.074653898,46.04106794
+1084,3,ISERE,Les Roches-de-Condrieu,ROCHES DE CONDRIEU,FR27003,suburban,Industrielle,Dioxyde de soufre,1,7,ug.m-3,mensuel,1,1,129096,10,2018,4.766521159,45.45450301
+1085,26,PUY-DE-DOME,Royat,Royat,FR07001,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129099,10,2018,3.047192677,45.76465692
+1086,71,LOIRE,Saint-Chamond,SAINT-CHAMOND,FR29426,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129101,10,2018,4.514999613,45.47529369
+1087,31,LOIRE,Saint-Ã‰tienne,SAINT ETIENNE SUD,FR29424,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129102,10,2018,4.395419639,45.4201064
+1088,4,SAVOIE,Saint-Jean-de-Maurienne,SAINT JEAN,FR33111,urban,Fond,Dioxyde de soufre,1,7.1,ug.m-3,mensuel,1,1,129104,10,2018,6.349723082,45.27471893
+1089,53,ISERE,Salaise-sur-Sanne,SALAISE sur SANNE,FR27001,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129105,10,2018,4.803705088,45.35537585
+1090,56,RHONE,Saint-Fons,ST FONS CENTRE,FR20031,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129107,10,2018,4.86439959,45.70782432
+1091,72,RHONE,Saint-Genis-Laval,ST GENIS LAVAL,FR20027,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129108,10,2018,4.796125538,45.69335082
+1092,5,HAUTE-SAVOIE,Saint-Germain-sur-RhÃ´ne,St Germain/RhÃ´ne,FR33302,rural-nearcity,Fond,Dioxyde de soufre,1,0.3,ug.m-3,mensuel,1,1,129109,10,2018,5.820837783,46.07223918
+1093,57,SAVOIE,Saint-Julien-Mont-Denis,St Julien Montdenis,FR33112,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129110,10,2018,6.412227165,45.2492148
+1094,21,ISERE,Saint-Martin-d'HÃ¨res,St Martin dHeres,FR15038,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129113,10,2018,5.75310114,45.18279644
+1095,7,RHONE,Saint-Romain-en-Gal,ST ROMAIN,FR20042,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129115,10,2018,4.858617253,45.53497998
+1096,34,RHONE,Ternay,TERNAY,FR20037,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129116,10,2018,4.802195719,45.60192128
+1097,23,RHONE,Vaulx-en-Velin,VAULX EN VELIN,FR20046,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129119,10,2018,4.924700509,45.77887089
+1098,63,RHONE,VÃ©nissieux,VENISSIEUX,FR20043,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129121,10,2018,4.875699604,45.68998231
+1099,74,RHONE,VÃ©nissieux,VENISSIEUX Village,FR20060,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129122,10,2018,4.883605777,45.70363172
+1100,39,ISERE,Vienne,Vienne Centre,FR27004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129124,10,2018,4.875409555,45.52596386
+1101,38,ISERE,Vienne,Vienne Estressin,FR27102,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129125,10,2018,4.863904251,45.53975628
+1102,49,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE,FR20026,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129126,10,2018,4.715468338,45.98868744
+1103,37,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE Village,FR20061,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129127,10,2018,4.719285546,45.98637779
+1104,11,ISERE,Grenoble,Villeneuve,FR15008,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129128,10,2018,5.736395372,45.16140417
+1105,51,RHONE,Bron,VINATIER,FR20025,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129130,10,2018,4.893340696,45.7394083
+1106,17,ISERE,Voiron,Voiron,FR15002,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129132,10,2018,5.594389507,45.36002535
+1107,77,ISERE,Voreppe,Voreppe,FR15003,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129133,10,2018,5.64583986,45.28476346
+1108,19,CANTAL,Aurillac,Aurillac Centre,FR07011,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129136,11,2018,2.436778768,44.92313152
+1109,52,RHONE,Caluire-et-Cuire,CALUIRE,FR20023,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129138,11,2018,4.848345018,45.80140495
+1110,61,PUY-DE-DOME,Clermont-Ferrand,Centre Ville,FR07003,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129139,11,2018,3.083334107,45.77364091
+1111,69,HAUTE-SAVOIE,Chamonix-Mont-Blanc,CHAMONIX,FR33120,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129141,11,2018,6.869996699,45.92253686
+1112,24,ISERE,Champagnier,Champagnier,FR15012,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129142,11,2018,5.726999066,45.10928942
+1113,35,RHONE,Villeurbanne,CHARPENNES,FR20021,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129144,11,2018,4.867228342,45.77524286
+1114,59,ISERE,Chasse-sur-RhÃ´ne,CHATANAY,FR20041,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129145,11,2018,4.825285977,45.57912106
+1115,83,PUY-DE-DOME,Clermont-Ferrand,Clermont-Esplanade Gare,FR07034,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129146,11,2018,3.096244451,45.77570176
+1116,70,RHONE,Feyzin,CLOCHETTES,FR20032,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129147,11,2018,4.855563803,45.68779373
+1117,14,AIN,Miribel,COTIERE AIN,FR20047,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129148,11,2018,4.953959787,45.82322611
+1118,28,RHONE,Villeurbanne,CROIX LUIZET,FR20020,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129150,11,2018,4.894029845,45.77641745
+1119,20,RHONE,Lyon,DUCHERE,FR20007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129152,11,2018,4.79473598,45.78641735
+1120,58,RHONE,Lyon,ETATS UNIS,FR20016,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129153,11,2018,4.859768259,45.73870604
+1121,66,LOIRE,Firminy,FIRMINY,FR29425,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129156,11,2018,4.281682417,45.38796299
+1122,40,PUY-DE-DOME,Clermont-Ferrand,Gaillard,FR07007,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129158,11,2018,3.082777891,45.78030494
+1123,22,RHONE,Lyon,GARIBALDI,FR20003,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129159,11,2018,4.850295216,45.7681358
+1124,55,RHONE,Givors,GIVORS,FR20038,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129162,11,2018,4.773027653,45.58220911
+1125,41,PUY-DE-DOME,Clermont-Ferrand,Gravanches,FR07002, suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129164,11,2018,3.143279556,45.79564274
+1126,91,ISERE,Grenoble,Grenoble Foch,FR15006,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129165,11,2018,5.721383085,45.18078138
+1127,12,RHONE,DiÃ¨me,HAUT BEAUJOLAIS,FR20049,rural-nearcity,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129167,11,2018,4.465714093,45.96139254
+1128,54,RHONE,Irigny,IRIGNY,FR20035,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129168,11,2018,4.825566681,45.67801561
+1129,73,RHONE,Lyon,LA MOUCHE,FR20015,urban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129170,11,2018,4.843615666,45.71915521
+1130,87,PUY-DE-DOME,AubiÃ¨re,Landais,FR07005,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129171,11,2018,3.111945993,45.76389086
+1131,13,HAUTE-LOIRE,Le Puy-en-Velay,Le Puy Fayolle,FR07021,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129172,11,2018,3.885422203,45.04195891
+1132,44,ISERE,Ã‰chirolles,Le Rondeau,FR15039,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129173,11,2018,5.703760159,45.15832579
+1133,75,RHONE,Lyon,LYON Centre,FR20062,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129176,11,2018,4.853725888,45.75799123
+1134,85,RHONE,Lyon,MONTCHAT,FR20009,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129178,11,2018,4.872501618,45.74777291
+1135,48,PUY-DE-DOME,Clermont-Ferrand,Montferrand,FR07004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129179,11,2018,3.113828888,45.79729717
+1136,29,HAUTE-SAVOIE,Passy,PASSY,FR33220,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129182,11,2018,6.713642902,45.9235436
+1137,25,RHONE,Pierre-BÃ©nite,PIERRE BENITE,FR20034,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129184,11,2018,4.829697101,45.69956602
+1138,47,PUY-DE-DOME,Clermont-Ferrand,Place de Jaude,FR07030,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129185,11,2018,3.081883877,45.77625339
+1139,50,RHONE,Lyon,PUITS GAILLOT,FR20001,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129187,11,2018,4.836389594,45.76719208
+1140,90,ISERE,Livet-et-Gavet,Riouperoux,FR15015,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129188,11,2018,5.897099405,45.08625696
+1141,79,LOIRE,Roanne,ROANNE,FR29423,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129189,11,2018,4.074653898,46.04106794
+1142,3,ISERE,Les Roches-de-Condrieu,ROCHES DE CONDRIEU,FR27003,suburban,Industrielle,Dioxyde de soufre,1,9.3,ug.m-3,mensuel,1,1,129190,11,2018,4.766521159,45.45450301
+1143,9,PUY-DE-DOME,AubiÃ¨re,Roussillon,FR07024,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129191,11,2018,3.132000556,45.75171257
+1144,26,PUY-DE-DOME,Royat,Royat,FR07001,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129193,11,2018,3.047192677,45.76465692
+1145,71,LOIRE,Saint-Chamond,SAINT-CHAMOND,FR29426,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129195,11,2018,4.514999613,45.47529369
+1146,31,LOIRE,Saint-Ã‰tienne,SAINT ETIENNE SUD,FR29424,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129196,11,2018,4.395419639,45.4201064
+1147,53,ISERE,Salaise-sur-Sanne,SALAISE sur SANNE,FR27001,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129199,11,2018,4.803705088,45.35537585
+1148,56,RHONE,Saint-Fons,ST FONS CENTRE,FR20031,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129201,11,2018,4.86439959,45.70782432
+1149,72,RHONE,Saint-Genis-Laval,ST GENIS LAVAL,FR20027,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129202,11,2018,4.796125538,45.69335082
+1150,57,SAVOIE,Saint-Julien-Mont-Denis,St Julien Montdenis,FR33112,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129204,11,2018,6.412227165,45.2492148
+1151,46,SAVOIE,Saint-Julien-Mont-Denis,St Julien trafic,FR33114,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129205,11,2018,6.397018275,45.25256234
+1152,21,ISERE,Saint-Martin-d'HÃ¨res,St Martin dHeres,FR15038,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129207,11,2018,5.75310114,45.18279644
+1153,36,RHONE,Saint-Priest,ST PRIEST,FR20036,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129208,11,2018,4.913105816,45.69944163
+1154,7,RHONE,Saint-Romain-en-Gal,ST ROMAIN,FR20042,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129209,11,2018,4.858617253,45.53497998
+1155,34,RHONE,Ternay,TERNAY,FR20037,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129210,11,2018,4.802195719,45.60192128
+1156,32,RHONE,Lyon,VAISE MARIETTON,FR20008,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129211,11,2018,4.803604967,45.77690841
+1157,23,RHONE,Vaulx-en-Velin,VAULX EN VELIN,FR20046,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129213,11,2018,4.924700509,45.77887089
+1158,63,RHONE,VÃ©nissieux,VENISSIEUX,FR20043,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129215,11,2018,4.875699604,45.68998231
+1159,74,RHONE,VÃ©nissieux,VENISSIEUX Village,FR20060,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129216,11,2018,4.883605777,45.70363172
+1160,39,ISERE,Vienne,Vienne Centre,FR27004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129218,11,2018,4.875409555,45.52596386
+1161,38,ISERE,Vienne,Vienne Estressin,FR27102,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129219,11,2018,4.863904251,45.53975628
+1162,11,ISERE,Grenoble,Villeneuve,FR15008,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129222,11,2018,5.736395372,45.16140417
+1163,51,RHONE,Bron,VINATIER,FR20025,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129224,11,2018,4.893340696,45.7394083
+1164,67,ISERE,Vizille,Vizille,FR15014,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129225,11,2018,5.770856387,45.07928726
+1165,77,ISERE,Voreppe,Voreppe,FR15003,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129227,11,2018,5.64583986,45.28476346
+1166,16,ISERE,Salaise-sur-Sanne,A7 Nord-IsÃ¨re,FR27008,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129228,12,2018,4.804822471,45.35319621
+1167,19,CANTAL,Aurillac,Aurillac Centre,FR07011,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129230,12,2018,2.436778768,44.92313152
+1168,82,RHONE,Lyon,BERTHELOT,FR20002,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129231,12,2018,4.83609939,45.74684026
+1169,52,RHONE,Caluire-et-Cuire,CALUIRE,FR20023,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129232,12,2018,4.848345018,45.80140495
+1170,61,PUY-DE-DOME,Clermont-Ferrand,Centre Ville,FR07003,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129233,12,2018,3.083334107,45.77364091
+1171,24,ISERE,Champagnier,Champagnier,FR15012,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129236,12,2018,5.726999066,45.10928942
+1172,35,RHONE,Villeurbanne,CHARPENNES,FR20021,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129238,12,2018,4.867228342,45.77524286
+1173,59,ISERE,Chasse-sur-RhÃ´ne,CHATANAY,FR20041,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129239,12,2018,4.825285977,45.57912106
+1174,14,AIN,Miribel,COTIERE AIN,FR20047,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129242,12,2018,4.953959787,45.82322611
+1175,28,RHONE,Villeurbanne,CROIX LUIZET,FR20020,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129244,12,2018,4.894029845,45.77641745
+1176,10,RHONE,Lyon,CROIX ROUSSE,FR20005,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129245,12,2018,4.819191839,45.77999086
+1177,58,RHONE,Lyon,ETATS UNIS,FR20016,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129247,12,2018,4.859768259,45.73870604
+1178,76,RHONE,Feyzin,FEYZIN MAIRIE,FR20030,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129248,12,2018,4.856115043,45.67166154
+1179,66,LOIRE,Firminy,FIRMINY,FR29425,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129250,12,2018,4.281682417,45.38796299
+1180,8,ISERE,Fontaine,Fontaine Les Balmes,FR15017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129251,12,2018,5.686968799,45.19044442
+1181,40,PUY-DE-DOME,Clermont-Ferrand,Gaillard,FR07007,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129252,12,2018,3.082777891,45.78030494
+1182,22,RHONE,Lyon,GARIBALDI,FR20003,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129253,12,2018,4.850295216,45.7681358
+1183,86,RHONE,Lyon,GERLAND,FR20017,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129254,12,2018,4.829800054,45.73532325
+1184,55,RHONE,Givors,GIVORS,FR20038,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129256,12,2018,4.773027653,45.58220911
+1185,41,PUY-DE-DOME,Clermont-Ferrand,Gravanches,FR07002, suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129258,12,2018,3.143279556,45.79564274
+1186,91,ISERE,Grenoble,Grenoble Foch,FR15006,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129259,12,2018,5.721383085,45.18078138
+1187,54,RHONE,Irigny,IRIGNY,FR20035,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129262,12,2018,4.825566681,45.67801561
+1188,73,RHONE,Lyon,LA MOUCHE,FR20015,urban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129264,12,2018,4.843615666,45.71915521
+1189,87,PUY-DE-DOME,AubiÃ¨re,Landais,FR07005,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129265,12,2018,3.111945993,45.76389086
+1190,44,ISERE,Ã‰chirolles,Le Rondeau,FR15039,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129267,12,2018,5.703760159,45.15832579
+1191,68,RHONE,Loire-sur-RhÃ´ne,LES ORLETS,FR20039,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129268,12,2018,4.805002835,45.54864428
+1192,75,RHONE,Lyon,LYON Centre,FR20062,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129270,12,2018,4.853725888,45.75799123
+1193,42,RHONE,Millery,MILLERY,FR20040,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129271,12,2018,4.803054227,45.63028
+1194,48,PUY-DE-DOME,Clermont-Ferrand,Montferrand,FR07004,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129273,12,2018,3.113828888,45.79729717
+1195,27,ALLIER,MontluÃ§on,Montlucon Centre,FR07010,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129274,12,2018,2.59800478,46.34396188
+1196,29,HAUTE-SAVOIE,Passy,PASSY,FR33220,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129276,12,2018,6.713642902,45.9235436
+1197,25,RHONE,Pierre-BÃ©nite,PIERRE BENITE,FR20034,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129278,12,2018,4.829697101,45.69956602
+1198,47,PUY-DE-DOME,Clermont-Ferrand,Place de Jaude,FR07030,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129279,12,2018,3.081883877,45.77625339
+1199,50,RHONE,Lyon,PUITS GAILLOT,FR20001,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129281,12,2018,4.836389594,45.76719208
+1200,90,ISERE,Livet-et-Gavet,Riouperoux,FR15015,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129282,12,2018,5.897099405,45.08625696
+1201,9,PUY-DE-DOME,AubiÃ¨re,Roussillon,FR07024,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129285,12,2018,3.132000556,45.75171257
+1202,26,PUY-DE-DOME,Royat,Royat,FR07001,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129287,12,2018,3.047192677,45.76465692
+1203,6,ARDECHE,Saint-Bauzile,Saint Bauzile CEC,FR36007,rural-regional,Industrielle,Dioxyde de soufre,1,3.9,ug.m-3,mensuel,1,1,129288,12,2018,4.673579766,44.67593047
+1204,31,LOIRE,Saint-Ã‰tienne,SAINT ETIENNE SUD,FR29424,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129290,12,2018,4.395419639,45.4201064
+1205,92,RHONE,Pusignan,SAINT EXUPERY,FR20048,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129291,12,2018,5.070377771,45.75485265
+1206,53,ISERE,Salaise-sur-Sanne,SALAISE sur SANNE,FR27001,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129293,12,2018,4.803705088,45.35537585
+1207,45,RHONE,Solaize,SOLAIZE,FR20033,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129294,12,2018,4.843340379,45.64917303
+1208,72,RHONE,Saint-Genis-Laval,ST GENIS LAVAL,FR20027,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129296,12,2018,4.796125538,45.69335082
+1209,46,SAVOIE,Saint-Julien-Mont-Denis,St Julien trafic,FR33114,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129299,12,2018,6.397018275,45.25256234
+1210,21,ISERE,Saint-Martin-d'HÃ¨res,St Martin dHeres,FR15038,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129301,12,2018,5.75310114,45.18279644
+1211,36,RHONE,Saint-Priest,ST PRIEST,FR20036,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129302,12,2018,4.913105816,45.69944163
+1212,32,RHONE,Lyon,VAISE MARIETTON,FR20008,urban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129305,12,2018,4.803604967,45.77690841
+1213,23,RHONE,Vaulx-en-Velin,VAULX EN VELIN,FR20046,urban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129307,12,2018,4.924700509,45.77887089
+1214,43,LOIRE,Veauche,VEAUCHE,FR29427,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129308,12,2018,4.298550264,45.56581455
+1215,74,RHONE,VÃ©nissieux,VENISSIEUX Village,FR20060,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129310,12,2018,4.883605777,45.70363172
+1216,88,ISERE,Le Versoud,Versoud,FR15007,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129311,12,2018,5.850340053,45.21711641
+1217,38,ISERE,Vienne,Vienne Estressin,FR27102,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129313,12,2018,4.863904251,45.53975628
+1218,49,RHONE,Villefranche-sur-SaÃ´ne,VILLEFRANCHE,FR20026,suburban,Trafic,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129314,12,2018,4.715468338,45.98868744
+1219,11,ISERE,Grenoble,Villeneuve,FR15008,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129316,12,2018,5.736395372,45.16140417
+1220,60,RHONE,Lyon,VILLETTE,FR20006,suburban,Fond,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129317,12,2018,4.865014022,45.75807536
+1221,67,ISERE,Vizille,Vizille,FR15014,suburban,Industrielle,Dioxyde de soufre,1,,ug.m-3,mensuel,,,129319,12,2018,5.770856387,45.07928726
