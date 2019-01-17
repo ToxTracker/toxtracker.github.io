@@ -304,7 +304,7 @@
         .attr("x", function(d,i){ return x(i);})
         .attr("y",function(d){ return height/3 +40- y(data[d.toxine]); })
         .attr("height", function(d){ return y(data[d.toxine]); })
-        .attr("width", 30 )
+        .attr("width", 90 )
         .attr("fill", function(d,i){
         return color_legend(i);
       });
