@@ -207,7 +207,7 @@
     var color = d3.scaleQuantize()
     .range(["#10f400","#7ef400","#f4e800","#f49f00","#f41400"]),
         color_legend = d3.scaleQuantize()
-    .range(["steelblue","darkviolet","firebrick","palegreen"]).domain([0,4]);
+    .range(["darkviolet","ForestGreen","firebrick","steelblue"]).domain([0,4]);
     color.domain([0,150]);
     var c_lyon = "#00ffee",
         c_lyon_mouseOn = "#007f77",
@@ -426,21 +426,21 @@
         .append("path")
         .data([slider])
         .attr("class", "line")
-        .style("stroke", "steelblue")
+        .style("stroke", "darkviolet")
         .attr("d", line2);
       svg2.append("g")
         .attr("transform", "translate(" + ((40+width)*(pos - 1) + 30) + " ,"+ (height/2 + 40) +")")
         .append("path")
         .data([slider])
         .attr("class", "line")
-        .style("stroke", "darkviolet")
+        .style("stroke", "ForestGreen")
         .attr("d", line3);
       svg2.append("g")
         .attr("transform", "translate(" + ((40+width)*(pos - 1) + 30) + " ,"+ (height/2 + 40) +")")
         .append("path")
         .data([slider])
         .attr("class", "line")
-        .style("stroke", "palegreen")
+        .style("stroke", "steelblue")
         .attr("d", line4);
     };
 
