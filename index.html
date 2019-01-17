@@ -41,6 +41,13 @@
     .province:hover {
         fill: #666;
     }
+	.discription {
+      width: 33%;
+      height: 100%;
+      top: 0;
+      right: 0;
+      position: absolute;
+    }
     .hidden {
         display: none;
     }
@@ -96,7 +103,21 @@
 </head>
 
 <body> 
-<!--   <h1> ToxTracker</h1> -->
+  <h1> ToxTracker</h1>
+  <div class="container" style="height:100%; width:100%;">
+    <div class="discription" id="text_disc">
+      <h2>La réglementation française (<a href="https://www.airparif.asso.fr/reglementation/normes-francaises">source</a>) indique les objectifs de qualité de l'air pour chaque polluant sous forme de moyenne anuelle à ne pas dépasser:</h2>
+      <p>- NO2 : 40 µg/m³</p>
+      <p>- PM10 : 30 µg/m³</p>
+      <p>- Ozone : 120 µg/m³</p>
+      
+      <h2>Risques pour la santé (<a href="www.respire-asso.org">source</a>):</h2>
+      <p>- NO2 : C’est un gaz toxique entraînant une inflammation importante des voies respiratoires à des concentrations dépassant 200 μg/m3, sur de courtes durées. </p>
+      <p>		Les études épidémiologiques ont montré que les symptômes bronchitiques chez l’enfant asthmatique augmentent avec une exposition de longue durée au NO2.</p>
+      <p>- PM10 : Les particules fines pénètrent en profondeur dans les poumons. Elles peuvent être à l’origine d’inflammations, et de l’aggravation de l’état de santé des personnes atteintes de maladies cardiaques et pulmonaires.</p>
+      <p>- Ozone : À des concentrations trop élevées, l’ozone a des effets marqués sur la santé de l’homme. On observe alors des problèmes respiratoires, le déclenchement de crises d’asthme, une diminution de la fonction pulmonaire et l’apparition de maladies respiratoires.";</p>
+    </div>
+  </div>
   <script>
     var station_array = [], station_m_array = [];
     var width = 450,
@@ -149,14 +170,8 @@
 
       });
     };
-		d3.select("body")
-    .append("h1")
-    .text("ToxTracker")
-    var divC = d3.select("body")
-    .append("div")
-    .attr("class", "container")
-    .style( "width", "100%" )
-    .style( "height", "100%" );
+	
+    var divC = d3.select(".container");
     var div = divC.append("div")
     .attr("class", "viz")
     .style( "width", "33%" )
