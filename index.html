@@ -12,11 +12,28 @@
   		z-index: 10;
     }
     .container {
-      
       position: relative;
     }
     .viz {
-      
+      position: relative;
+    }
+    .openbtn {
+      background-image: linear-gradient(to right, transparent  , #39e500);
+/*       background-color: #39e500; Green */
+      border: none;
+      height: 100%;
+      width: 50px;
+      top: 0;
+      right: 0;
+      color: #249300;
+      padding: 50px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      position: absolute;
     }
     .chart {
       width: 5%;
@@ -24,6 +41,7 @@
       top: 0;
       right: 0;
       position: absolute;
+  		transition: 1s;
   		z-index: 2;
     }
     #sliderContainer {
@@ -112,7 +130,7 @@
         side = 0,
         monthValue = "12-2017";
     var link_json = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/canton.geojson",
-        link_data_new = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data_new.json",
+        link_data_new = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data_new v1.1.json",
         link_slider = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data/slider_value.csv",
         link_tox = "https://raw.githubusercontent.com/ToxTracker/toxtracker.github.io/master/data/toxines.csv";
     var q = d3.queue();
@@ -133,10 +151,14 @@
       d3.select(".openbtn")
         .on('click',function(){ 
         	if (clicked){
+            d3.select(".openbtn").text(">");
+            d3.select("#sliderContainer").style("display","none");
             clicked = false;
             openNav(); 
             chart_array(station_array, station_m_array, tox, slider,a_data);
           } else {
+            d3.select(".openbtn").text("<");
+            d3.select("#sliderContainer").style("display","initial")
             clicked = true;
             svg2.selectAll("g").remove();
             closeNav(); 
@@ -164,7 +186,7 @@
     .style( "height", "100%" );
     div.append("button")
     	.attr("class", "openbtn")
-    	.text("☰ Toggle Sidebar");
+    	.text("<");
     var svg = div.append( "svg" )
     .attr( "class", "svg_carte")
     .style( "width", "100%" )
@@ -272,6 +294,12 @@
         .text(data.nom_station + " - " + month)
       ;
       svg2.append( "g" )
+        .attr("transform", "translate("+((50+width)*(pos - 1))+" ,35)")
+        .append("text")
+        .style("font-size", 12)
+        .text( "µg/m3")
+      ;
+      svg2.append( "g" )
         .attr("transform", "translate(" + ((40+width)*(pos - 1) + 30) + " ,40)")
         .call(yAxis)
       svg2.append( "g" )
@@ -332,19 +360,25 @@
         .append("rect")
         .attr("class", "leg")
         .attr("x", function(d,i){ return x(i)-50;})
-        .attr("y",function(d){ return height/3 +120; })
+        .attr("y",function(d){ return height; })
         .attr("height", 10 )
         .attr("width", 10 )
         .attr("fill", function(d,i){
         return color_legend(i);
       });
       svg2.append( "g" )
+        .attr("transform", "translate("+((50+width)*(pos - 1))+" ,358)")
+        .append("text")
+        .style("font-size", 12)
+        .text( "µg/m3")
+      ;
+      svg2.append( "g" )
         .attr("transform", "translate("+(width*(pos - 1)*1.08 + 10)+" ,0)")
         .selectAll("text").data(tox).enter()
         .append("text")
         .attr("class", "leg")
         .attr("x", function(d,i){ return x(i)-30;})
-        .attr("y",function(d){ return height/3 +130; })
+        .attr("y",function(d){ return height + 10; })
         .text(function(d){return d.toxine;})
       svg2.append( "g" )
         .attr("transform", "translate(" + ((40+width)*(pos - 1) + 30) + ","+ (height/2 + 40) +")")
@@ -369,6 +403,11 @@
         return yScaleLine(0);
       }) 
       .curve(d3.curveMonotoneX);
+      var line1_seuil = d3.line()
+      .x(function(d) { return xScaleLine(parseTime(d.slider_val)); }) 
+      .y(function() {         
+        return yScaleLine(80);
+      }) ;
       
       var line2 = d3.line()
       .x(function(d) { return xScaleLine(parseTime(d.slider_val)); }) 
@@ -379,6 +418,11 @@
         return yScaleLine(0);
       }) 
       .curve(d3.curveMonotoneX);
+      var line2_seuil = d3.line()
+      .x(function(d) { return xScaleLine(parseTime(d.slider_val)); }) 
+      .y(function() {         
+        return yScaleLine(125);
+      }) ;
       
       var line3 = d3.line()
       .x(function(d) { return xScaleLine(parseTime(d.slider_val)); }) 
@@ -389,6 +433,11 @@
         return yScaleLine(0);
       }) 
       .curve(d3.curveMonotoneX);
+      var line3_seuil = d3.line()
+      .x(function(d) { return xScaleLine(parseTime(d.slider_val)); }) 
+      .y(function() {         
+        return yScaleLine(3.33);
+      }) ;
       
       var line4 = d3.line()
       .x(function(d) { return xScaleLine(parseTime(d.slider_val)); }) 
@@ -399,6 +448,12 @@
         return yScaleLine(0);
       }) 
       .curve(d3.curveMonotoneX);
+      var line4_seuil = d3.line()
+      .x(function(d) { return xScaleLine(parseTime(d.slider_val)); }) 
+      .y(function() {         
+        return yScaleLine(120);
+      }) ;
+      
       xScaleLine.domain(d3.extent(slider,function(d){ return parseTime(d.slider_val); }));
       yScaleLine.domain([0, 126.7]);
 
@@ -426,8 +481,24 @@
         .append("path")
         .data([slider])
         .attr("class", "line")
+        .style("stroke", "firebrick")
+        .style("stroke-dasharray", "5 5")
+        .attr("d", line1_seuil);
+      svg2.append("g")
+        .attr("transform", "translate(" + ((40+width)*(pos - 1) + 30) + " ,"+ (height/2 + 40) +")")
+        .append("path")
+        .data([slider])
+        .attr("class", "line")
         .style("stroke", "darkviolet")
         .attr("d", line2);
+      svg2.append("g")
+        .attr("transform", "translate(" + ((40+width)*(pos - 1) + 30) + " ,"+ (height/2 + 40) +")")
+        .append("path")
+        .data([slider])
+        .attr("class", "line")
+        .style("stroke", "darkviolet")
+        .style("stroke-dasharray", "5 5")
+        .attr("d", line2_seuil);
       svg2.append("g")
         .attr("transform", "translate(" + ((40+width)*(pos - 1) + 30) + " ,"+ (height/2 + 40) +")")
         .append("path")
@@ -440,8 +511,24 @@
         .append("path")
         .data([slider])
         .attr("class", "line")
+        .style("stroke", "ForestGreen")
+        .style("stroke-dasharray", "5 5")
+        .attr("d", line3_seuil);
+      svg2.append("g")
+        .attr("transform", "translate(" + ((40+width)*(pos - 1) + 30) + " ,"+ (height/2 + 40) +")")
+        .append("path")
+        .data([slider])
+        .attr("class", "line")
         .style("stroke", "steelblue")
         .attr("d", line4);
+      svg2.append("g")
+        .attr("transform", "translate(" + ((40+width)*(pos - 1) + 30) + " ,"+ (height/2 + 40) +")")
+        .append("path")
+        .data([slider])
+        .attr("class", "line")
+        .style("stroke", "steelblue")
+        .style("stroke-dasharray", "5 5")
+        .attr("d", line4_seuil);
     };
 
     // carte
