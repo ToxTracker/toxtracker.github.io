@@ -6,6 +6,8 @@ authors (Data Science Master 2018-2019 students) : Florian Bautry (fbautry@gmail
 
 Data Visualization Class website (Lyon 1 University ): <a href="https://lyondataviz.github.io/teaching/lyon1-m2/2018/">lyon data viz</a>
 
+Data source : <a href="http://data-atmoaura.opendata.arcgis.com/">Atmo Auvergne-Rhône-Alpes</a>
+
 ## Français
 
 Ce site permet de visualiser les relevés des 3 polluants atmosphériques principaux (NO2, PM10, O3) aux différentes stations en région Auvergne-Rhône-Alpes.
