@@ -1,7 +1,6 @@
 # toxtracker
 
 site : toxtracker.github.io
-
 authors : Florian Bautry - Quốc Bảo Nguyễn 
 
 ## Français
