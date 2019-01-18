@@ -1,7 +1,9 @@
 # toxtracker
 
 site : toxtracker.github.io
-authors (Data Science Master 2018-2019 students) : Florian Bautry (fbautry@gmail.com) - Quốc Bảo Nguyễn (quoc-bao.nguyen@etu.univ-lyon1.fr)
+
+authors (Data Science Master 2018-2019 students) : Florian Bautry (fbautry@gmail.com) - Quốc Bảo Nguyễn (bao.q.nguyen196@gmail.com)
+
 Data Visualization Class website (Lyon 1 University ): <a href="https://lyondataviz.github.io/teaching/lyon1-m2/2018/">lyon data viz</a>
 
 ## Français
