@@ -6,9 +6,10 @@
     body { margin:;position:fixed;top:0;right:0;bottom:0;left:0; }
     h1 {
       font-weight: bold;
-      color: #72ff47;
-      font-size: 20px;
-      font-family: Arial, Helvetica, sans-serif;
+      color: #848484;
+      font-size: 50px;
+      font-family: Oswald,sans-serif;
+  		text-align: center;
   		z-index: 10;
     }
     .container {
@@ -21,7 +22,7 @@
       width: 33%;
       height: 100%;
       top: 0;
-      left: 29%;
+      left: 33%;
       position: absolute;
   		transition: 1s;
   		z-index: 2;
@@ -120,8 +121,8 @@
   </div>
   <script>
     var station_array = [], station_m_array = [];
-    var width = 450,
-        height = 650,
+    var width = 0,
+        height = 0,
         scale = 90000,
         X = 5,
         Y = 45.82,
@@ -180,8 +181,8 @@
     .attr( "class", "svg_carte")
     .style( "width", "100%" )
     .style( "height", "100%" );
-    
     svg.call(zoom);
+    
     var divSide = divC.append("div")
     .attr("class", "chart")
     .attr("id", "mySidebar")
@@ -192,18 +193,9 @@
     .attr( "class", "svg_chart")
     .attr( "width", "100%")
     .attr( "height", "100%" );
-    function openNav() {
-      side = 1;
-      divSide.style("width", "70%");
-      div.style("width", "30%");
-    }
-    
-    function closeNav() {
-      side = 0;
-      div.style("width", "95%");
-      divSide.style("width", "5%");
-    }
-
+    var svgSize = svg2.node().getBoundingClientRect();
+    width = svgSize.width;
+    height = svgSize.height;
     // On rajoute un groupe englobant toute la visualisation pour plus tard
     var g = svg.append( "g" ); 
 
@@ -217,12 +209,12 @@
     var color = d3.scaleQuantize()
     .range(["#10f400","#7ef400","#f4e800","#f49f00","#f41400"]),
         color_legend = d3.scaleQuantize()
-    .range(["ForestGreen","firebrick","steelblue"]).domain([0,4]);
+    .range(["ForestGreen","firebrick","steelblue"]).domain([0,2]);
     color.domain([0,150]);
     var c_lyon = "#00ffee",
         c_lyon_mouseOn = "#007f77",
-        c_n_lyon = "#ccc",
-        c_n_lyon_mouseOn = "#666"
+        c_n_lyon = "#f0aefe",
+        c_n_lyon_mouseOn = "#bd02e3";
 
     var lyon_commune = [];
     var path = d3.geoPath()
@@ -242,6 +234,7 @@
         red_dot(d);
       });
     }
+    
     // chart_array
     function chart_array(array, m_array, tox, slider, a_data){
       svg2.selectAll("g").remove();
@@ -251,7 +244,6 @@
     }
     // chart
     function chart(data, month , tox, pos, slider, a_data){
-      console.log(data, month , tox, pos, slider, a_data);
       if(pos == 2) return;
       slider.forEach(function (e){
         tox.forEach(function(f){
@@ -262,11 +254,11 @@
           });
         });
       });
-      var x = d3.scaleLinear().range([65, width-50]).domain([0, tox.length - 1]);
+      var x = d3.scaleLinear().range([100, width-160]).domain([0, tox.length - 1]);
       var y = d3.scaleLinear().range([0, height/3]).domain([0, 126.7]);
       var xScale = d3.scaleBand()
       .domain(tox.map(function(d){ return d.toxine; }))
-      .range([0, width]);
+      .range([0, width-60]);
       var yScale = d3.scaleLinear().range([height/3,0]).domain([0, 126.7]);
       var xAxis = d3.axisBottom()
       .scale(xScale).ticks(17);
@@ -274,21 +266,21 @@
       .scale(yScale).ticks(8);
       var sc =0.9;
       svg2.append( "g" )
-        .attr("transform", "translate(140 ,30)")
+        .attr("transform", "translate(40 ,30)")
         .append("text")
         .text(data.nom_station + " - " + month)
       ;
       svg2.append( "g" )
-        .attr("transform", "translate(100 ,35)")
+        .attr("transform", "translate(0 ,35)")
         .append("text")
         .style("font-size", 12)
         .text( "µg/m3")
       ;
       svg2.append( "g" )
-        .attr("transform", "translate(130 ,40)")
+        .attr("transform", "translate(30 ,40)")
         .call(yAxis)
       svg2.append( "g" )
-        .attr("transform", "translate(130 ,"+ (height/3 + 40) +")")
+        .attr("transform", "translate(30 ,"+ (y(126.7)+40) +")")
         .call(xAxis)
         .selectAll("text")	
         .style("text-anchor", "end")
@@ -300,19 +292,19 @@
         return "rotate(-65)" 
       });
       svg2.append( "g" )
-        .attr("transform", "translate(130 ,40)")
+        .attr("transform", "translate(30 ,40)")
         .append("rect")
         .attr("x", 0)
         .attr("y", 0)
         .attr("height", y(126.7))
-        .attr("width", width )
+        .attr("width", width - 60 )
         .attr("fill", "#ffffff")
         .style("stroke", "#000")
         .style("stroke-width", "1")
         .attr("opacity", 0.5)
 
       svg2.append( "g" )
-        .attr("transform", "translate(110 ,0)")
+        .attr("transform", "translate(10 ,0)")
         .selectAll("rect").data(tox).enter()
         .append("rect")
         .attr("class", "tox")
@@ -324,7 +316,7 @@
         return color_legend(i);
       });
       svg2.append( "g" )
-        .attr("transform", "translate(110 ,0)")
+        .attr("transform", "translate(10 ,0)")
         .selectAll("#tooltip").data(tox).enter().append("text")
         .attr("id", "tooltip")
         .text(function(d) { return data[d.toxine]; })
@@ -334,46 +326,73 @@
 
       var parseTime = d3.timeParse("%m-%Y");
       var xScaleLine = d3.scaleTime()
-      .range([0, width]);
+      .range([0, width-60]);
 
       var yScaleLine = d3.scaleLinear().range([height/3,0]);
       xAxis = d3.axisBottom(xScaleLine);
       svg2.append( "g" )
-        .attr("transform", "translate(110 ,0)")
+        .attr("transform", "translate("+width/2+" ,0)")
         .selectAll("rect").data(tox).enter()
         .append("rect")
         .attr("class", "leg")
-        .attr("x", function(d,i){ return x(i)-50;})
-        .attr("y",function(d){ return height; })
-        .attr("height", 10 )
-        .attr("width", 10 )
+        .attr("x", function(d,i){ return x(i)*0.5-55;})
+        .attr("y",function(d){ return height - 115; })
+        .attr("height", 20 )
+        .attr("width", 20 )
         .attr("fill", function(d,i){
         return color_legend(i);
       });
       svg2.append( "g" )
-        .attr("transform", "translate(100 ,358)")
+        .attr("transform", "translate(50 ,"+(height - 105)+")")
+        .append("line")
+        .attr("x1",0)
+        .attr("y1",0)
+        .attr("x2",80)
+        .attr("y2",0)
+        .style("stroke","#545454")
+        .style("stroke-width",2);
+      svg2.append( "g" )
+        .attr("transform", "translate(50 ,"+(height - 75)+")")
+        .append("line")
+        .attr("x1",0)
+        .attr("y1",0)
+        .attr("x2",80)
+        .attr("y2",0)
+        .style("stroke-dasharray", "5 5")
+        .style("stroke","#545454")
+        .style("stroke-width",2);
+      svg2.append( "g" )
+        .attr("transform", "translate(150 ,"+(height - 105)+")")
+        .append("text")
+        .text("valeurs réelles");
+      svg2.append( "g" )
+        .attr("transform", "translate(150 ,"+(height - 75)+")")
+        .append("text")
+        .text("seuil d'alerte annuelle");
+      svg2.append( "g" )
+        .attr("transform", "translate(0 ,"+(height/2 - 50)+")")
         .append("text")
         .style("font-size", 12)
         .text( "µg/m3")
       ;
       svg2.append( "g" )
-        .attr("transform", "translate(110 ,0)")
+        .attr("transform", "translate("+width/2+" ,0)")
         .selectAll("text").data(tox).enter()
         .append("text")
         .attr("class", "leg")
-        .attr("x", function(d,i){ return x(i)-30;})
-        .attr("y",function(d){ return height + 10; })
+        .attr("x", function(d,i){ return x(i)*0.5-30;})
+        .attr("y",function(d){ return height - 100; })
         .text(function(d){return d.toxine;})
       svg2.append( "g" )
-        .attr("transform", "translate(130,"+ (height/2 + 40) +")")
+        .attr("transform", "translate(30,"+ (height/2 - 40) +")")
         .call(yAxis);
       svg2.append( "g" )
-        .attr("transform", "translate(130 ,"+ (height/2 + 40) +")")
+        .attr("transform", "translate(30 ,"+ (height/2 - 40) +")")
         .append("rect")
         .attr("x", 0)
         .attr("y", 0)
         .attr("height", y(126.7))
-        .attr("width", width )
+        .attr("width", width - 60 )
         .attr("fill", "#ffffff")
         .style("stroke", "#000")
         .style("stroke-width", "1")
@@ -390,7 +409,7 @@
       var line1_seuil = d3.line()
       .x(function(d) { return xScaleLine(parseTime(d.slider_val)); }) 
       .y(function() {         
-        return yScaleLine(30);
+        return yScaleLine(80);
       }) ;
       
       var line3 = d3.line()
@@ -405,7 +424,7 @@
       var line3_seuil = d3.line()
       .x(function(d) { return xScaleLine(parseTime(d.slider_val)); }) 
       .y(function() {         
-        return yScaleLine(40);
+        return yScaleLine(3.33);
       }) ;
       
       var line4 = d3.line()
@@ -427,7 +446,7 @@
       yScaleLine.domain([0, 126.7]);
 
       svg2.append( "g" )
-        .attr("transform", "translate(130 ,"+ (height - 68) +")")
+        .attr("transform", "translate(30 ,"+ (height/2 - 40 + y(126.7)) +")")
         .call(xAxis)
         .selectAll("text")	
         .style("text-anchor", "end")
@@ -439,14 +458,14 @@
         return "rotate(-65)"
       });
       svg2.append("g")
-        .attr("transform", "translate(130 ,"+ (height/2 + 40) +")")
+        .attr("transform", "translate(30 ,"+ (height/2 - 40) +")")
         .append("path")
         .data([slider])
         .attr("class", "line")
         .style("stroke", "firebrick")
         .attr("d", line1);
       svg2.append("g")
-        .attr("transform", "translate(130 ,"+ (height/2 + 40) +")")
+        .attr("transform", "translate(30 ,"+ (height/2 - 40) +")")
         .append("path")
         .data([slider])
         .attr("class", "line")
@@ -454,14 +473,14 @@
         .style("stroke-dasharray", "5 5")
         .attr("d", line1_seuil);
       svg2.append("g")
-        .attr("transform", "translate(130 ,"+ (height/2 + 40) +")")
+        .attr("transform", "translate(30 ,"+ (height/2 - 40) +")")
         .append("path")
         .data([slider])
         .attr("class", "line")
         .style("stroke", "ForestGreen")
         .attr("d", line3);
       svg2.append("g")
-        .attr("transform", "translate(130 ,"+ (height/2 + 40) +")")
+        .attr("transform", "translate(30 ,"+ (height/2 - 40) +")")
         .append("path")
         .data([slider])
         .attr("class", "line")
@@ -469,14 +488,14 @@
         .style("stroke-dasharray", "5 5")
         .attr("d", line3_seuil);
       svg2.append("g")
-        .attr("transform", "translate(130 ,"+ (height/2 + 40) +")")
+        .attr("transform", "translate(30 ,"+ (height/2 - 40) +")")
         .append("path")
         .data([slider])
         .attr("class", "line")
         .style("stroke", "steelblue")
         .attr("d", line4);
       svg2.append("g")
-        .attr("transform", "translate(130 ,"+ (height/2 + 40) +")")
+        .attr("transform", "translate(30 ,"+ (height/2 - 40) +")")
         .append("path")
         .data([slider])
         .attr("class", "line")
@@ -498,7 +517,7 @@
         .attr("class", "zone")
         .style("stroke", "#050505")
         .style("stroke-width", "0.2")
-        .style("fill", "#ccc")
+        .style("fill", c_n_lyon)
         .on('mousemove', function(d) {    
         d3.selectAll(".zone")
           .filter(function(e) {
