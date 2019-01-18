@@ -22,3 +22,17 @@ Enfin, un résumé de l'impact sur la santé de ces polluants est présenté à 
 
 ## English
 
+This website makes it possible to visualize the records of the 3 main atmospheric pollutants (NO2, PM10, O3) at the different stations in the Auvergne-Rhône-Alpes region.
+These records are the monthly averages over one year (December 2017 to December 2018).
+
+**Usage :**
+
+The map on the left can be moved at the mouse as well as zoomed / unzoomed with the wheel.
+The cursor at the bottom of the map allows you to select the observed month.
+The color of the stations changes to represent an estimate of the air quality for the selected month based on the sum of the 3 pollutants.
+
+By clicking on a station 2 graphics appear on the right:
+* a histogram showing the average of each pollutant at that station for the selected month.
+* a line chart showing pollutant variations over the year for the selected station. The dashed lines represent the thresholds of objectives for air quality (the annual average must not exceed this threshold).
+
+Finally, a summary of the health impact of these pollutants is presented on the right (in French).
